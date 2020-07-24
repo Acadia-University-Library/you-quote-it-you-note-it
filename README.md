@@ -1,0 +1,1 @@
+2020 reimagination of the original 2004 "You Quote It. You Note It." Flash plagiarism tutorial.
