@@ -1,0 +1,226 @@
+::Macro_AnswerChoices [script]
+Macro.add('AnswerChoices', {
+  skipArgs: false,
+  handler: function () {
+    try {
+      if(this.args.length < 5) {
+        this.error("Too few arguments: (1) base passage, (2) next passage, (3) show/hide choices after selection (4) answer passage, (5) answer passage link text, ...Repeat (4) & (5) as needed.");
+      }
+      else {
+        var base_passage = this.args[0];
+        var next_passage = this.args[1];
+        var hide_choices_after_selection = false;
+        if(this.args[2].toLowerCase() == 'hide') {
+          hide_choices_after_selection = true;
+        }
+        var answer_passage = [];
+        for(var k = 3; k < this.args.length; k++) {
+          answer_passage.push(this.args[k]);
+        }
+        var markup = '';
+        markup = markup + '<div id="' + base_passage + '_answer_choices" class="answer_choices">';
+        for(k = 0; k < answer_passage.length; k = k + 2) {
+          markup = markup + '<<link "' + answer_passage[k+1] + '">>';
+          markup = markup + '<<replace "#' + base_passage + '_answer">>';
+          markup = markup + '<<include ' + answer_passage[k] + '>>';
+          markup = markup + '<</replace>>';
+          if(hide_choices_after_selection) {
+            markup = markup + '<<addclass "#' + base_passage + '_answer_choices" "hide">>';
+          }
+          markup = markup + '<<removeclass "#' + base_passage + '_next" "hide">>';
+          markup = markup + '<</link>> ';
+        }
+        markup = markup + '</div>';
+        markup = markup + '<div id="' + base_passage + '_answer" class="answer"></div>';
+        markup = markup + '<div id="' + base_passage + '_next" class="answer_next hide passage_link">' +
+          '<<back "< Back">>' + '&nbsp;' + 
+          '<<link "Next >" ' + next_passage + '>><</link>>' + 
+          '</div>';
+        jQuery(this.output).wiki(markup);
+      }
+    }
+    catch (ex) {
+      return this.error(ex.message);
+    }
+    console.log(this);
+    console.log(Passage.domId);
+  }
+});
+
+
+::Macro_AnswerStatus [script]
+Macro.add('AnswerStatus', {
+  skipArgs: false,
+  handler: function () {
+    try {
+      if(this.args.length < 2) {
+        this.error("Too few arguments: (1) DOM ID of answer container, (2) indicate 'correct', 'incorrect' or 'neutral'.");
+      }
+      else {
+        var answer_status = null;
+        switch(this.args[1].toLowerCase()) {
+          case 'correct':
+          case 'right':
+            answer_status = 'correct';
+            break;
+          case 'incorrect':
+          case 'wrong':
+            answer_status = 'incorrect';
+            break;
+          case 'neutral':
+          default:
+            answer_status = 'neutral';
+            break;
+        }
+        var markup = '';
+        markup = markup + '<<set $cnt_answer_' + answer_status + ' = $cnt_answer_' + answer_status + ' + 1>>';
+        markup = markup + '<<audio "answer_' + answer_status + '" play>>';
+        markup = markup + '<<removeclass "#' + this.args[0] + '_answer" "correct">>';
+        markup = markup + '<<removeclass "#' + this.args[0] + '_answer" "incorrect">>';
+        markup = markup + '<<removeclass "#' + this.args[0] + '_answer" "neutral">>';
+        markup = markup + '<<addclass "#' + this.args[0] + '_answer" "' + answer_status + '">>';
+        jQuery(this.output).wiki(markup);
+      }
+    }
+    catch (ex) {
+      return this.error(ex.message);
+    }
+  }
+});
+
+
+::Macro_PassageFigure [script]
+Macro.add('PassageFigure', {
+  skipArgs: false,
+  handler: function () {
+    try {
+      if(this.args.length < 1) {
+        this.error("Too few arguments: (1) image src, (2 optional) image alt text, (3 optional) unique caption text or true/false to repeat alt text as caption, (4 optional) 'replace' an existing figure");
+      }
+      else {
+        var base_passage = passage();
+        var dom_id = base_passage + "_figure";
+        var img_src = (this.args[0] === false) ? "" : this.args[0];
+        var img_alt = (this.args.length > 1) ? this.args[1] : "";
+        var figcaption = (this.args.length > 2) ? this.args[2] : "";
+        var action = (this.args.length > 3) ? this.args[3].toLowerCase() : "new";
+        if(figcaption === true) {
+          figcaption = img_alt;
+        }
+        var markup = '';
+        if(action == "replace") {
+          markup = markup + '<<replace "#' + dom_id + '">>';
+        }
+        else {
+          markup = markup + '<figure id="' + dom_id + '"';
+          if(img_src.length == 0) {
+            markup = markup + ' class="hide"';
+          }
+          markup = markup + '>';
+        }
+        if(img_src.length > 0) {
+          markup = markup + '<img src="' + img_src + '" alt="' + img_alt + '">';
+          if(figcaption.length > 0) {
+            markup = markup + '<figcaption>' + figcaption + '</figcaption>';
+          }
+        }
+        if(action == "replace") {
+          markup = markup + '<</replace>>';
+          if(img_src.length > 0) {
+            markup = markup + '<<removeclass "#' + dom_id + '" "hide">>';
+          }
+          else {
+            markup = markup + '<<addclass "#' + dom_id + '" "hide">>';
+          }
+        }
+        else {
+          markup = markup + '</figure>';
+        }
+        jQuery(this.output).wiki(markup);
+      }
+    }
+    catch (ex) {
+      return this.error(ex.message);
+    }
+  }
+});
+
+
+::Macro_PassagePrevNext [script]
+Macro.add('PassagePrevNext', {
+  skipArgs: false,
+  handler: function () {
+    try {
+      if(this.args.length < 1) {
+        this.error("Too few arguments: (1) next passage.");
+      }
+      else {
+        var next_passage = this.args[0];
+        var markup = '<div class="passage_link">';
+        markup = markup + '<<back "< Back">> <<link "Next >" ' + next_passage + '>><</link>>';
+        markup = markup + '</div>';
+        jQuery(this.output).wiki(markup);
+      }
+    }
+    catch (ex) {
+      return this.error(ex.message);
+    }
+    console.log(this);
+    console.log(Passage.domId);
+  }
+});
+
+
+::Macro_AnswersToGrade [script]
+Macro.add('AnswersToGrade', {
+  skipArgs: false,
+  handler: function () {
+    try {
+      if(this.args.length < 3) {
+        this.error("Too few arguments: (1) # of correct answers, (2) # of incorrect answers, (3) # of neutral answers");
+      }
+      else {
+        var cnt_correct = this.args[0];
+        var cnt_incorrect = this.args[1];
+        var cnt_neutral = this.args[2];
+        var score = 0;
+        var grade = '';
+        if(cnt_correct > 0 || cnt_incorrect > 0) {
+          score = Math.round((100 * cnt_correct) / (cnt_correct + cnt_incorrect));
+        }
+        if(cnt_neutral > 0) {
+          score = score + cnt_neutral;
+        }
+        if(score >= 100) {
+          grade = 'A+';
+        }
+        else if(score >= 90) {
+          grade = 'A';
+        }
+        else if(score >= 76) {
+          grade = 'B';
+        }
+        else if(score >= 63) {
+          grade = 'C';
+        }
+        else if(score >= 50) {
+          grade = 'D';
+        }
+        else if(score > 0 || (score == 0 && cnt_incorrect > 0)) {
+          grade = 'F';
+        }
+        else {
+          grade = '';
+        }
+        var markup = '';
+        markup = markup + '<<set $score = ' + score + '>>';
+        markup = markup + '<<set $grade = "' + grade + '">>';
+        jQuery(this.output).wiki(markup);
+        return grade;
+      }
+    }
+    catch (ex) {
+      return this.error(ex.message);
+    }
+  }
+});

@@ -1,0 +1,3 @@
+google-chrome --incognito file:///$PWD/story-watch.html
+twee2 watch story.tw story-watch.html --format=SugarCube2
+rm story-watch.html

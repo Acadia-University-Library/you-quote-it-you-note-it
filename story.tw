@@ -1,0 +1,120 @@
+::StoryTitle
+You Quote It, You Note It!
+
+
+::StoryCaption
+<strong>Version 2020.dev</strong>
+Acadia University
+[[Vaughan Memorial Library|https://library.acadiau.ca]]
+<span class="smaller">&copy; 2004&ndash;2020</span>
+
+
+::StoryBanner
+<img src="assets/images/tutorial-flash-you_quote_it_you_note_it.png" style="width:98%;height:auto;margin:0 auto;display: block;">
+
+
+::StoryIncludes
+twee2_configuration.tw
+css_global.tw
+macros.tw
+storyinclude_common.tw
+storyinclude_avatar.tw
+storyinclude_style_apa.tw
+storyinclude_style_asa.tw
+storyinclude_style_chicago.tw
+storyinclude_style_mla.tw
+debug.tw
+
+
+::StoryInit
+<<set $debug = 1>>
+<<set $font_family = "font_family_mixed">>
+<<set $font_size = "font_size_regular">>
+<<set $student = "">>
+<<set $style = "">>
+<<set $cnt_answer_correct = 0>>
+<<set $cnt_answer_incorrect = 0>>
+<<set $cnt_answer_neutral = 0>>
+<<set $score = 0>>
+<<set $grade = ''>>
+<<cacheaudio "answer_correct" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403009__inspectorj__ui-confirmation-alert-b3.wav">>
+<<cacheaudio "answer_incorrect" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403011__inspectorj__ui-confirmation-alert-b1.wav">>
+<<cacheaudio "answer_neutral" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403017__inspectorj__ui-confirmation-alert-c3.wav">>
+/*
+<<cacheaudio "next" "assets/audio/22735__inspectorj__ui-confirmation-synthesized">>
+*/
+/*
+<<set $emoji = [
+  { hexcode: "1f44d", description: "thumbs up" },
+  { hexcode: "1f44e", description: "thumbs down" },
+  { hexcode: "1f46e", description: "police" },
+  { hexcode: "1f477", description: "construction worker" },
+  { hexcode: "1f481", description: "serving" },
+  { hexcode: "1f645", description: "X" },
+  { hexcode: "1f646", description: "OK" },
+  { hexcode: "1f647", description: "bow" },
+  { hexcode: "1f64b", description: "hand raised" },
+  { hexcode: "1f64d", description: "frown" },
+  { hexcode: "1f64e", description: "pout" },
+  { hexcode: "1f575", description: "secret agent" },
+  { hexcode: "1f926", description: "face palm" },
+  { hexcode: "1f937", description: "shrug" },
+  { hexcode: "1f939", description: "juggle" },
+  { hexcode: "1f9b8", description: "superhero" },
+  { hexcode: "1f9d1", description: "face" }
+  ]>>
+
+<<set $emoji_modifiers = {
+  expression: {
+    smile: "1f9d1", 
+    frown: "1f64b", 
+    pout: "1f64e",
+    shrug: "1f937", 
+    facepalm: "1f926", 
+    raisehand: "1f64b",
+    juggle: "1f939",
+    ok: "1f646",
+    no: "1f645",
+    thumbsup: "1f44d", 
+    thumbsdown: "1f44e" }, 
+  skintone: ["1f3fb", "1f3fc", "1f3fd", "1f3fe", "1f3ff"],  // light to dark
+  gender: ["", "2642", "2640"],                             // neutral adult, man, woman
+  hair: ["feof", "1f9b0", "1f9b1", "1f9b2", "1f9b3"],       // blonde, red, curly, bald, white
+  beard: ["", "1f9d4"]                                      // no facial hair, bearded (male only)
+  } >>
+*/
+/*
+EMOJI = expression ("-" skintone ("-200d" ("-" gender ("-" hair)))) ".png"
+*/
+
+
+::PassageHeader [nobr]
+<<set _header_text = "Hello ">>
+<<if $student>>
+  <<set _header_text = _header_text + $student + "!">>
+<<else>>
+  <<set _header_text = _header_text + "there.">>
+<</if>>
+<<if $style>>
+  <<set _header_text = _header_text + " You have selected " + $style + " citation style.">>
+<</if>>
+<<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_neutral>>
+<<if $grade != "">>
+  <<set _header_text = _header_text + " Grade: " + $grade + ".">>
+<</if>>
+<<if _header_text != "">><header><<print _header_text>></header><</if>>
+
+
+::PassageFooter [nobr]
+<<addclass "body" $font_family>>
+<<addclass "body" $font_size>>
+<<if $debug>>
+  <footer>
+    <<include debug_controls>>
+    <<include debug_variables_list>>
+    <<include debug_passages_list>>
+    /*
+    <<include debug_emoji>>
+    */
+  </footer>
+<</if>>

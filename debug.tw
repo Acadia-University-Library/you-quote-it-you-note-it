@@ -1,0 +1,77 @@
+/**************************************/
+::debug_passages_list [debug]
+<div class="debug">
+!!! DEBUG: Passages
+<ul>
+<<set _lk_story_passages = Story.lookup("passages")>>
+<<for _i to 0; _i lt _lk_story_passages.length; _i++>>
+  <li>[[_lk_story_passages[_i].title]]</li>
+<</for>>
+</ul>
+</div>
+
+
+/**************************************/
+::debug_variables_list [debug]
+<div class="debug">
+!!! DEBUG: Variables
+<ul>
+  <li>turns = <<print turns()>></li>
+  <<for _key, _val range State.variables>>
+    <<if Array.isArray(_val)>>
+      <<for _arr_key, _arr_val range _val>>
+        <li><<print _key + "[" + _arr_key + "]">> = <<print JSON.stringify(_arr_val)>></li>
+      <</for>>
+    <<elseif _val instanceof Object>>
+      <li><<print _key>> = <<print JSON.stringify(_val)>></li>
+    <<else>>
+      <li><<print _key>> = <<print _val>></li>
+    <</if>>
+  <</for>>
+</ul>
+</div>
+
+
+/**************************************/
+::debug_emoji [debug]
+<div class="debug">
+!!! DEBUG: Emoji
+<ul>
+  <<for _key, _val range $emoji>>
+    <li><<print "<img src=\"assets/emoji/" + _val.hexcode + ".png\"> " + _val.description>></li>
+  <</for>>
+</ul>
+</div>
+
+
+/**************************************/
+::debug_controls [debug]
+<div class="debug">
+!!! DEBUG: Controls
+<ul class="debug">
+  <li><<link "UI Restart">><<script>>UI.restart();<</script>><</link>></li>
+  <li><<link "Engine Restart">><<script>>Engine.restart();<</script>><</link>></li>
+</ul>
+</div>
+
+
+/**************************************/
+::css_debug [debug stylesheet]
+
+.debug {
+  font-family: monospace;
+  color: #030;
+  font-size: 12px;
+  margin: 0.5em 0;
+}
+
+.debug a {
+  display: inline !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-decoration: underline !important;
+  background-color: transparent !important;
+  color: #060 !important;
+}

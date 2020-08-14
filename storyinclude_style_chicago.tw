@@ -1,0 +1,489 @@
+/**************************************/
+::style_chicago_plagiarism_01
+! Is this plagiarism?
+
+> "Canadians may well be approaching another such juncture today as the result \
+of two seemingly unrelated by in fact closely connected developments...".1
+> ...
+> <ol><li>Michael Hart, "Lessons from Canada's History as a Trading Nation," \
+//International Journal// 58, no.1 (2002): 50-51, doi:10.2307/40203811.</li></ol>
+> ...
+> __Bibliography__
+> Hart, Michael. "Lessons from Canada's History as a Trading Nation." \
+//International Journal// 58, no.1 (2002): 50-51, doi:10.2307/40203811.
+
+<<AnswerChoices
+  "style_chicago_plagiarism_01" $next_common_passage "hide"
+  "style_chicago_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
+  "style_chicago_plagiarism_01_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+/**************************************/
+::style_chicago_plagiarism_01_include_answer_yes
+!! Incorrect
+
+This is not plagiarism.
+
+Copying information word-for-word from a source is okay as long as you put \
+quotation marks around the copied information and give credit to the source.
+
+<<AnswerStatus
+  "style_chicago_plagiarism_01"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_chicago_plagiarism_01_include_answer_no
+!! Correct
+
+You're right! This is not plagiarism because there are quotation marks around \
+the copied information and the source is credited.
+
+<<AnswerStatus
+  "style_chicago_plagiarism_01"
+  "correct"
+>>
+
+
+/**************************************/
+::style_chicago_plagiarism_02
+! Is this plagiarism?
+
+How about this?
+
+Taking someone's ideas or words, putting them into your own words, and crediting \
+the source.
+
+> Since Canada had such a small economy it dod not have much to say when it came \
+to making trading deals with other nations.1
+> ...
+> <ol><li>Michael Hart, "Lessons from Canada's History as a Trading Nation," \
+//International Journal// 58, no.1 (2002): 50-51, doi:10.2307/40203811.</li></ol>
+> ...
+> __Bibliography__
+> Hart, Michael. "Lessons from Canada's History as a Trading Nation." \
+//International Journal// 58, no.1 (2002): 50-51, doi:10.2307/40203811.
+
+<<AnswerChoices
+  "style_chicago_plagiarism_02" $next_common_passage "hide"
+  "style_chicago_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
+  "style_chicago_plagiarism_02_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+/**************************************/
+::style_chicago_plagiarism_02_include_answer_yes
+!! Incorrect
+
+Actually, this is not plagiarism: it's paraphrasing.
+
+Paraphrasing is fine as long as you credit the source and the paraphrase is \
+entirely in your words&mdash;just changing a couple words here and there \
+doesn't cut it.
+
+<<AnswerStatus
+  "style_chicago_plagiarism_02"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_chicago_plagiarism_02_include_answer_no
+!! Correct
+
+You're right! This is not plagiarism. It's paraphrasing.
+
+Paraphrasing is fine as long as you credit the source and the paraphrase is \
+entirely in your words&mdash;just changing a couple words here and there \
+doesn't cut it.
+
+<<AnswerStatus
+  "style_chicago_plagiarism_02"
+  "correct"
+>>
+
+
+/**************************************/
+::style_chicago_knowledge_01
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> Canada became a Confederation in 1867.
+
+''Sentence B''
+> Scholars and politicians are divided on whether Confederation constitutes an \
+Act imposed by Britain or an agreement between sovereign colonies.
+
+<<AnswerChoices
+  "style_chicago_knowledge_01" $next_common_passage "hide"
+  "style_chicago_knowledge_01_include_answer_a" "Sentence A"
+  "style_chicago_knowledge_01_include_answer_b" "Sentence B"
+  >>
+
+
+/**************************************/
+::style_chicago_knowledge_01_include_answer_a
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "style_chicago_knowledge_01"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_chicago_knowledge_01_include_answer_b
+!! Correct
+
+You're right! This needs to be cited. It's from this book:
+
+> Belshaw, J. //Canadian History: Post-Confederation.// British Columbia: \
+BCcampus, 2016. """https://open.umn.edu/opentextbooks/textbooks/671""".
+
+<<AnswerStatus
+  "style_chicago_knowledge_01"
+  "correct"
+>>
+
+
+/**************************************/
+::style_chicago_knowledge_02
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> The Mexican peso devaluation in 1994 seriously affected the country's \
+financial markets.
+
+''Sentence B''
+> The peso is the currency used in the country of Mexico.
+
+<<AnswerChoices
+  "style_chicago_knowledge_02" $next_common_passage "hide"
+  "style_chicago_knowledge_02_include_answer_a" "Sentence A"
+  "style_chicago_knowledge_02_include_answer_b" "Sentence B"
+  >>
+
+
+/**************************************/
+::style_chicago_knowledge_02_include_answer_a
+!! Correct
+
+You're right! This needs to be cited. It's from this journal article:
+
+> Goldberg, C.S. & Veitch, J.M. (2003) Exchange rate crisis and firm values: A \
+case study of Mexico's tequila crisis. \
+//Journal of American Academy of Business//, 2(2), 545-549.
+
+<<AnswerStatus
+  "style_chicago_knowledge_02"
+  "correct"
+>>
+
+
+/**************************************/
+::style_chicago_knowledge_02_include_answer_b
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "style_chicago_knowledge_02"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_chicago_knowledge_03
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> France is the third largest country in Europe.
+
+''Sentence B''
+> Paris is the Capitol of France.
+
+<<AnswerChoices
+  "style_chicago_knowledge_03" $next_common_passage "hide"
+  "style_chicago_knowledge_03_include_answer_a" "Sentence A"
+  "style_chicago_knowledge_03_include_answer_b" "Sentence B"
+  >>
+
+
+/**************************************/
+::style_chicago_knowledge_03_include_answer_a
+!! Correct
+
+You're right! This needs to be cited. It's from this website:
+
+> Chepkemoi, Joyce. "The Largest Countries in Europe." WorldAtlas, May 31, 2018. \
+"""http://worldatlas.com/articles/the-largest-countries-in-europe.html""".
+
+<<AnswerStatus
+  "style_chicago_knowledge_03"
+  "correct"
+>>
+
+
+/**************************************/
+::style_chicago_knowledge_03_include_answer_b
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "style_chicago_knowledge_03"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_chicago_quotvpara_01_include
+! Quoting and Paraphrasing: Differences
+
+Maybe it would help to show the difference between quoting and paraphrasing, and \
+how to do each correctly using Chicago style.
+
+Imagine that this passage from an eBook about genetically modified foods is one \
+that you would like to use in your essay.
+
+> The form of rule established by Diocletian at the end of the 3^^rd^^ century \
+was effectively a rule of four: two Augusti (principle emperors) and two Caesares \
+(or Ceasars, second-tier emperors), overseeing an empire that was split east and \
+west...
+
+
+/**************************************/
+::style_chicago_quotvpara_02_include
+! Quoting and Paraphrasing: Differences
+
+!! Quoting
+
+A quotation uses exactly the same words as those found in the source material \
+and puts them in quotation marks. Here's what a quotation looks like with a \
+proper in-text reference in Chicago style:
+
+> "The form of rule established by Diocletian at the end of the 3^^rd^^ century \
+was effectively a rule of four: two Augusti (principle emperors) and two Caesares \
+(or Ceasars, second-tier emperors), overseeing an empire that was split east and \
+west...".1
+> ...
+> <ol><li>Andrew Leach, //Rome// (Oxford: Polity Press, 2016), 77, Proquest \
+Ebook Central.</li></ol>
+> ...
+> __Bibliography__
+> Leach, Andrew. //Rome.// Oxford: Polity Press. 2016. ProQuest Ebook Central.
+
+
+/**************************************/
+::style_chicago_quotvpara_03_include
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing
+
+A paraphrase uses an author's idea but expresses it //in your own words//&mdash;\
+without quotation marks, since it's no longer a word-for-word quotation. And \
+just changing a few words from the original doesn't count!
+
+> A tetrarchy was used to rule Rome for a time at the end of the 3^^rd^^ century \
+and into the 4^^th^^. This form of rule consisted of one emperor in the east and \
+one in the west, known as Augusti. Each of these emperors had a second in command \
+known as a Caesar, who would eventually gain the throne upon each emperor's \
+retirement or death.1
+> ...
+> <ol><li>Andrew Leach, //Rome// (Oxford: Polity Press, 2016), 77, Proquest \
+Ebook Central.</li></ol>
+> ...
+> __Bibliography__
+> Leach, Andrew. //Rome.// Oxford: Polity Press. 2016. ProQuest Ebook Central.
+
+
+/**************************************/
+::style_chicago_quotvpara_04
+! Quoting and Paraphrasing: Differences
+
+!! Quoting
+
+Now that you know the difference between quoting and paraphrasing, let's make \
+sure you can do it properly in an actual assignment. Imagine that this is your \
+essay so far:
+
+> In an interview, the Ukranian Health Minister, Anatoly Y. Romanenko advised \
+residents not to have outings in the woods north of Kiev, near the 18-mile zone \
+from which 135,000 people were evacuated two years ago.
+
+Is this plagiarism?
+
+<<AnswerChoices
+  "style_chicago_quotvpara_04" $next_common_passage "hide"
+  "style_chicago_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
+  "style_chicago_quotvpara_04_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+/**************************************/
+::style_chicago_quotvpara_04_include_answer_yes
+!! Correct
+
+Good catch! This is plagiarism because the quotation is not in quotation marks \
+and the source is not cited!
+
+<<AnswerStatus
+  "style_chicago_quotvpara_04"
+  "correct"
+>>
+
+
+/**************************************/
+::style_chicago_quotvpara_04_include_answer_no
+!! Incorrect
+
+Oh yes, it is! This is plagiarism because the quotation is not in quotation \
+marks and the source is not cited.
+
+<<AnswerStatus
+  "style_chicago_quotvpara_04"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_chicago_quotvpara_05
+! Quoting and Paraphrasing: Differences
+
+!! Quoting Revisions
+
+Click "Fix it" to see how to quote without plagiarising.
+
+> In an interview, the Ukranian Health Minister, Anatoly Y. Romanenko advised \
+residents not to have outings in the woods north of Kiev, near the 18-mile zone \
+from which 135,000 people were evacuated two years ago.
+
+<<AnswerChoices
+  "style_chicago_quotvpara_05" $next_common_passage "hide"
+  "style_chicago_quotvpara_05_include_answer_fix" "Fix it"
+  >>
+
+
+/**************************************/
+::style_chicago_quotvpara_05_include_answer_fix
+!! Fixed
+
+> In an interview, the Ukranian Health Minister, Anatoly Y. Romanenko "advised \
+residents not to have outings in the woods north of Kiev, near the 18-mile zone \
+from which 135,000 people were evacuated two years ago."1
+> ...
+> <ol><li>Felicity Barringer, "Fear of Chernobyl Radiation Lingers for the people \
+of Kiev," //New York Times,// May 23, 1998, \
+"""https://search-proquest-com.ezproxy.acadiau.ca:9443/docview/426829329?accountid=8172"""</li></ol>
+> ...
+> __Bibliography__
+> Barringer, Felicity. "Fear of Chernobyl Radiation Lingers for the people \
+of Kiev." //New York Times,// May 23, 1998. \
+"""https://search-proquest-com.ezproxy.acadiau.ca:9443/docview/426829329?accountid=8172"""
+
+<<AnswerStatus
+  "style_chicago_quotvpara_05"
+  "neutral"
+>>
+
+
+/**************************************/
+::style_chicago_quotvpara_06
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing
+
+> Although the Ukranian Health Minister recommended that residents did not go in \
+the woods near Kiev, he continued to disregard the worries residents had \
+concerning radiation.
+
+Is this plagiarism?
+
+<<AnswerChoices
+  "style_chicago_quotvpara_06" $next_common_passage "hide"
+  "style_chicago_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
+  "style_chicago_quotvpara_06_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+/**************************************/
+::style_chicago_quotvpara_06_include_answer_yes
+!! Correct
+
+Definitely. The author has used their own words and sentence structure but \
+forgotten to cite the source!
+
+<<AnswerStatus
+  "style_chicago_quotvpara_06"
+  "correct"
+>>
+
+
+/**************************************/
+::style_chicago_quotvpara_06_include_answer_no
+!! Incorrect
+
+Actually, it IS plagiarism. Although they used their own words and sentence \
+structure, they have forgotten to cite the source!
+
+<<AnswerStatus
+  "style_chicago_quotvpara_06"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_chicago_quotvpara_07
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing Revisions
+
+Click "Fix it" to see how to paraphrase without plagiarising.
+
+> Although the Ukranian Health Minister recommended that residents did not go in \
+the woods near Kiev, he continued to disregard the worries residents had \
+concerning radiation.
+
+<<AnswerChoices
+  "style_chicago_quotvpara_07" $next_common_passage "hide"
+  "style_chicago_quotvpara_07_include_answer_fix" "Fix it"
+  >>
+
+
+/**************************************/
+::style_chicago_quotvpara_07_include_answer_fix
+!! Fixed
+
+> Although the Ukranian Health Minister recommended that residents did not go in \
+the woods near Kiev, he continued to disregard the worries residents had \
+concerning radiation.1
+> ...
+> <ol><li>Felicity Barringer, "Fear of Chernobyl Radiation Lingers for the people \
+of Kiev," //New York Times,// May 23, 1998, \
+"""https://search-proquest-com.ezproxy.acadiau.ca:9443/docview/426829329?accountid=8172"""</li></ol>
+> ...
+> __Bibliography__
+> Barringer, Felicity. "Fear of Chernobyl Radiation Lingers for the people \
+of Kiev." //New York Times,// May 23, 1998. \
+"""https://search-proquest-com.ezproxy.acadiau.ca:9443/docview/426829329?accountid=8172"""
+
+<<AnswerStatus
+  "style_chicago_quotvpara_07"
+  "neutral"
+>>

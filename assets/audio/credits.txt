@@ -1,0 +1,11 @@
+answer_correct.wav,
+answer_neutral.wav:
+freesound_org-351564__bertrof__game-sound-correct-with-delay.wav
+
+answer_incorrect.wav:
+freesound_org-351563__bertrof__game-sound-incorrect-with-delay.wav  
+
+navigation_next.wav,
+navigation_prev.wav:
+freesound_org-131658__bertrof__game-sound-selection.wav  
+

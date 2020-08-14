@@ -1,0 +1,474 @@
+/**************************************/
+::style_apa_plagiarism_01
+! Is this plagiarism?
+
+Copying a direct quotation into your paper, placing quotation marks around it, \
+and crediting the source.
+
+> "In Canada and the US, the russet Burbank is the favorite processing potato" \
+(Kneen, 1999, p. 105-106)
+> ...
+> References:
+> Kneed, B. (1999), //Farmageddon: Food and the culture of biotechnology.// New \
+Society Publishing
+
+<<AnswerChoices
+  "style_apa_plagiarism_01" $next_common_passage "hide"
+  "style_apa_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
+  "style_apa_plagiarism_01_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+/**************************************/
+::style_apa_plagiarism_01_include_answer_yes
+!! Incorrect
+
+This is not plagiarism.
+
+Copying information word-for-word from a source is okay as long as you put \
+quotation marks around the copied information and give credit to the source.
+
+<<AnswerStatus
+  "style_apa_plagiarism_01"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_apa_plagiarism_01_include_answer_no
+!! Correct
+
+You're right! This is not plagiarism because there are quotation marks around \
+the copied information and the source is credited.
+
+<<AnswerStatus
+  "style_apa_plagiarism_01"
+  "correct"
+>>
+
+
+/**************************************/
+::style_apa_plagiarism_02
+! Is this plagiarism?
+
+How about this?
+
+Taking someone's ideas or words, putting them into your own words, and crediting \
+the source.
+
+> The most popular potato processed in North America is the russet Burbank \
+(Kneen, 1999).
+> ...
+> References:
+> Kneed, B. (1999), //Farmageddon: Food and the culture of biotechnology.// New \
+Society Publishing
+
+<<AnswerChoices
+  "style_apa_plagiarism_02" $next_common_passage "hide"
+  "style_apa_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
+  "style_apa_plagiarism_02_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+/**************************************/
+::style_apa_plagiarism_02_include_answer_yes
+!! Incorrect
+
+Actually, this is not plagiarism: it's paraphrasing.
+
+Paraphrasing is fine as long as you credit the source and the paraphrase is \
+entirely in your words&mdash;just changing a couple words here and there \
+doesn't cut it.
+
+<<AnswerStatus
+  "style_apa_plagiarism_02"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_apa_plagiarism_02_include_answer_no
+!! Correct
+
+You're right! This is not plagiarism. It's paraphrasing.
+
+Paraphrasing is fine as long as you credit the source and the paraphrase is \
+entirely in your words&mdash;just changing a couple words here and there \
+doesn't cut it.
+
+<<AnswerStatus
+  "style_apa_plagiarism_02"
+  "correct"
+>>
+
+
+/**************************************/
+::style_apa_knowledge_01
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> The Molsons are one of Canada's most influential business families.
+
+''Sentence B''
+> The first modern Molson brand, Export Ale, appeared in 1903.
+
+<<AnswerChoices
+  "style_apa_knowledge_01" $next_common_passage "hide"
+  "style_apa_knowledge_01_include_answer_a" "Sentence A"
+  "style_apa_knowledge_01_include_answer_b" "Sentence B"
+  >>
+
+
+/**************************************/
+::style_apa_knowledge_01_include_answer_a
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "style_apa_knowledge_01"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_apa_knowledge_01_include_answer_b
+!! Correct
+
+You're right! This needs to be cited. It's from this book:
+
+> Hunter, D. (2001). //Molson: The birth of a business empire.// Viking.
+
+<<AnswerStatus
+  "style_apa_knowledge_01"
+  "correct"
+>>
+
+
+/**************************************/
+::style_apa_knowledge_02
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> The Mexican peso devaluation in 1994 seriously affected the country's \
+financial markets.
+
+''Sentence B''
+> The peso is the currency used in the country of Mexico.
+
+<<AnswerChoices
+  "style_apa_knowledge_02" $next_common_passage "hide"
+  "style_apa_knowledge_02_include_answer_a" "Sentence A"
+  "style_apa_knowledge_02_include_answer_b" "Sentence B"
+  >>
+
+
+/**************************************/
+::style_apa_knowledge_02_include_answer_a
+!! Correct
+
+You're right! This needs to be cited. It's from this journal article:
+
+> Goldberg, C.S. & Veitch, J.M. (2003) Exchange rate crisis and firm values: A \
+case study of Mexico's tequila crisis. \
+//Journal of American Academy of Business//, 2(2), 545-549.
+
+<<AnswerStatus
+  "style_apa_knowledge_02"
+  "correct"
+>>
+
+
+/**************************************/
+::style_apa_knowledge_02_include_answer_b
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "style_apa_knowledge_02"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_apa_knowledge_03
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> The Canadian government's tax cut in 2001 prompted the Bank of Canada to \
+reduce interest rates.
+
+''Sentence B''
+> The Bank of Canada regulates interest rates.
+
+<<AnswerChoices
+  "style_apa_knowledge_03" $next_common_passage "hide"
+  "style_apa_knowledge_03_include_answer_a" "Sentence A"
+  "style_apa_knowledge_03_include_answer_b" "Sentence B"
+  >>
+
+
+/**************************************/
+::style_apa_knowledge_03_include_answer_a
+!! Correct
+
+You're right! This needs to be cited. It's from this journal article:
+
+> Manley, J. (2003, April 12). Statement prepared for the International Monetary \
+Fund. """http://www.fin.gc.ca/news03/03-024e.html""".
+
+<<AnswerStatus
+  "style_apa_knowledge_03"
+  "correct"
+>>
+
+
+/**************************************/
+::style_apa_knowledge_03_include_answer_b
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "style_apa_knowledge_03"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_apa_quotvpara_01_include
+! Quoting and Paraphrasing: Differences
+
+Maybe it would help to show the difference between quoting and paraphrasing, and \
+how to do each correctly using APA style.
+
+Imagine that this passage from a book about genetically modified foods is one \
+that you would like to use in your essay.
+
+> In Canada and the US, the russet Burbank is the favorite processing potato. It \
+is therefore not suprising that the russet Burbank appeared on the market as the \
+first trans-genic potato, engineered to contain //Bacillus thuringiensis// \
+toxins...
+
+
+/**************************************/
+::style_apa_quotvpara_02_include
+! Quoting and Paraphrasing: Differences
+
+!! Quoting
+
+A quotation uses exactly the same words as those found in the source material \
+and puts them in quotation marks. Here's what a quotation looks like with a \
+proper in-text reference in APA style:
+
+> "It is therefore not suprising that the russet Burbank appeared on the market \
+as the first trans-genic potato, engineered to contain Bacillus thuringiensis \
+(Bt) toxins derived from a common soil bacterium." (Kneed, 1999, p. 105-106).
+> ...
+> References:
+> Kneen, B. (1999), //Farmageddon: Food and the culture of biotechnology.// New \
+Society Publishing.
+
+
+/**************************************/
+::style_apa_quotvpara_03_include
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing
+
+A paraphrase uses an author's idea but expresses it //in your own words//&mdash;\
+without quotation marks, since it's no longer a word-for-word quotation. And \
+just changing a few words from the original doesn't count!
+
+> The popular North American russet Burbank potato is said to have been the \
+first genetically modified spud to contain Bt toxins (Kneen, 1999).
+> ...
+> References:
+> Kneen, B. (1999), //Farmageddon: Food and the culture of biotechnology.// New \
+Society Publishing.
+
+
+/**************************************/
+::style_apa_quotvpara_04
+! Quoting and Paraphrasing: Differences
+
+!! Quoting
+
+Now that you know the difference between quoting and paraphrasing, let's make \
+sure you can do it properly in an actual assignment. Imagine that this is your \
+essay so far:
+
+> The biotechnology industry continues to affect many of the staple foods of \
+our Western diet. ''In Canada and the US, the russet Burbank is the favorite \
+processing potato. It is therefore not suprising that the russet Burbank \
+appeared on the market as the first trans-genetic potato, engineered to contain \
+//Bacillus thuringiensis// (Bt) toxins.''
+
+Is this plagiarism?
+
+<<AnswerChoices
+  "style_apa_quotvpara_04" $next_common_passage "hide"
+  "style_apa_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
+  "style_apa_quotvpara_04_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+/**************************************/
+::style_apa_quotvpara_04_include_answer_yes
+!! Correct
+
+Good catch! This is plagiarism because the quotation is not in quotation marks \
+and the source is not cited!
+
+<<AnswerStatus
+  "style_apa_quotvpara_04"
+  "correct"
+>>
+
+
+/**************************************/
+::style_apa_quotvpara_04_include_answer_no
+!! Incorrect
+
+Oh yes, it is! This is plagiarism because the quotation is not in quotation \
+marks and the source is not cited.
+
+<<AnswerStatus
+  "style_apa_quotvpara_04"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_apa_quotvpara_05
+! Quoting and Paraphrasing: Differences
+
+!! Quoting Revisions
+
+Click "Fix it" to see how to quote without plagiarising.
+
+> The biotechnology industry continues to affect many of the staple foods of \
+our Western diet. ''In Canada and the US, the russet Burbank is the favorite \
+processing potato. It is therefore not suprising that the russet Burbank \
+appeared on the market as the first trans-genetic potato, engineered to contain \
+//Bacillus thuringiensis// (Bt) toxins.''
+
+<<AnswerChoices
+  "style_apa_quotvpara_05" $next_common_passage "hide"
+  "style_apa_quotvpara_05_include_answer_fix" "Fix it"
+  >>
+
+
+/**************************************/
+::style_apa_quotvpara_05_include_answer_fix
+!! Fixed
+
+> The biotechnology industry continues to affect many of the staple foods of \
+our Western diet. ''In Canada and the US, the russet Burbank is the favorite \
+processing potato. It is therefore not suprising that the russet Burbank \
+appeared on the market as the first trans-genetic potato, engineered to contain \
+//Bacillus thuringiensis// (Bt) toxins.'' (Kneen, 1999, p. 105).
+> ...
+> References:
+> Kneen, B. (1999), //Farmageddon: Food and the culture of biotechnology.// New \
+Society Publishing.
+
+<<AnswerStatus
+  "style_apa_quotvpara_05"
+  "neutral"
+>>
+
+
+/**************************************/
+::style_apa_quotvpara_06
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing
+
+> The biotechnology industry continues to affect many of the staple foods of \
+our Western diet. ''The popular North American russet Burbank potato is said to \
+have been the first genetically modified spud to contain Bt toxins.''
+
+Is this plagiarism?
+
+<<AnswerChoices
+  "style_apa_quotvpara_06" $next_common_passage "hide"
+  "style_apa_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
+  "style_apa_quotvpara_06_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+/**************************************/
+::style_apa_quotvpara_06_include_answer_yes
+!! Correct
+
+Definitely. The author has used their own words and sentence structure but \
+forgotten to cite the source!
+
+<<AnswerStatus
+  "style_apa_quotvpara_06"
+  "correct"
+>>
+
+
+/**************************************/
+::style_apa_quotvpara_06_include_answer_no
+!! Incorrect
+
+Actually, it IS plagiarism. Although they used their own words and sentence \
+structure, they have forgotten to cite the source!
+
+<<AnswerStatus
+  "style_apa_quotvpara_06"
+  "incorrect"
+>>
+
+
+/**************************************/
+::style_apa_quotvpara_07
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing Revisions
+
+Click "Fix it" to see how to paraphrase without plagiarising.
+
+> The biotechnology industry continues to affect many of the staple foods of \
+our Western diet. ''The popular North American russet Burbank potato is said to \
+have been the first genetically modified spud to contain Bt toxins.''
+
+<<AnswerChoices
+  "style_apa_quotvpara_07" $next_common_passage "hide"
+  "style_apa_quotvpara_07_include_answer_fix" "Fix it"
+  >>
+
+
+/**************************************/
+::style_apa_quotvpara_07_include_answer_fix
+!! Fixed
+
+> The biotechnology industry continues to affect many of the staple foods of \
+our Western diet. ''The popular North American russet Burbank potato is said to \
+have been the first genetically modified spud to contain Bt toxins'' (Kneen, \
+1999).
+> ...
+> References:
+> Kneen, B. (1999), //Farmageddon: Food and the culture of biotechnology.// New \
+Society Publishing.
+
+<<AnswerStatus
+  "style_apa_quotvpara_07"
+  "neutral"
+>>
