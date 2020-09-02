@@ -7,28 +7,6 @@
 
 /******************************************************************************/
 
-#passages header {
-  display: block;
-  background-color: #bdf;
-  border: 1px solid #ace;
-  margin-bottom: 1.25em;
-  padding: 0.5em;
-  border-radius: 0.5em;
-}
-
-/******************************************************************************/
-
-#passages footer {
-  display: block;
-  background-color: #fdb;
-  border: 1px solid #eca;
-  margin-top: 1.25em;
-  padding: 0.5em;
-  border-radius: 0.5em;
-}
-
-/******************************************************************************/
-
 .passage h1 { font-size: 1.875em; }
 .passage h2 { font-size: 1.5em; }
 .passage h3 { font-size: 1.125em; }

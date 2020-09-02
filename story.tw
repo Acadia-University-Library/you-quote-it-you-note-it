@@ -17,6 +17,7 @@ Acadia University
 twee2_configuration.tw
 css_global.tw
 macros.tw
+storyinclude_headerfooter.tw
 storyinclude_common.tw
 storyinclude_avatar.tw
 storyinclude_style_apa.tw
@@ -28,7 +29,7 @@ debug.tw
 
 ::StoryInit
 <<set $debug = 1>>
-<<set $font_family = "font_family_mixed">>
+<<set $font_family = "font_family_sans">>
 <<set $font_size = "font_size_regular">>
 <<set $student = "">>
 <<set $style = "">>
@@ -43,78 +44,72 @@ debug.tw
 /*
 <<cacheaudio "next" "assets/audio/22735__inspectorj__ui-confirmation-synthesized">>
 */
-/*
-<<set $emoji = [
-  { hexcode: "1f44d", description: "thumbs up" },
-  { hexcode: "1f44e", description: "thumbs down" },
-  { hexcode: "1f46e", description: "police" },
-  { hexcode: "1f477", description: "construction worker" },
-  { hexcode: "1f481", description: "serving" },
-  { hexcode: "1f645", description: "X" },
-  { hexcode: "1f646", description: "OK" },
-  { hexcode: "1f647", description: "bow" },
-  { hexcode: "1f64b", description: "hand raised" },
-  { hexcode: "1f64d", description: "frown" },
-  { hexcode: "1f64e", description: "pout" },
-  { hexcode: "1f575", description: "secret agent" },
-  { hexcode: "1f926", description: "face palm" },
-  { hexcode: "1f937", description: "shrug" },
-  { hexcode: "1f939", description: "juggle" },
-  { hexcode: "1f9b8", description: "superhero" },
-  { hexcode: "1f9d1", description: "face" }
-  ]>>
 
-<<set $emoji_modifiers = {
-  expression: {
-    smile: "1f9d1", 
-    frown: "1f64b", 
-    pout: "1f64e",
-    shrug: "1f937", 
-    facepalm: "1f926", 
-    raisehand: "1f64b",
-    juggle: "1f939",
-    ok: "1f646",
-    no: "1f645",
-    thumbsup: "1f44d", 
-    thumbsdown: "1f44e" }, 
+<<set $avatar = {
+  path: "assets/emoji/FILE_ID.png",
+  reaction: {
+      "smile": "1f9d1-skintone-200d-1f4bb",
+      "frown": "1f64d-skintone",
+      "shrug": "1f937-skintone",
+      "facepalm": "1f926-skintone",
+      "raisehand": "1f64b-skintone",
+      "academic": "1f9d1-skintone-200d-1f393",
+      "correct": "1f646-skintone",
+      "incorrect": "1f645-skintone",
+      "fix": "1f926-skintone",
+      "juggle": "1f939-skintone",
+      "thumbsup": "1f44d-skintone",
+      "thumbsdown": "1f44e-skintone",
+      "write": "270d-skintone",
+      "tip": "1f6a9",
+      "start": "1f4d6",
+      "end": "1f3c1",
+      "settings": "1f527"
+  },
+  species: ["person", "smiley", "cat"],
   skintone: ["1f3fb", "1f3fc", "1f3fd", "1f3fe", "1f3ff"],  // light to dark
-  gender: ["", "2642", "2640"],                             // neutral adult, man, woman
-  hair: ["feof", "1f9b0", "1f9b1", "1f9b2", "1f9b3"],       // blonde, red, curly, bald, white
-  beard: ["", "1f9d4"]                                      // no facial hair, bearded (male only)
-  } >>
+  gender: ["200d-2642", "200d-2640", ""],                             // man, woman, neutral adult
+  hair: ["fe0f", "1f9b0", "1f9b1", "1f9b2", "1f9b3"],       // red, curly, bald, white, blonde
+  settings: {
+    "species": "",
+    "skintone": "",
+    "gender": "",
+    "hair": ""
+  }
+} >>
+
+/*
+    "person": {
+      "smile": "1f468-skintone",
+      "frown": "1f64d-skintone",
+      "shrug": "1f937-skintone",
+      "facepalm": "1f926-skintone",
+      "juggle": "1f939-skintone"
+    },
+    "smiley": {
+      "smile": "1f642",
+      "frown": "1f641",
+      "shrug": "1f914",
+      "facepalm": "1f631",
+      "juggle": "1f609"
+    },
+    "cat": {
+      "smile": "1f63a",
+      "frown": "1f63e",
+      "shrug": "1f63f",
+      "facepalm": "1f640",
+      "juggle": "1f939-skintone-gender-hair"
+    },
+    "common" {
+      "thumbsup": "1f44d-skintone",
+      "thumbsdown": "1f44e-skintone",
+      "write": "270d-skintone",
+      "start": "1f4d6",
+      "end": "1f3c1",
+      "settings": "1f527"
+    }
 */
+
 /*
 EMOJI = expression ("-" skintone ("-200d" ("-" gender ("-" hair)))) ".png"
 */
-
-
-::PassageHeader [nobr]
-<<set _header_text = "Hello ">>
-<<if $student>>
-  <<set _header_text = _header_text + $student + "!">>
-<<else>>
-  <<set _header_text = _header_text + "there.">>
-<</if>>
-<<if $style>>
-  <<set _header_text = _header_text + " You have selected " + $style + " citation style.">>
-<</if>>
-<<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_neutral>>
-<<if $grade != "">>
-  <<set _header_text = _header_text + " Grade: " + $grade + ".">>
-<</if>>
-<<if _header_text != "">><header><<print _header_text>></header><</if>>
-
-
-::PassageFooter [nobr]
-<<addclass "body" $font_family>>
-<<addclass "body" $font_size>>
-<<if $debug>>
-  <footer>
-    <<include debug_controls>>
-    <<include debug_variables_list>>
-    <<include debug_passages_list>>
-    /*
-    <<include debug_emoji>>
-    */
-  </footer>
-<</if>>

@@ -79,6 +79,7 @@ Macro.add('AnswerStatus', {
         markup = markup + '<<removeclass "#' + this.args[0] + '_answer" "incorrect">>';
         markup = markup + '<<removeclass "#' + this.args[0] + '_answer" "neutral">>';
         markup = markup + '<<addclass "#' + this.args[0] + '_answer" "' + answer_status + '">>';
+        markup = markup + '<<replace "#avatar">><<GenerateAvatar ' + answer_status + '>><</replace>>';
         jQuery(this.output).wiki(markup);
       }
     }
@@ -165,8 +166,6 @@ Macro.add('PassagePrevNext', {
     catch (ex) {
       return this.error(ex.message);
     }
-    console.log(this);
-    console.log(Passage.domId);
   }
 });
 
@@ -218,6 +217,58 @@ Macro.add('AnswersToGrade', {
         jQuery(this.output).wiki(markup);
         return grade;
       }
+    }
+    catch (ex) {
+      return this.error(ex.message);
+    }
+  }
+});
+
+
+
+::Macro_GenerateAvatar [script]
+Macro.add('GenerateAvatar', {
+  skipArgs: false,
+  handler: function () {
+    try {
+      var x, y, z, n, r, markup;
+      var new_avatar = false;
+      if(this.args.length > 0) {
+        new_avatar = State.getVar("$avatar['reaction']['" + this.args[0] + "']");
+      }
+      else {
+        for(x in tags()) {
+          y = tags()[x];
+          if(y.startsWith('avatar_')) {
+            z = y.substring(7);
+            new_avatar = State.getVar("$avatar['reaction']['" + z + "']");
+            break;
+          }
+        }
+        if(new_avatar == false) {
+          new_avatar = Object.values(State.getVar("$avatar['reaction']"))[0];
+        }
+      }
+      if(State.getVar("$avatar['settings']['skintone']") == "") {
+        n = 0; 
+        r = State.getVar("$avatar['skintone'][" + n + "]");
+        State.setVar("$avatar['settings']['skintone']", r);
+      }
+      if(State.getVar("$avatar['settings']['gender']") == "") {
+        n = 0; 
+        r = State.getVar("$avatar['gender'][" + n + "]");
+        State.setVar("$avatar['settings']['gender']", r);
+      }
+      if(State.getVar("$avatar['settings']['hair']") == "") {
+        n = 0; 
+        r = State.getVar("$avatar['hair'][" + n + "]");
+        State.setVar("$avatar['settings']['hair']", r);
+      }
+      new_avatar = new_avatar.replace("skintone", State.getVar("$avatar['settings']['skintone']"));
+      new_avatar = new_avatar.replace("gender", State.getVar("$avatar['settings']['gender']"));
+      new_avatar = new_avatar.replace("hair", State.getVar("$avatar['settings']['hair']"));
+      markup = '<img src="' + State.getVar("$avatar['path']").replace("FILE_ID", new_avatar) + '">';
+      jQuery(this.output).wiki(markup);
     }
     catch (ex) {
       return this.error(ex.message);

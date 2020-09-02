@@ -10,6 +10,5 @@
 #story {
   margin: 1.25em auto;
   width: 92vw;
-  max-width: 60em;
+  max-width: 960px;
 }
-

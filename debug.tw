@@ -1,5 +1,5 @@
 /**************************************/
-::debug_passages_list [debug]
+::debug_passages_list [debug nobr]
 <div class="debug">
 !!! DEBUG: Passages
 <ul>
@@ -12,7 +12,7 @@
 
 
 /**************************************/
-::debug_variables_list [debug]
+::debug_variables_list [debug nobr]
 <div class="debug">
 !!! DEBUG: Variables
 <ul>
@@ -33,24 +33,32 @@
 
 
 /**************************************/
-::debug_emoji [debug]
+::debug_avatar_reactions [debug nobr]
 <div class="debug">
-!!! DEBUG: Emoji
+!!! DEBUG: Avatar Reactions
 <ul>
-  <<for _key, _val range $emoji>>
-    <li><<print "<img src=\"assets/emoji/" + _val.hexcode + ".png\"> " + _val.description>></li>
-  <</for>>
+  <<script>>
+    var k, x, y, z, markup = "";
+    x = State.getVar("$avatar['reaction']");
+    y = Object.keys(x);
+    for(k = 0; k < y.length; k++) {
+      markup = markup +  '<li><<GenerateAvatar "' + y[k] + '">> ' + y[k] + '</li>';
+    }
+    jQuery(this.output).wiki(markup);
+  <</script>>
 </ul>
 </div>
 
 
 /**************************************/
-::debug_controls [debug]
+::debug_controls [debug nobr]
 <div class="debug">
 !!! DEBUG: Controls
 <ul class="debug">
   <li><<link "UI Restart">><<script>>UI.restart();<</script>><</link>></li>
   <li><<link "Engine Restart">><<script>>Engine.restart();<</script>><</link>></li>
+  <li>Current passage: <<print passage()>></li> 
+  <li>Current tags: <<print tags()>></li>
 </ul>
 </div>
 
@@ -59,10 +67,14 @@
 ::css_debug [debug stylesheet]
 
 .debug {
+  background-color: #fdb;
+  border: 1px solid #eca;
   font-family: monospace;
   color: #030;
   font-size: 12px;
   margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 0.5em;
 }
 
 .debug a {

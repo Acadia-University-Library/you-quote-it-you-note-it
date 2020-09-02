@@ -1,5 +1,5 @@
 /**************************************/
-::Start
+::Start [part_0 avatar_start]
 ! You Quote It, You Note It!
 
 <<include "StoryBanner">>
@@ -8,7 +8,7 @@
 
 
 /**************************************/
-::common_intro_01
+::common_intro_01 [part_1 avatar_settings]
 ! Introduction
 
 Welcome to the <em>You Quote It, You Note It!</em> tutorial. This tutorial will \
@@ -57,7 +57,7 @@ Which text size is most comfortable to read?
 
 
 /**************************************/
-::common_citation_01
+::common_citation_01 [part_2 avatar_shrug]
 ! What is citation?
 
 Citation is the process of documenting the sources you use in your writing. A \
@@ -71,7 +71,7 @@ bibliography entry (a longer note at the end of your paper).
 
 
 /**************************************/
-::common_citation_02
+::common_citation_02 [part_2]
 ! Citation
 
 There are many different citation styles out there, but here are a few of the most \
@@ -97,7 +97,7 @@ this style.
 
 
 /**************************************/
-::common_citation_03
+::common_citation_03 [part_2]
 ! Citation
 
 Let's start by choosing the style that will be shown to you during this \
@@ -111,7 +111,7 @@ tutorial.
 
 
 /**************************************/
-::common_citation_04
+::common_citation_04 [part_2]
 ! Citation
 
 Now that you've selected your citation style, let's dig into the basics:
@@ -122,7 +122,7 @@ Why cite sources?
 
 
 /**************************************/
-::common_citation_05
+::common_citation_05 [part_2]
 ! Citation
 
 While writing can often feel like a solitary activity, good academic writing is \
@@ -132,7 +132,7 @@ actually an asynchronous conversation involving many parties.
 
 
 /**************************************/
-::common_citation_06
+::common_citation_06 [part_2]
 ! Citation
 
 One party is you, the author. You are sharing your thoughts on paper (or on a \
@@ -142,7 +142,7 @@ screen), but those thoughts have not developed in your brain from nothing.
 
 
 /**************************************/
-::common_citation_07
+::common_citation_07 [part_2]
 ! Citation
 
 You've received ideas from other researchers. They have, in a sense, spoken to \
@@ -155,7 +155,7 @@ read) to their own ideas.
 
 
 /**************************************/
-::common_citation_08
+::common_citation_08 [part_2]
 ! Citation
 
 Citing sources is of fundamental importance to this conversation.
@@ -164,7 +164,7 @@ Citing sources is of fundamental importance to this conversation.
 
 
 /**************************************/
-::common_citation_09
+::common_citation_09 [part_2]
 ! Citation
 
 By properly citing your sources, you can quickly provide important context for \
@@ -176,7 +176,7 @@ yours, allowing them to contribute to the conversation.
 
 
 /**************************************/
-::common_citation_10
+::common_citation_10 [part_2]
 ! Citation
 
 It is this conversation that pushes all research forward. Researchers comment on \
@@ -187,7 +187,7 @@ within a given subject area.
 
 
 /**************************************/
-::common_citation_11
+::common_citation_11 [part_2]
 ! Citation
 
 In this sense, properly citing your sources is a tremendous gift to future \
@@ -197,7 +197,7 @@ researchers.
 
 
 /**************************************/
-::common_citation_12
+::common_citation_12 [part_2]
 ! Citation
 
 And, as an added bonus, readers will be more likely to trust the validity of \
@@ -207,7 +207,7 @@ your arguments when they are clearly sported by the work of others.
 
 
 /**************************************/
-::common_plagiarism_01
+::common_plagiarism_01 [part_3]
 ! Plagiarism
 
 If all of those wonderful reasons to properly cite your sources aren't enough to \
@@ -219,7 +219,7 @@ is a punishable academic offence!
 
 
 /**************************************/
-::common_plagiarism_02
+::common_plagiarism_02 [part_3 avatar_shrug]
 ! Plagiarism
 
 What exactly is plagiarism? Acadia's calendar defines it as "the act of \
@@ -232,7 +232,7 @@ must clearly indicate when you are doing this.
 
 
 /**************************************/
-::common_plagiarism_03
+::common_plagiarism_03 [part_3]
 ! Plagiarism
 
 Acadia's calendar continues: "Self-plagiarism is also a form of plagiarism. It \
@@ -245,7 +245,7 @@ same paper in both courses unless both instructors agree.
 
 
 /**************************************/
-::common_plagiarism_04
+::common_plagiarism_04 [part_3]
 ! Plagiarism
 
 If you are caught plagiarising, there are a range of penalties you may face, \
@@ -259,7 +259,7 @@ including:
 
 
 /**************************************/
-::common_plagiarism_05
+::common_plagiarism_05 [part_3]
 ! Plagiarism
 
 Proper citation helps you write a better paper and stay out of trouble. And it \
@@ -269,7 +269,7 @@ helps future researchers too! Everyone wins with proper citation.
 
 
 /**************************************/
-::common_plagiarism_06
+::common_plagiarism_06 [part_3]
 ! Plagiarism
 
 Now, let's see if you can identify what plagiarism looks like.
@@ -278,21 +278,21 @@ Now, let's see if you can identify what plagiarism looks like.
 
 
 /**************************************/
-::common_plagiarism_07
+::common_plagiarism_07 [part_3]
 <<set $next_common_passage = "common_plagiarism_08">>
 <<set $include_passage = "style_" + $style.toLowerCase() + "_plagiarism_01">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_plagiarism_08
+::common_plagiarism_08 [part_3]
 <<set $next_common_passage = "common_tip_01">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_plagiarism_02">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_tip_01
+::common_tip_01 [part_3 avatar_tip]
 ! Tip #1
 
 Paraphrasing improperly is still plagiarism! To paraphrase properly, you must:
@@ -316,7 +316,7 @@ couple of words;
 
 
 /**************************************/
-::common_tip_02
+::common_tip_02 [part_3 avatar_tip]
 ! Tip #2
 
 Putting quotation marks around quotations isn't enough!
@@ -338,7 +338,7 @@ You still have to insert <<print _txt>>.
 
 
 /**************************************/
-::common_tip_03
+::common_tip_03 [part_3 avatar_tip]
 ! Tip #3
 
 Even if you found something online, you must still cite it!
@@ -353,7 +353,7 @@ to cite it.
 
 
 /**************************************/
-::common_knowledge_01
+::common_knowledge_01 [part_4 avatar_shrug]
 ! Common knowledge
 
 Common knowledge does not need to be cited. But what exactly //is// common \
@@ -367,7 +367,7 @@ common knowledge).
 
 
 /**************************************/
-::common_knowledge_02
+::common_knowledge_02 [part_4]
 ! Common knowledge
 
 ''General common knowledge'' includes things like basic facts about famous \
@@ -381,7 +381,7 @@ another, so it is important to consider your intended reader's context.
 
 
 /**************************************/
-::common_knowledge_03
+::common_knowledge_03 [part_4]
 ! Common knowledge
 
 ''Discipline-specific common knowledge'' refers to basic facts that would be \
@@ -396,7 +396,7 @@ known.
 
 
 /**************************************/
-::common_knowledge_04
+::common_knowledge_04 [part_4]
 ! Common knowledge
 
 ''When in doubt, cite!'' It is always safer to cite something that doesn't need \
@@ -406,14 +406,14 @@ to be cited than to //not// cite something that //does// need to be cited!
 
 
 /**************************************/
-::common_knowledge_05
+::common_knowledge_05 [part_4]
 <<set $next_common_passage = "common_knowledge_06">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_knowledge_01">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_knowledge_06
+::common_knowledge_06 [part_4]
 <<set $next_common_passage = "common_knowledge_07">>
 /* next passage exception for ASA style content which does not have a third 
 common knowledge element, thus "common_knowledge_07" must be skipped. */
@@ -425,14 +425,14 @@ common knowledge element, thus "common_knowledge_07" must be skipped. */
 
 
 /**************************************/
-::common_knowledge_07
+::common_knowledge_07 [part_4]
 <<set $next_common_passage = "common_quotvpara_01">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_knowledge_03">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_quotvpara_01
+::common_quotvpara_01 [part_5]
 ! Quoting vs Paraphrasing
 
 Quoting is copying a source exactly, word for word. A direct quotation is placed \
@@ -447,7 +447,7 @@ exact copy, but the source must still be cited.
 
 
 /**************************************/
-::common_quotvpara_02
+::common_quotvpara_02 [part_5 avatar_shrug]
 ! Quoting vs Paraphrasing
 
 How do you know whether you should quote or paraphrase a source?
@@ -471,7 +471,7 @@ choose paraphrasing over quotation.
 
 
 /**************************************/
-::common_quotvpara_03
+::common_quotvpara_03 [part_5]
 ! Quoting vs Paraphrasing
 
 ''Quote'' if the exact words of the source matter.
@@ -482,56 +482,56 @@ choose paraphrasing over quotation.
 
 
 /**************************************/
-::common_quotvpara_04
+::common_quotvpara_04 [part_5]
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_01_include">>
 <<include $include_passage>>
 <<PassagePrevNext "common_quotvpara_05">>
 
 
 /**************************************/
-::common_quotvpara_05
+::common_quotvpara_05 [part_5]
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_02_include">>
 <<include $include_passage>>
 <<PassagePrevNext "common_quotvpara_06">>
 
 
 /**************************************/
-::common_quotvpara_06
+::common_quotvpara_06 [part_5]
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_03_include">>
 <<include $include_passage>>
 <<PassagePrevNext "common_quotvpara_07">>
 
 
 /**************************************/
-::common_quotvpara_07
+::common_quotvpara_07 [part_5]
 <<set $next_common_passage = "common_quotvpara_08">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_04">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_quotvpara_08
+::common_quotvpara_08 [part_5]
 <<set $next_common_passage = "common_quotvpara_09">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_05">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_quotvpara_09
+::common_quotvpara_09 [part_5]
 <<set $next_common_passage = "common_quotvpara_10">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_06">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_quotvpara_10
+::common_quotvpara_10 [part_5]
 <<set $next_common_passage = "common_tip_04">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_07">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_tip_04
+::common_tip_04 [part_5 avatar_tip]
 ! Tip #4
 
 Use direct quotations sparingly. The majority of your paper should be in your \
@@ -541,7 +541,7 @@ own words.
 
 
 /**************************************/
-::common_tip_05
+::common_tip_05 [part_5 avatar_tip]
 ! Tip #5
 
 If you're unsure of if, when, or how to cite something, check a citation guide, \
@@ -551,7 +551,7 @@ ask your professor, or ask a librarian.
 
 
 /**************************************/
-::common_tip_06
+::common_tip_06 [part_5 avatar_tip]
 ! Tip #6
 
 Document your sources immediately as you are doing your research. That way, when \
@@ -562,7 +562,7 @@ from.
 
 
 /**************************************/
-::common_zotero_01
+::common_zotero_01 [part_6 avatar_write]
 ! Zotero
 
 * Zotero is a citation management tool that can help you track, organize, and \
@@ -581,7 +581,7 @@ Desk (10am to 4pm Monday to Friday) for help!
 
 
 /**************************************/
-::common_outro_01
+::common_outro_01 [part_6 avatar_academic]
 ! Thanks for taking our tutorial!
 
 We home you've learned the basics about citation and how to avoid plagiarism.
@@ -597,7 +597,7 @@ Librarian is at [[https://library.acadiau.ca/about/people.html]].
 
 
 /**************************************/
-::common_outro_02
+::common_outro_02 [part_6 avatar_juggle]
 ! Getting Help
 
 * Chicago [[https://libguides.acadiau.ca/chicago-turabian]]
@@ -611,7 +611,7 @@ Librarian is at [[https://library.acadiau.ca/about/people.html]].
 
 
 /**************************************/
-::common_outro_03
+::common_outro_03 [part_6 avatar_juggle]
 ! Other Resources
 
 <ul>
@@ -630,7 +630,7 @@ Librarian is at [[https://library.acadiau.ca/about/people.html]].
 
 
 /**************************************/
-::common_outro_04
+::common_outro_04 [part_6] avatar_juggle
 ! Other Resources (cont'd.)
 
 * Acadia University's statement on Academic Integrity and procedures concerning \
@@ -640,7 +640,7 @@ infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.h
 
 
 /**************************************/
-::End
+::End [part_99 avatar_end]
 ! The End.
 
 <<link "Learn about another citation style" "common_citation_02">><</link>>

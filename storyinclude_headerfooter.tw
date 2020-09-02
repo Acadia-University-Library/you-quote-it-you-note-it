@@ -1,0 +1,91 @@
+/**************************************/
+::PassageHeader [header nobr]
+<header>
+  <div class="greeting">
+    <<set _header_text = "Hello ">>
+    <<if $student>>
+      <<set _header_text = _header_text + $student + "!">>
+    <<else>>
+      <<set _header_text = _header_text + "there.">>
+    <</if>>
+    <<if $style>>
+      <<set _header_text = _header_text + " You have selected " + $style + " citation style.">>
+    <</if>>
+    <<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_neutral>>
+    <<if $grade != "">>
+      <<set _header_text = _header_text + " Grade: " + $grade + ".">>
+    <</if>>
+    <<if _header_text != "">>
+      <<print _header_text>>
+    <</if>>
+  </div>
+  <<if passage() is not "Start">>
+  <div class="progress-grid-container">
+    <div class="progress-grid-item reaction" id="avatar">
+      <<GenerateAvatar>>
+    </div>
+
+    <<if tags().includes('part_1') is true>>
+      <div class="progress-grid-item part_1 active"><span>1</span></div>
+    <<elseif visitedTags('part_1') > 0>>
+      <div class="progress-grid-item part_1 visited"><span>1</span></div>
+    <<else>>
+      <div class="progress-grid-item part_1 unvisited"><span>1</span></div>
+    <</if>>
+    
+    <<if tags().includes('part_2') is true>>
+      <div class="progress-grid-item part_2 active"><span>2</span></div>
+    <<elseif visitedTags('part_2') > 0>>
+      <div class="progress-grid-item part_2 visited"><span>2</span></div>
+    <<else>>
+      <div class="progress-grid-item part_2 unvisited"><span>2</span></div>
+    <</if>>
+    
+    <<if tags().includes('part_3') is true>>
+      <div class="progress-grid-item part_3 active"><span>3</span></div>
+    <<elseif visitedTags('part_3') > 0>>
+      <div class="progress-grid-item part_3 visited"><span>3</span></div>
+    <<else>>
+      <div class="progress-grid-item part_3 unvisited"><span>3</span></div>
+    <</if>>
+    
+    <<if tags().includes('part_4') is true>>
+      <div class="progress-grid-item part_4 active"><span>4</span></div>
+    <<elseif visitedTags('part_4') > 0>>
+      <div class="progress-grid-item part_4 visited"><span>4</span></div>
+    <<else>>
+      <div class="progress-grid-item part_4 unvisited"><span>4</span></div>
+    <</if>>
+    
+    <<if tags().includes('part_5') is true>>
+      <div class="progress-grid-item part_5 active"><span>5</span></div>
+    <<elseif visitedTags('part_5') > 0>>
+      <div class="progress-grid-item part_5 visited"><span>5</span></div>
+    <<else>>
+      <div class="progress-grid-item part_5 unvisited"><span>5</span></div>
+    <</if>>
+    
+    <<if tags().includes('part_6') is true>>
+      <div class="progress-grid-item part_6 active"><span>6</span></div>
+    <<elseif visitedTags('part_6') > 0 || passage() is "End">>
+      <div class="progress-grid-item part_6 visited"><span>6</span></div>
+    <<else>>
+      <div class="progress-grid-item part_6 unvisited"><span>6</span></div>
+    <</if>>
+  </div>
+  <</if>>
+</header>
+
+
+/**************************************/
+::PassageFooter [footer nobr]
+<footer>
+  <<if $debug>>
+    <<include debug_controls>>
+    <<include debug_variables_list>>
+    <<include debug_avatar_reactions>>
+    <<include debug_passages_list>>
+  <</if>>
+</footer>
+<<addclass "body" $font_family>>
+<<addclass "body" $font_size>>

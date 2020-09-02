@@ -63,6 +63,9 @@ label.font_selector.font_family_dyslexic h1,
 label.font_selector.font_family_dyslexic h2 {
   font-family: inherit !important;
 }
+body.font_family_dyslexic * {
+  line-height: 1.75em;
+}
 
 /******************************************************************************/
 
