@@ -16,11 +16,11 @@ explain what citation is and when and how to cite your sources properly. It will
 also explain the concept of plagiarism, so that you understand how to avoid \
 plagiarizing the works of others. The tutorial will take about 10 minutes to \
 complete.
-
+/*
 But first, what is your name?
 <<textbox "$student" "">>
 
-<hr>
+*/<hr>
 
 Which text style do you prefer?
 <label class="font_selector font_family_mixed"> \

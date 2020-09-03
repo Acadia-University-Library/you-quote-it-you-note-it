@@ -2,6 +2,8 @@
 ::PassageHeader [header nobr]
 <header>
   <div class="greeting">
+    <span class="nowrap"><strong><em>You Quote It, You Note It!</em></strong> (version 2.20.09a) &mdash;</span><span class="nowrap"> Developed by Acadia University, Vaughan Memorial Library.</span>
+    /*
     <<set _header_text = "Hello ">>
     <<if $student>>
       <<set _header_text = _header_text + $student + "!">>
@@ -11,14 +13,16 @@
     <<if $style>>
       <<set _header_text = _header_text + " You have selected " + $style + " citation style.">>
     <</if>>
-    <<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_fixed>>
     <<if $grade != "">>
       <<set _header_text = _header_text + " Grade: " + $grade + ".">>
     <</if>>
     <<if _header_text != "">>
       <<print _header_text>>
     <</if>>
+    */
+    <<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_fixed>>
   </div>
+
   <<if passage() is not "Start">>
   <div class="progress-grid-container">
     <div class="progress-grid-item reaction" id="avatar">
@@ -36,7 +40,11 @@
         else {
           part_k_class = "unvisited";
         }
-        markup = markup + '<div class="progress-grid-item part_' + k + ' ' + part_k_class + '"><span>' + k + '</span></div>';
+        markup = markup + '<div class="progress-grid-item part_' + k + ' ' + part_k_class + '"><span>' + k + '</span>';
+        markup = markup + '<div class="progress-line';
+        if(k == 1) { markup = markup + ' start'; } else if(k == 6) { markup = markup + ' end '; }
+        markup = markup + '"></div>';
+        markup = markup + '</div>';
       }
       jQuery(this.output).wiki(markup);
     <</script>>

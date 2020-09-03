@@ -18,7 +18,7 @@ $body-color: #222;
 
 $header-greeting-background-color: #4587b5;
 $header-greeting-border-color: #4587b5;
-$header-greeting-color: inherit;
+$header-greeting-color: #fff;
 
 $blockquote-background-color: #eee;
 $blockquote-border-color: #ddd;
@@ -222,25 +222,38 @@ header {
 }
 
 header div.greeting {
+  text-align: center;
+  font-size: 0.75em;
+  color: $header-greeting-color;
   background-color: $header-greeting-background-color;
   border: 1px solid $header-greeting-border-color;
   margin-bottom: 1.25em;
   padding: 0.5em;
-  border-radius: 0.5em;
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+header div.greeting span.nowrap {
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 header div.progress-grid-container {
  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 1em;
+  grid-gap: 0;
 }
 
 header div.progress-grid-item {
   justify-self: stretch;
   align-self: center;
   text-align: center;
-  font-size: 0.875em;
+  position: relative;
+}
+
+header div.progress-grid-item.reaction img { /* #avatar */
+  height: 72px;
+  width: auto;
 }
 
 header div.progress-grid-item span {
@@ -248,11 +261,34 @@ header div.progress-grid-item span {
   display: inline-block;
   height: 1.25em;
   width: 1.25em;
-  padding: 0.6667em;
+  padding: 0.5em;
   border: 1px solid;
   border-radius: 50%;
   background-color: transparent;
   color: transparent !important;
+}
+
+header div.progress-grid-item div.progress-line {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-top: 0.1875em solid red; /*$progress-unvisited-border-color;*/
+  z-index: -1;
+  position: absolute;
+  transform: translate(50%, -50%);
+}
+header div.progress-grid-item.unvisited div.progress-line {
+  border-color: $progress-unvisited-border-color;
+}
+header div.progress-grid-item.visited div.progress-line {
+  border-color: $progress-visited-border-color;
+}
+header div.progress-grid-item.active div.progress-line {
+  border-color: $progress-unvisited-border-color;
+}
+header div.progress-grid-item div.progress-line.start { }
+header div.progress-grid-item div.progress-line.end {
+  display: none;
 }
 
 header div.progress-grid-item.unvisited span {
@@ -283,7 +319,7 @@ footer {
 /******************************************************************************/
 
 #story {
-  margin: 1.25em auto;
+  margin: 0 auto 1.25em auto;
   width: 92vw;
   max-width: 960px;
 }
