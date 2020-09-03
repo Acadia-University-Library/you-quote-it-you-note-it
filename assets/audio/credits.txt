@@ -1,5 +1,5 @@
 answer_correct.wav,
-answer_neutral.wav:
+answer_fixed.wav:
 freesound_org-351564__bertrof__game-sound-correct-with-delay.wav
 
 answer_incorrect.wav:

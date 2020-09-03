@@ -54,7 +54,7 @@ Macro.add('AnswerStatus', {
   handler: function () {
     try {
       if(this.args.length < 2) {
-        this.error("Too few arguments: (1) DOM ID of answer container, (2) indicate 'correct', 'incorrect' or 'neutral'.");
+        this.error("Too few arguments: (1) DOM ID of answer container, (2) indicate 'correct', 'incorrect' or 'fixed'.");
       }
       else {
         var answer_status = null;
@@ -67,9 +67,9 @@ Macro.add('AnswerStatus', {
           case 'wrong':
             answer_status = 'incorrect';
             break;
-          case 'neutral':
+          case 'fixed':
           default:
-            answer_status = 'neutral';
+            answer_status = 'fixed';
             break;
         }
         var markup = '';
@@ -77,7 +77,7 @@ Macro.add('AnswerStatus', {
         markup = markup + '<<audio "answer_' + answer_status + '" play>>';
         markup = markup + '<<removeclass "#' + this.args[0] + '_answer" "correct">>';
         markup = markup + '<<removeclass "#' + this.args[0] + '_answer" "incorrect">>';
-        markup = markup + '<<removeclass "#' + this.args[0] + '_answer" "neutral">>';
+        markup = markup + '<<removeclass "#' + this.args[0] + '_answer" "fixed">>';
         markup = markup + '<<addclass "#' + this.args[0] + '_answer" "' + answer_status + '">>';
         markup = markup + '<<replace "#avatar">><<GenerateAvatar ' + answer_status + '>><</replace>>';
         jQuery(this.output).wiki(markup);
@@ -176,19 +176,19 @@ Macro.add('AnswersToGrade', {
   handler: function () {
     try {
       if(this.args.length < 3) {
-        this.error("Too few arguments: (1) # of correct answers, (2) # of incorrect answers, (3) # of neutral answers");
+        this.error("Too few arguments: (1) # of correct answers, (2) # of incorrect answers, (3) # of fixed answers");
       }
       else {
         var cnt_correct = this.args[0];
         var cnt_incorrect = this.args[1];
-        var cnt_neutral = this.args[2];
+        var cnt_fixed = this.args[2];
         var score = 0;
         var grade = '';
         if(cnt_correct > 0 || cnt_incorrect > 0) {
           score = Math.round((100 * cnt_correct) / (cnt_correct + cnt_incorrect));
         }
-        if(cnt_neutral > 0) {
-          score = score + cnt_neutral;
+        if(cnt_fixed > 0) {
+          score = score + cnt_fixed;
         }
         if(score >= 100) {
           grade = 'A+';

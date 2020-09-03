@@ -278,14 +278,14 @@ Now, let's see if you can identify what plagiarism looks like.
 
 
 /**************************************/
-::common_plagiarism_07 [part_3]
+::common_plagiarism_07 [part_3 avatar_question]
 <<set $next_common_passage = "common_plagiarism_08">>
 <<set $include_passage = "style_" + $style.toLowerCase() + "_plagiarism_01">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_plagiarism_08 [part_3]
+::common_plagiarism_08 [part_3 avatar_question]
 <<set $next_common_passage = "common_tip_01">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_plagiarism_02">>
 <<include $include_passage>>
@@ -406,14 +406,14 @@ to be cited than to //not// cite something that //does// need to be cited!
 
 
 /**************************************/
-::common_knowledge_05 [part_4]
+::common_knowledge_05 [part_4 avatar_question]
 <<set $next_common_passage = "common_knowledge_06">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_knowledge_01">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_knowledge_06 [part_4]
+::common_knowledge_06 [part_4 avatar_question]
 <<set $next_common_passage = "common_knowledge_07">>
 /* next passage exception for ASA style content which does not have a third 
 common knowledge element, thus "common_knowledge_07" must be skipped. */
@@ -425,7 +425,7 @@ common knowledge element, thus "common_knowledge_07" must be skipped. */
 
 
 /**************************************/
-::common_knowledge_07 [part_4]
+::common_knowledge_07 [part_4 avatar_question]
 <<set $next_common_passage = "common_quotvpara_01">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_knowledge_03">>
 <<include $include_passage>>
@@ -503,28 +503,28 @@ choose paraphrasing over quotation.
 
 
 /**************************************/
-::common_quotvpara_07 [part_5]
+::common_quotvpara_07 [part_5 avatar_question]
 <<set $next_common_passage = "common_quotvpara_08">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_04">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_quotvpara_08 [part_5]
+::common_quotvpara_08 [part_5 avatar_fixit]
 <<set $next_common_passage = "common_quotvpara_09">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_05">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_quotvpara_09 [part_5]
+::common_quotvpara_09 [part_5 avatar_question]
 <<set $next_common_passage = "common_quotvpara_10">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_06">>
 <<include $include_passage>>
 
 
 /**************************************/
-::common_quotvpara_10 [part_5]
+::common_quotvpara_10 [part_5 avatar_fixit]
 <<set $next_common_passage = "common_tip_04">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_07">>
 <<include $include_passage>>

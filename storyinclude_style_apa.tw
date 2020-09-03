@@ -1,5 +1,5 @@
 /**************************************/
-::style_apa_plagiarism_01 [avatar_shrug]
+::style_apa_plagiarism_01 
 ! Is this plagiarism?
 
 Copying a direct quotation into your paper, placing quotation marks around it, \
@@ -20,7 +20,7 @@ Society Publishing
 
 
 /**************************************/
-::style_apa_plagiarism_01_include_answer_yes [avatar_incorrect]
+::style_apa_plagiarism_01_include_answer_yes 
 !! Incorrect
 
 This is not plagiarism.
@@ -35,7 +35,7 @@ quotation marks around the copied information and give credit to the source.
 
 
 /**************************************/
-::style_apa_plagiarism_01_include_answer_no [avatar_correct]
+::style_apa_plagiarism_01_include_answer_no 
 !! Correct
 
 You're right! This is not plagiarism because there are quotation marks around \
@@ -48,7 +48,7 @@ the copied information and the source is credited.
 
 
 /**************************************/
-::style_apa_plagiarism_02 [avatar_shrug]
+::style_apa_plagiarism_02 
 ! Is this plagiarism?
 
 How about this?
@@ -103,7 +103,7 @@ doesn't cut it.
 
 
 /**************************************/
-::style_apa_knowledge_01 [avatar_shrug]
+::style_apa_knowledge_01 
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -150,7 +150,7 @@ You're right! This needs to be cited. It's from this book:
 
 
 /**************************************/
-::style_apa_knowledge_02 [avatar_shrug]
+::style_apa_knowledge_02 
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -200,7 +200,7 @@ doubt, it's better to cite than not.)
 
 
 /**************************************/
-::style_apa_knowledge_03 [avatar_shrug]
+::style_apa_knowledge_03 
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -302,7 +302,7 @@ Society Publishing.
 
 
 /**************************************/
-::style_apa_quotvpara_04 [avatar_shrug]
+::style_apa_quotvpara_04 
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting
@@ -353,7 +353,7 @@ marks and the source is not cited.
 
 
 /**************************************/
-::style_apa_quotvpara_05 [avatar_facepalm]
+::style_apa_quotvpara_05 
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting Revisions
@@ -373,7 +373,7 @@ appeared on the market as the first trans-genetic potato, engineered to contain 
 
 
 /**************************************/
-::style_apa_quotvpara_05_include_answer_fix [avatar_fix]
+::style_apa_quotvpara_05_include_answer_fix 
 !! Fixed
 
 > The biotechnology industry continues to affect many of the staple foods of \
@@ -388,12 +388,12 @@ Society Publishing.
 
 <<AnswerStatus
   "style_apa_quotvpara_05"
-  "neutral"
+  "fixed"
 >>
 
 
 /**************************************/
-::style_apa_quotvpara_06 [avatar_shrug]
+::style_apa_quotvpara_06 
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing
@@ -438,7 +438,7 @@ structure, they have forgotten to cite the source!
 
 
 /**************************************/
-::style_apa_quotvpara_07 [avatar_facepalm]
+::style_apa_quotvpara_07 
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing Revisions
@@ -456,7 +456,7 @@ have been the first genetically modified spud to contain Bt toxins.''
 
 
 /**************************************/
-::style_apa_quotvpara_07_include_answer_fix [avatar_fix]
+::style_apa_quotvpara_07_include_answer_fix 
 !! Fixed
 
 > The biotechnology industry continues to affect many of the staple foods of \
@@ -470,5 +470,5 @@ Society Publishing.
 
 <<AnswerStatus
   "style_apa_quotvpara_07"
-  "neutral"
+  "fixed"
 >>

@@ -11,7 +11,7 @@
     <<if $style>>
       <<set _header_text = _header_text + " You have selected " + $style + " citation style.">>
     <</if>>
-    <<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_neutral>>
+    <<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_fixed>>
     <<if $grade != "">>
       <<set _header_text = _header_text + " Grade: " + $grade + ".">>
     <</if>>

@@ -61,29 +61,3 @@
   <li>Current tags: <<print tags()>></li>
 </ul>
 </div>
-
-
-/**************************************/
-::css_debug [debug stylesheet]
-
-.debug {
-  background-color: #fdb;
-  border: 1px solid #eca;
-  font-family: monospace;
-  color: #030;
-  font-size: 12px;
-  margin: 0.5em 0;
-  padding: 0.5em;
-  border-radius: 0.5em;
-}
-
-.debug a {
-  display: inline !important;
-  border: none !important;
-  border-radius: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  text-decoration: underline !important;
-  background-color: transparent !important;
-  color: #060 !important;
-}
