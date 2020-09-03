@@ -24,54 +24,22 @@
     <div class="progress-grid-item reaction" id="avatar">
       <<GenerateAvatar>>
     </div>
-
-    <<if tags().includes('part_1') is true>>
-      <div class="progress-grid-item part_1 active"><span>1</span></div>
-    <<elseif visitedTags('part_1') > 0>>
-      <div class="progress-grid-item part_1 visited"><span>1</span></div>
-    <<else>>
-      <div class="progress-grid-item part_1 unvisited"><span>1</span></div>
-    <</if>>
-    
-    <<if tags().includes('part_2') is true>>
-      <div class="progress-grid-item part_2 active"><span>2</span></div>
-    <<elseif visitedTags('part_2') > 0>>
-      <div class="progress-grid-item part_2 visited"><span>2</span></div>
-    <<else>>
-      <div class="progress-grid-item part_2 unvisited"><span>2</span></div>
-    <</if>>
-    
-    <<if tags().includes('part_3') is true>>
-      <div class="progress-grid-item part_3 active"><span>3</span></div>
-    <<elseif visitedTags('part_3') > 0>>
-      <div class="progress-grid-item part_3 visited"><span>3</span></div>
-    <<else>>
-      <div class="progress-grid-item part_3 unvisited"><span>3</span></div>
-    <</if>>
-    
-    <<if tags().includes('part_4') is true>>
-      <div class="progress-grid-item part_4 active"><span>4</span></div>
-    <<elseif visitedTags('part_4') > 0>>
-      <div class="progress-grid-item part_4 visited"><span>4</span></div>
-    <<else>>
-      <div class="progress-grid-item part_4 unvisited"><span>4</span></div>
-    <</if>>
-    
-    <<if tags().includes('part_5') is true>>
-      <div class="progress-grid-item part_5 active"><span>5</span></div>
-    <<elseif visitedTags('part_5') > 0>>
-      <div class="progress-grid-item part_5 visited"><span>5</span></div>
-    <<else>>
-      <div class="progress-grid-item part_5 unvisited"><span>5</span></div>
-    <</if>>
-    
-    <<if tags().includes('part_6') is true>>
-      <div class="progress-grid-item part_6 active"><span>6</span></div>
-    <<elseif visitedTags('part_6') > 0 || passage() is "End">>
-      <div class="progress-grid-item part_6 visited"><span>6</span></div>
-    <<else>>
-      <div class="progress-grid-item part_6 unvisited"><span>6</span></div>
-    <</if>>
+    <<script>>
+      var k, part_k_class, markup = "";
+      for(k = 1; k <= 6; k++) {
+        if(tags().includes('part_' + k)) {
+          part_k_class = "active";
+        }
+        else if(visitedTags('part_' + k) || (k == 6 && passage() == "End")) {
+          part_k_class = "visited";
+        }
+        else {
+          part_k_class = "unvisited";
+        }
+        markup = markup + '<div class="progress-grid-item part_' + k + ' ' + part_k_class + '"><span>' + k + '</span></div>';
+      }
+      jQuery(this.output).wiki(markup);
+    <</script>>
   </div>
   <</if>>
 </header>
