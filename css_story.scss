@@ -346,6 +346,12 @@ footer {
 .passage h5 { font-size: 0.875em; }
 .passage h6 { font-size: 0.75em; }
 
+body.placard .passage h1 {
+  font-size: 3.75em;
+  padding: 1em 0;
+  text-align: center;
+}
+
 .passage br {
   content: "";
   display: block;

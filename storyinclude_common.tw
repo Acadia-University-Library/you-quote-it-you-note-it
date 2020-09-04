@@ -1,8 +1,6 @@
 /**************************************/
-::Start [part_0 avatar_start]
+::Start [part_0 placard avatar_start]
 ! You Quote It, You Note It!
-
-<em style="color:red;">Put a snazzy intro picture here.</em> /*<<include "StoryBanner">>*/
 
 <<link "Let's Begin" "common_intro_01">><</link>>
 
@@ -52,6 +50,13 @@ Which text size is most comfortable to read?
 <label class="font_selector font_size_extralarge"> \
   <<radiobutton "$font_size" "font_size_extralarge" autocheck>> Extra-Large \
 </label>
+
+<<PassagePrevNext "common_citation_00">>
+
+
+/**************************************/
+::common_citation_00 [part_1 placard]
+! Citation
 
 <<PassagePrevNext "common_citation_01">>
 
@@ -203,6 +208,13 @@ researchers.
 And, as an added bonus, readers will be more likely to trust the validity of \
 your arguments when they are clearly sported by the work of others.
 
+<<PassagePrevNext "common_plagiarism_00">>
+
+
+/**************************************/
+::common_plagiarism_00 [part_2 placard]
+! Plagiarism
+
 <<PassagePrevNext "common_plagiarism_01">>
 
 
@@ -349,6 +361,13 @@ publicly available on the web doesn't mean that it's in the public \
 domain&mdash;and even it it really //is// in the public domain, you still have \
 to cite it.
 
+<<PassagePrevNext "common_knowledge_00">>
+
+
+/**************************************/
+::common_knowledge_00 [part_3 placard]
+! Common knowledge
+
 <<PassagePrevNext "common_knowledge_01">>
 
 
@@ -418,7 +437,7 @@ to be cited than to //not// cite something that //does// need to be cited!
 /* next passage exception for ASA style content which does not have a third 
 common knowledge element, thus "common_knowledge_07" must be skipped. */
 <<if $style.toLowerCase() == "asa">>
-  <<set $next_common_passage = "common_quotvpara_01">>
+  <<set $next_common_passage = "common_quotvpara_00">>
 <</if>>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_knowledge_02">>
 <<include $include_passage>>
@@ -426,9 +445,16 @@ common knowledge element, thus "common_knowledge_07" must be skipped. */
 
 /**************************************/
 ::common_knowledge_07 [part_3 avatar_question]
-<<set $next_common_passage = "common_quotvpara_01">>
+<<set $next_common_passage = "common_quotvpara_00">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_knowledge_03">>
 <<include $include_passage>>
+
+
+/**************************************/
+::common_quotvpara_00 [part_4 placard]
+! Quoting vs Paraphrasing
+
+<<PassagePrevNext "common_quotvpara_01">>
 
 
 /**************************************/
@@ -558,6 +584,13 @@ Document your sources immediately as you are doing your research. That way, when
 you're writing your paper, you'll always know where that perfect quotation came \
 from.
 
+<<PassagePrevNext "common_zotero_00">>
+
+
+/**************************************/
+::common_zotero_00 [part_5 placard]
+! Zotero
+
 <<PassagePrevNext "common_zotero_01">>
 
 
@@ -576,6 +609,13 @@ appointment with a Librarian either through our general email \
 [[ref-desk@acadiau.ca|mailto:ref-desk@acadiau.ca]] or contact your Librarian via \
 [[https://library.acadiau.ca/about/people.html]]. Or drop by the Research Help \
 Desk (10am to 4pm Monday to Friday) for help!
+
+<<PassagePrevNext "common_outro_00">>
+
+
+/**************************************/
+::common_outro_00 [part_6 placard]
+! Wrapping Up
 
 <<PassagePrevNext "common_outro_01">>
 
@@ -632,8 +672,8 @@ infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.h
 
 
 /**************************************/
-::End [part_99 avatar_end]
-! The End.
+::End [part_99 placard avatar_end]
+! The End
 
 <<link "Learn about another citation style" "common_citation_02">><</link>>
 <<link "Start the tutorial again">><<script>>Engine.restart();<</script>><</link>>
