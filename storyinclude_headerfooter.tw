@@ -57,6 +57,8 @@
 ::PassageFooter [footer nobr]
 <footer>
   <div class="fineprint">
+    <<print $style + " style">>
+    / 
     <<link "Restart tutorial">><<script>>Engine.restart();<</script>><</link>>
     / 
     <<link "Toggle debugging">><<if $debug eq 1>><<set $debug = 0>><<else>><<set $debug = 1>><</if>><</link>>
