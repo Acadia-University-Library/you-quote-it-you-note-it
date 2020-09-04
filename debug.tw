@@ -57,9 +57,9 @@
 <div class="debug">
 !!! DEBUG: Controls
 <ul class="debug">
-  <li><<link "UI Restart">><<script>>UI.restart();<</script>><</link>></li>
-  <li><<link "Engine Restart">><<script>>Engine.restart();<</script>><</link>></li>
   <li>Current passage: <<print passage()>></li> 
   <li>Current tags: <<print tags()>></li>
+  <li><<link "Engine Restart">><<script>>Engine.restart();<</script>><</link>></li>
+  <li><<link "UI Restart">><<script>>UI.restart();<</script>><</link>></li>
 </ul>
 </div>

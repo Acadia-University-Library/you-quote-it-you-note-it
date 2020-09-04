@@ -325,7 +325,28 @@ header div.progress-grid-item.active span {
 
 footer {
   display: block;
+  margin-top: 1.25em;
 }
+
+footer .fineprint {
+  font-size: 0.625em;
+  color: #ddd;
+  text-align: right;
+}
+
+footer .fineprint * {
+  background-color: transparent !important;
+  color: #ddd !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  color: inherit !important;
+}  
+
+footer .fineprint a {
+  text-decoration: underline;
+}
+
 
 /******************************************************************************/
 

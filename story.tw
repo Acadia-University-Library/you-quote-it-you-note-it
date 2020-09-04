@@ -27,7 +27,7 @@ debug.tw
 
 
 ::StoryInit
-<<set $debug = 1>>
+<<set $debug = 0>>
 <<set $font_family = "font_family_mixed">>
 <<set $font_size = "font_size_regular">>
 <<set $student = "">>
