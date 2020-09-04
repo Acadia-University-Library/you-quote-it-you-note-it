@@ -1,5 +1,5 @@
 /**************************************/
-::Start [part_0 placard avatar_start]
+::Start [part_0 avatar_placard avatar_start]
 ! You Quote It, You Note It!
 
 <<link "Let's Begin" "common_intro_01">><</link>>
@@ -51,18 +51,61 @@ Which text size is most comfortable to read?
   <<radiobutton "$font_size" "font_size_extralarge" autocheck>> Extra-Large \
 </label>
 
+<<PassagePrevNext "common_intro_02">>
+
+
+/**************************************/
+::common_intro_02 [part_0 avatar_settings]
+! Choose an Avatar
+
+What is your persona?
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['persona']" "person" autocheck>> Generic Person \
+</label> \
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['persona']" "male" autocheck>> Male \
+</label> \
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['persona']" "female" autocheck>> Female \
+</label> \
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['persona']" "cat" autocheck>> Cat \
+</label> \
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['persona']" "smiley" autocheck>> Smiley \
+</label>
+
+<hr>
+
+What is your complexion?
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fb" autocheck>> Very Light \
+</label> \
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fc" autocheck>> Light \
+</label> \
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fd" autocheck>> Medium \
+</label> \
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fe" autocheck>> Dark \
+</label> \
+<label class="font_selector"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3ff" autocheck>> Very Dark \
+</label> \
+
 <<PassagePrevNext "common_citation_00">>
 
 
 /**************************************/
-::common_citation_00 [part_1 placard]
+::common_citation_00 [part_1 avatar_placard]
 ! Citation
 
 <<PassagePrevNext "common_citation_01">>
 
 
 /**************************************/
-::common_citation_01 [part_1 avatar_shrug]
+::common_citation_01 [part_1 avatar_unsure]
 ! What is citation?
 
 Citation is the process of documenting the sources you use in your writing. A \
@@ -212,7 +255,7 @@ your arguments when they are clearly sported by the work of others.
 
 
 /**************************************/
-::common_plagiarism_00 [part_2 placard]
+::common_plagiarism_00 [part_2 avatar_placard]
 ! Plagiarism
 
 <<PassagePrevNext "common_plagiarism_01">>
@@ -231,7 +274,7 @@ is a punishable academic offence!
 
 
 /**************************************/
-::common_plagiarism_02 [part_2 avatar_shrug]
+::common_plagiarism_02 [part_2 avatar_unsure]
 ! Plagiarism
 
 What exactly is plagiarism? Acadia's calendar defines it as "the act of \
@@ -365,14 +408,14 @@ to cite it.
 
 
 /**************************************/
-::common_knowledge_00 [part_3 placard]
+::common_knowledge_00 [part_3 avatar_placard]
 ! Common knowledge
 
 <<PassagePrevNext "common_knowledge_01">>
 
 
 /**************************************/
-::common_knowledge_01 [part_3 avatar_shrug]
+::common_knowledge_01 [part_3 avatar_unsure]
 ! Common knowledge
 
 Common knowledge does not need to be cited. But what exactly //is// common \
@@ -451,7 +494,7 @@ common knowledge element, thus "common_knowledge_07" must be skipped. */
 
 
 /**************************************/
-::common_quotvpara_00 [part_4 placard]
+::common_quotvpara_00 [part_4 avatar_placard]
 ! Quoting vs Paraphrasing
 
 <<PassagePrevNext "common_quotvpara_01">>
@@ -473,7 +516,7 @@ exact copy, but the source must still be cited.
 
 
 /**************************************/
-::common_quotvpara_02 [part_4 avatar_shrug]
+::common_quotvpara_02 [part_4 avatar_unsure]
 ! Quoting vs Paraphrasing
 
 How do you know whether you should quote or paraphrase a source?
@@ -588,7 +631,7 @@ from.
 
 
 /**************************************/
-::common_zotero_00 [part_5 placard]
+::common_zotero_00 [part_5 avatar_placard]
 ! Zotero
 
 <<PassagePrevNext "common_zotero_01">>
@@ -614,14 +657,14 @@ Desk (10am to 4pm Monday to Friday) for help!
 
 
 /**************************************/
-::common_outro_00 [part_6 placard]
+::common_outro_00 [part_6 avatar_placard]
 ! Wrapping Up
 
 <<PassagePrevNext "common_outro_01">>
 
 
 /**************************************/
-::common_outro_01 [part_6 avatar_academic]
+::common_outro_01 [part_6 avatar_finished]
 ! Thanks for taking our tutorial!
 
 We home you've learned the basics about citation and how to avoid plagiarism.
@@ -637,7 +680,7 @@ Librarian is at [[https://library.acadiau.ca/about/people.html]].
 
 
 /**************************************/
-::common_outro_02 [part_6 avatar_juggle]
+::common_outro_02 [part_6 avatar_moreinfo]
 ! Getting Help
 
 * Chicago [[https://libguides.acadiau.ca/chicago-turabian]]
@@ -651,7 +694,7 @@ Librarian is at [[https://library.acadiau.ca/about/people.html]].
 
 
 /**************************************/
-::common_outro_03 [part_6 avatar_juggle]
+::common_outro_03 [part_6 avatar_moreinfo]
 ! Other Resources
 
 <ul>
@@ -672,7 +715,7 @@ infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.h
 
 
 /**************************************/
-::End [part_99 placard avatar_end]
+::End [part_99 avatar_placard avatar_end]
 ! The End
 
 <<link "Learn about another citation style" "common_citation_02">><</link>>

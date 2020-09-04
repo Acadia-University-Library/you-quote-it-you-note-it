@@ -38,11 +38,13 @@
 !!! DEBUG: Avatar Reactions
 <ul>
   <<script>>
-    var k, x, y, z, markup = "";
-    x = State.getVar("$avatar['reaction']");
-    y = Object.keys(x);
-    for(k = 0; k < y.length; k++) {
-      markup = markup +  '<li><<GenerateAvatar "' + y[k] + '">> ' + y[k] + '</li>';
+    var a, b, j, k, x, y, z, markup = "";
+    x = Object.keys(State.getVar("$avatar['reaction']"));
+    for(j = 0; j < x.length; j++) {
+      y = Object.keys(State.getVar("$avatar['reaction']['" + x[j] + "']"));
+      for(k = 0; k < y.length; k++) {
+        markup = markup +  '<li><<GenerateAvatar "' + y[k] + '" "' + x[j] + '">> ' + x[j] + ' - ' + y[k] + '</li>';
+      }
     }
     jQuery(this.output).wiki(markup);
   <</script>>
