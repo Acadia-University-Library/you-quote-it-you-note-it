@@ -66,6 +66,13 @@ $progress-active-background-color: #edc116;
 $progress-active-border-color: #edc116;
 $progress-active-color: inherit;
 
+$progress-avatar-height: 72px;
+$progress-avatar-width: auto;
+$progress-part-height: 24px;
+$progress-part-width: 24px;
+$progress-part-padding: 0.5em;
+$progress-part-border-width: 0.1875em;
+
 $debug-background-color: #F1DA88;
 $debug-border-color: #F1DA88;
 $debug-color: #333;
@@ -252,16 +259,16 @@ header div.progress-grid-item {
 }
 
 header div.progress-grid-item.reaction img { /* #avatar */
-  height: 72px;
-  width: auto;
+  height: $progress-avatar-height;
+  width: $progress-avatar-width;
 }
 
 header div.progress-grid-item span {
   text-align: center;
   display: inline-block;
-  height: 1.25em;
-  width: 1.25em;
-  padding: 0.5em;
+  height: $progress-part-height;
+  width: $progress-part-width;
+  padding: $progress-part-padding;
   border: 1px solid;
   border-radius: 50%;
   background-color: transparent;
@@ -272,7 +279,7 @@ header div.progress-grid-item div.progress-line {
   display: block;
   height: 100%;
   width: 100%;
-  border-top: 0.1875em solid red; /*$progress-unvisited-border-color;*/
+  border-top: $progress-part-border-width solid $progress-unvisited-border-color;
   z-index: -1;
   position: absolute;
   transform: translate(50%, -50%);
