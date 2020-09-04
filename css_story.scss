@@ -141,46 +141,46 @@ strong {
 /******************************************************************************/
 
 body.font_family_mixed, 
-label.font_selector.font_family_mixed { 
+label.settings_selector.font_family_mixed { 
   font-family: Poppins, sans-serif !important;
 }
 body.font_family_mixed h1,
 body.font_family_mixed h2,
-label.font_selector.font_family_mixed h1,
-label.font_selector.font_family_mixed h2 {
+label.settings_selector.font_family_mixed h1,
+label.settings_selector.font_family_mixed h2 {
   font-family: "Courier Prime", monospace !important;
 }
 
 body.font_family_sans,
-label.font_selector.font_family_sans {
+label.settings_selector.font_family_sans {
   font-family: "Open Sans", sans-serif !important;
 }
 body.font_family_sans h1,
 body.font_family_sans h2,
-label.font_selector.font_family_sans h1,
-label.font_selector.font_family_sans h2 {
+label.settings_selector.font_family_sans h1,
+label.settings_selector.font_family_sans h2 {
   font-family: inherit !important;
 }
 
 body.font_family_serif,
-label.font_selector.font_family_serif { 
+label.settings_selector.font_family_serif { 
   font-family: Merriweather, serif !important;
 }
 body.font_family_serif h1,
 body.font_family_serif h2,
-label.font_selector.font_family_serif h1,
-label.font_selector.font_family_serif h2 {
+label.settings_selector.font_family_serif h1,
+label.settings_selector.font_family_serif h2 {
   font-family: inherit !important;
 }
 
 body.font_family_dyslexic,
-label.font_selector.font_family_dyslexic { 
+label.settings_selector.font_family_dyslexic { 
   font-family: OpenDyslexic3, sans-serif !important;
 }
 body.font_family_dyslexic h1,
 body.font_family_dyslexic h2,
-label.font_selector.font_family_dyslexic h1,
-label.font_selector.font_family_dyslexic h2 {
+label.settings_selector.font_family_dyslexic h1,
+label.settings_selector.font_family_dyslexic h2 {
   font-family: inherit !important;
 }
 body.font_family_dyslexic * {
@@ -190,21 +190,21 @@ body.font_family_dyslexic * {
 /**************************************/
 
 body.font_size_regular,
-label.font_selector.font_size_regular {
+label.settings_selector.font_size_regular {
   font-size: 16px !important;
 }
 body.font_size_large,
-label.font_selector.font_size_large {
+label.settings_selector.font_size_large {
   font-size: 20px !important;
 }
 body.font_size_extralarge,
-label.font_selector.font_size_extralarge {
+label.settings_selector.font_size_extralarge {
   font-size: 24px !important;
 }
 
 /**************************************/
 
-label.font_selector {
+label.settings_selector {
   display: inline-block;
   padding: 0.5em;
   border-radius: 0.5em;
@@ -212,15 +212,19 @@ label.font_selector {
   border: 1px solid $settings-label-border-color;
   margin: 0 1em 1em 0;
 }
-label.font_selector:hover {
+label.settings_selector:hover {
   background-color: $settings-label-hover-background-color;
   cursor: pointer;
 }
-label.font_selector div.sample_text {
-  /* padding-top: 1em; */
+label.settings_selector div.sample_text {
   font-size: 0.75em;
 }
-
+label.settings_selector.avatar img {
+  margin-left: 0.5em;
+  height: $progress-avatar-height;
+  width: $progress-avatar-width;
+  vertical-align: middle;
+}
 
 /******************************************************************************/
 
@@ -353,7 +357,8 @@ footer {
 .passage h5 { font-size: 0.875em; }
 .passage h6 { font-size: 0.75em; }
 
-body.avatar_placard .passage h1 {
+body.avatar_placard .passage h1,
+body.avatar-placard .passage h1 {
   font-size: 3.75em;
   padding: 1em 0;
   text-align: center;

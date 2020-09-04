@@ -66,7 +66,7 @@ debug.tw
       "finished": "1f9d1-skintone-200d-1f393",
       "placard": "1f516",
       "tip": "1f6a9",
-      "start": "1f4d6",
+      "introduction": "1f4d6",
       "end": "1f3c1",
       "settings": "1f527"
     },
@@ -84,7 +84,7 @@ debug.tw
       "finished": "1f468-skintone-200d-1f393",
       "placard": "1f516",
       "tip": "1f6a9",
-      "start": "1f4d6",
+      "introduction": "1f4d6",
       "end": "1f3c1",
       "settings": "1f527"
     },
@@ -102,7 +102,7 @@ debug.tw
       "finished": "1f469-skintone-200d-1f393",
       "placard": "1f516",
       "tip": "1f6a9",
-      "start": "1f4d6",
+      "introduction": "1f4d6",
       "end": "1f3c1",
       "settings": "1f527"
     },
@@ -116,11 +116,11 @@ debug.tw
       "fixit": "1f631",
       "fixed": "1f92f",
       "moreinfo": "1f9d0",
-      "write": "1f58a",
+      "write": "1f58a270d-skintone",
       "finished": "1f973",
       "placard": "1f516",
       "tip": "1f6a9",
-      "start": "1f4d6",
+      "introduction": "1f4d6",
       "end": "1f3c1",
       "settings": "1f527"
     }

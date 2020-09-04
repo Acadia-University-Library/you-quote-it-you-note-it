@@ -1,12 +1,12 @@
 /**************************************/
-::Start [part_0 avatar_placard avatar_start]
+::Start [part_0 avatar_placard]
 ! You Quote It, You Note It!
 
 <<link "Let's Begin" "common_intro_01">><</link>>
 
 
 /**************************************/
-::common_intro_01 [part_0 avatar_settings]
+::common_intro_01 [part_0 avatar_introduction]
 ! Introduction
 
 Welcome to the <em>You Quote It, You Note It!</em> tutorial. This tutorial will \
@@ -17,81 +17,83 @@ complete.
 /*
 But first, what is your name?
 <<textbox "$student" "">>
+*/
+<<PassagePrevNext "common_settings_01">>
 
-*/<hr>
 
-Which text style do you prefer?
-<label class="font_selector font_family_mixed"> \
+/**************************************/
+::common_settings_01 [part_0 avatar_settings]
+! Reading Preferences
+
+Choose the options that you find most comfortable to read. 
+
+!! Text Style
+<label class="settings_selector font_family_mixed"> \
   <<radiobutton "$font_family" "font_family_mixed" autocheck>> Mixed (default) \
   <div class="sample_text"><h2>You Quote It, You Note It!</h2>The quick brown fox jumped over the lazy dog.</div> \
 </label> \
-<label class="font_selector font_family_sans"> \
+<label class="settings_selector font_family_sans"> \
   <<radiobutton "$font_family" "font_family_sans" autocheck>> Sans-serif \
   <div class="sample_text"><h2>You Quote It, You Note It!</h2>The quick brown fox jumped over the lazy dog.</div> \
 </label> \
-<label class="font_selector font_family_serif"> \
+<label class="settings_selector font_family_serif"> \
   <<radiobutton "$font_family" "font_family_serif" autocheck>> Serif \
   <div class="sample_text"><h2>You Quote It, You Note It!</h2>The quick brown fox jumped over the lazy dog.</div> \
 </label> \
-<label class="font_selector font_family_dyslexic"> \
+<label class="settings_selector font_family_dyslexic"> \
   <<radiobutton "$font_family" "font_family_dyslexic" autocheck>> Dyslexic \
   <div class="sample_text"><h2>You Quote It, You Note It!</h2>The quick brown fox jumped over the lazy dog.</div> \
 </label>
 
-<hr>
-
-Which text size is most comfortable to read?
-<label class="font_selector font_size_regular"> \
+!! Text Size
+<label class="settings_selector font_size_regular"> \
   <<radiobutton "$font_size" "font_size_regular" autocheck>> Regular \
 </label> \
-<label class="font_selector font_size_large"> \
+<label class="settings_selector font_size_large"> \
   <<radiobutton "$font_size" "font_size_large" autocheck>> Large \
 </label> \
-<label class="font_selector font_size_extralarge"> \
+<label class="settings_selector font_size_extralarge"> \
   <<radiobutton "$font_size" "font_size_extralarge" autocheck>> Extra-Large \
 </label>
 
-<<PassagePrevNext "common_intro_02">>
+<<PassagePrevNext "common_settings_02">>
 
 
 /**************************************/
-::common_intro_02 [part_0 avatar_settings]
-! Choose an Avatar
+::common_settings_02 [part_0 avatar_settings]
+! Avatar Preferences
 
-What is your persona?
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['persona']" "person" autocheck>> Generic Person \
+!! Personas
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['persona']" "person" autocheck>> <<GenerateAvatar "face" "person">> \
 </label> \
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['persona']" "male" autocheck>> Male \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['persona']" "male" autocheck>> <<GenerateAvatar "face" "male">> \
 </label> \
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['persona']" "female" autocheck>> Female \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['persona']" "female" autocheck>> <<GenerateAvatar "face" "female">> \
 </label> \
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['persona']" "cat" autocheck>> Cat \
-</label> \
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['persona']" "smiley" autocheck>> Smiley \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['persona']" "smiley" autocheck>> <<GenerateAvatar "face" "smiley">> \
 </label>
 
 <hr>
 
-What is your complexion?
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['skintone']" "1f3fb" autocheck>> Very Light \
+!! Skin Tones
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fb" autocheck>> <<GenerateAvatar "face" "person" "1f3fb">> \
 </label> \
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['skintone']" "1f3fc" autocheck>> Light \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fc" autocheck>> <<GenerateAvatar "face" "person" "1f3fc">> \
 </label> \
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['skintone']" "1f3fd" autocheck>> Medium \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fd" autocheck>> <<GenerateAvatar "face" "person" "1f3fd">> \
 </label> \
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['skintone']" "1f3fe" autocheck>> Dark \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fe" autocheck>> <<GenerateAvatar "face" "person" "1f3fe">> \
 </label> \
-<label class="font_selector"> \
-  <<radiobutton "$avatar['settings']['skintone']" "1f3ff" autocheck>> Very Dark \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3ff" autocheck>> <<GenerateAvatar "face" "person" "1f3ff">> \
 </label> \
 
 <<PassagePrevNext "common_citation_00">>

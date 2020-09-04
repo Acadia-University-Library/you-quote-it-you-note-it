@@ -246,7 +246,9 @@ Macro.add('GenerateAvatar', {
         r = State.getVar("$avatar['skintone'][" + n + "]");
         State.setVar("$avatar['settings']['skintone']", r);
       }
-
+      if(this.args.length > 2) {
+        skintone = this.args[2];
+      }
       if(this.args.length > 1) {
         new_avatar = State.getVar("$avatar['reaction']['" + this.args[1] + "']['" + this.args[0] + "']");
       }
