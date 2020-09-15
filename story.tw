@@ -41,6 +41,7 @@ debug.tw
 <<cacheaudio "answer_correct" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403009__inspectorj__ui-confirmation-alert-b3.ogg">>
 <<cacheaudio "answer_incorrect" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403011__inspectorj__ui-confirmation-alert-b1.ogg">>
 <<cacheaudio "answer_fixed" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403017__inspectorj__ui-confirmation-alert-c3.ogg">>
+<<cacheaudio "placard_chime" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/413749__inspectorj__ui-confirmation-alert-d1.ogg">>
 <<waitforaudio>>
 
 <<set $avatar = {
