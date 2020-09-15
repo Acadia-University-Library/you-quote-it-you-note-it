@@ -82,6 +82,9 @@ $debug-link-color: #060;
 
 /******************************************************************************/
 
+@import url('assets/sugarcube2/style-bleached-for-sugarcube-2.25.0.css');
+
+/******************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
@@ -224,6 +227,17 @@ label.settings_selector.avatar img {
   height: $progress-avatar-height;
   width: $progress-avatar-width;
   vertical-align: middle;
+}
+
+/******************************************************************************/
+
+#init-screen {
+  background-color: $body-color;
+  color: $body-background-color;
+}
+
+#init-loading {
+  display: none;
 }
 
 /******************************************************************************/
