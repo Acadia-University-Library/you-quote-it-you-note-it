@@ -29,20 +29,16 @@ Choose the options that you find most comfortable to read.
 
 !! Text Style
 <label class="settings_selector font_family_mixed"> \
-  <<radiobutton "$font_family" "font_family_mixed" autocheck>> Mixed (default) \
-  <div class="sample_text"><h2>You Quote It, You Note It!</h2>The quick brown fox jumped over the lazy dog.</div> \
+  <<radiobutton "$font_family" "font_family_mixed" autocheck>> <span class="pseudo_heading">Mixed</span> \
 </label> \
 <label class="settings_selector font_family_sans"> \
   <<radiobutton "$font_family" "font_family_sans" autocheck>> Sans-serif \
-  <div class="sample_text"><h2>You Quote It, You Note It!</h2>The quick brown fox jumped over the lazy dog.</div> \
 </label> \
 <label class="settings_selector font_family_serif"> \
   <<radiobutton "$font_family" "font_family_serif" autocheck>> Serif \
-  <div class="sample_text"><h2>You Quote It, You Note It!</h2>The quick brown fox jumped over the lazy dog.</div> \
 </label> \
 <label class="settings_selector font_family_dyslexic"> \
   <<radiobutton "$font_family" "font_family_dyslexic" autocheck>> Dyslexic \
-  <div class="sample_text"><h2>You Quote It, You Note It!</h2>The quick brown fox jumped over the lazy dog.</div> \
 </label>
 
 !! Text Size
