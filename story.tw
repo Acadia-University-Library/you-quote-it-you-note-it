@@ -38,9 +38,9 @@ debug.tw
 <<set $score = 0>>
 <<set $grade = ''>>
 <<set $parts = ["Introduction", "Citation", "Plagiarism", "Common Knowledge", "Quoting vs Paraphrasing", "Zotero", "Wrapping Up"] >>
-<<cacheaudio "answer_correct" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403009__inspectorj__ui-confirmation-alert-b3.wav">>
-<<cacheaudio "answer_incorrect" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403011__inspectorj__ui-confirmation-alert-b1.wav">>
-<<cacheaudio "answer_fixed" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403017__inspectorj__ui-confirmation-alert-c3.wav">>
+<<cacheaudio "answer_correct" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403009__inspectorj__ui-confirmation-alert-b3.ogg">>
+<<cacheaudio "answer_incorrect" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403011__inspectorj__ui-confirmation-alert-b1.ogg">>
+<<cacheaudio "answer_fixed" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403017__inspectorj__ui-confirmation-alert-c3.ogg">>
 <<waitforaudio>>
 
 <<set $avatar = {
