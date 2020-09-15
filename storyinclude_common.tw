@@ -279,8 +279,10 @@ is a punishable academic offence!
 ::common_plagiarism_02 [part_2 avatar_unsure]
 ! Plagiarism
 
-What exactly is plagiarism? Acadia's calendar defines it as "the act of \
-presenting the ideas or words of another as one's own" (p. 44).
+What exactly is plagiarism? \
+[[Acadia's calendar|https://registrar.acadiau.ca/files/sites/registrar/pdfs/Academic_Calendars/calendar_final.pdf]] \
+defines it as "the act of presenting the ideas or words of another as one's own" \
+(p. 37).
 
 Using another writer's ideas or words is a normal part of academic work, but you \
 must clearly indicate when you are doing this.
@@ -292,11 +294,12 @@ must clearly indicate when you are doing this.
 ::common_plagiarism_03 [part_2]
 ! Plagiarism
 
-Acadia's calendar continues: "Self-plagiarism is also a form of plagiarism. It \
-is the presentation of the same work in more than one course without the \
-permission of the instructors involved" (p. 44). Writing two different papers on \
-the same topic for two different courses is fine, but you can't submit the exact \
-same paper in both courses unless both instructors agree.
+[[Acadia's calendar|https://registrar.acadiau.ca/files/sites/registrar/pdfs/Academic_Calendars/calendar_final.pdf]] \
+continues: "Self-plagiarism is also a form of plagiarism. It is the presentation \
+of the same work in more than one course without the permission of the \
+instructors involved" (p. 37). Writing two different papers on the same topic \
+for two different courses is fine, but you can't submit the exact same paper in \
+both courses unless both instructors agree.
 
 <<PassagePrevNext "common_plagiarism_04">>
 
@@ -720,5 +723,5 @@ infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.h
 ::End [part_99 avatar_placard avatar_end]
 ! The End
 
-<<link "Learn about another citation style" "common_citation_02">><</link>>
+<<link "Learn about another citation style" "common_citation_02">><</link>> \ 
 <<link "Start the tutorial again">><<script>>Engine.restart();<</script>><</link>>
