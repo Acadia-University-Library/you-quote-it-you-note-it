@@ -41,6 +41,7 @@ debug.tw
 <<cacheaudio "answer_correct" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403009__inspectorj__ui-confirmation-alert-b3.wav">>
 <<cacheaudio "answer_incorrect" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403011__inspectorj__ui-confirmation-alert-b1.wav">>
 <<cacheaudio "answer_fixed" "assets/audio/22735__inspectorj__ui-confirmation-synthesized/403017__inspectorj__ui-confirmation-alert-c3.wav">>
+<<waitforaudio>>
 
 <<set $avatar = {
   settings: {
