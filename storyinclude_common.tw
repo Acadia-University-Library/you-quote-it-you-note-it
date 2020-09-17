@@ -14,10 +14,10 @@ explain what citation is and when and how to cite your sources properly. It will
 also explain the concept of plagiarism, so that you understand how to avoid \
 plagiarizing the works of others. The tutorial will take about 10 minutes to \
 complete.
-/*
+
 But first, what is your name?
 <<textbox "$student" "">>
-*/
+
 <<PassagePrevNext "common_settings_01">>
 
 
@@ -25,9 +25,9 @@ But first, what is your name?
 ::common_settings_01 [part_0 avatar_settings]
 ! Reading Preferences
 
-Choose the options that you find most comfortable to read. 
+Next, choose the text options that you find most comfortable to read. 
 
-!! Text Style
+!! Styles
 <label class="settings_selector font_family_mixed"> \
   <<radiobutton "$font_family" "font_family_mixed" autocheck>> <span class="pseudo_heading">Mixed</span> \
 </label> \
@@ -41,7 +41,7 @@ Choose the options that you find most comfortable to read.
   <<radiobutton "$font_family" "font_family_dyslexic" autocheck>> Dyslexic \
 </label>
 
-!! Text Size
+!! Sizes
 <label class="settings_selector font_size_regular"> \
   <<radiobutton "$font_size" "font_size_regular" autocheck>> Regular \
 </label> \
@@ -59,6 +59,8 @@ Choose the options that you find most comfortable to read.
 ::common_settings_02 [part_0 avatar_settings]
 ! Avatar Preferences
 
+Finally, choose an avatar.
+
 !! Personas
 <label class="settings_selector avatar"> \
   <<radiobutton "$avatar['settings']['persona']" "person" autocheck>> <<GenerateAvatar "face" "person">> \
@@ -72,8 +74,6 @@ Choose the options that you find most comfortable to read.
 <label class="settings_selector avatar"> \
   <<radiobutton "$avatar['settings']['persona']" "smiley" autocheck>> <<GenerateAvatar "face" "smiley">> \
 </label>
-
-<hr>
 
 !! Skin Tones
 <label class="settings_selector avatar"> \
