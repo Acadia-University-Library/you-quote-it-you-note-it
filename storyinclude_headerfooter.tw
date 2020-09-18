@@ -4,24 +4,9 @@
   <<if passage() is "Start" || tags().includes("avatar_placard")>><<audio "placard_chime" play>><</if>>
   <<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_fixed>>
   <div class="greeting">
-    <span class="nowrap"><strong><em>You Quote It, You Note It!</em></strong> (version 2.20.09a) &mdash;</span><span class="nowrap"> Developed by Acadia University, Vaughan Memorial Library.</span>
-    /*
-    <<set _header_text = "Hello ">>
-    <<if $student>>
-      <<set _header_text = _header_text + $student + "!">>
-    <<else>>
-      <<set _header_text = _header_text + "there.">>
-    <</if>>
-    <<if $style>>
-      <<set _header_text = _header_text + " You have selected " + $style + " citation style.">>
-    <</if>>
-    <<if $grade != "">>
-      <<set _header_text = _header_text + " Grade: " + $grade + ".">>
-    <</if>>
-    <<if _header_text != "">>
-      <<print _header_text>>
-    <</if>>
-    */
+    <span class="nowrap"><strong><em>You Quote It, You Note It!</em></strong> (version 2.20.09a) &mdash;</span>
+    <span class="nowrap"> Developed by Acadia University,</span>
+    <span class="nowrap"> Vaughan Memorial Library.</span>
   </div>
 
   <<if passage() is not "Start">>

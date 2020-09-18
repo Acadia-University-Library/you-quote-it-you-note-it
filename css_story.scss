@@ -67,9 +67,15 @@ $progress-active-border-color: #edc116;
 $progress-active-color: inherit;
 
 $progress-avatar-height: 72px;
+$progress-avatar-height-small: 48px;
+$progress-avatar-height-xsmall: 36px;
 $progress-avatar-width: auto;
 $progress-part-height: 24px;
+$progress-part-height-small: 16px;
+$progress-part-height-xsmall: 12px;
 $progress-part-width: 24px;
+$progress-part-width-small: 16px;
+$progress-part-width-xsmall: 12px;
 $progress-part-padding: 0.5em;
 $progress-part-border-width: 0.1875em;
 
@@ -114,6 +120,7 @@ body {
   font-weight: 400;
   padding: 0;
   margin: 0;
+  min-width: 320px;
 }
 
 body * {
@@ -380,7 +387,7 @@ footer .fineprint a {
 /******************************************************************************/
 
 #passages {
-  max-width: 100%;
+  width: 100%;
   position: relative;
 }
 
@@ -575,4 +582,85 @@ body.avatar-placard .passage h1 {
   text-decoration: underline !important;
   background-color: $debug-link-background-color !important;
   color: $debug-link-color !important;
+}
+
+
+/******************************************************************************/
+
+/* Small screen overrides */
+
+@media screen and (max-width: 640px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  body.font_size_regular,
+  label.settings_selector.font_size_regular {
+    font-size: 14px !important;
+  }
+  body.font_size_large,
+  label.settings_selector.font_size_large {
+    font-size: 18px !important;
+  }
+  body.font_size_extralarge,
+  label.settings_selector.font_size_extralarge {
+    font-size: 22px !important;
+  }
+  
+  #story {
+    margin: 0 0 0.5rem 0;
+    padding: 0 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  header div.greeting {
+    border-radius: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: -1rem;
+    width: 100%;
+  }
+
+  header div.progress-grid-item.reaction img {
+    height: $progress-avatar-height-small;
+  }
+
+  header div.progress-grid-item span {
+    height: $progress-part-height-small;
+    width: $progress-part-width-small;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  body {
+    font-size: 12px;
+  }
+
+  body.font_size_regular,
+  label.settings_selector.font_size_regular {
+    font-size: 12px !important;
+  }
+  body.font_size_large,
+  label.settings_selector.font_size_large {
+    font-size: 16px !important;
+  }
+  body.font_size_extralarge,
+  label.settings_selector.font_size_extralarge {
+    font-size: 20px !important;
+  }
+
+  header div.progress-grid-item.reaction img {
+    height: $progress-avatar-height-xsmall;
+  }
+  
+  header div.progress-grid-item span {
+    height: $progress-part-height-xsmall;
+    width: $progress-part-width-xsmall;
+  }
+
+
 }
