@@ -247,7 +247,7 @@ researchers.
 ! Citation
 
 And, as an added bonus, readers will be more likely to trust the validity of \
-your arguments when they are clearly sported by the work of others.
+your arguments when they are clearly supported by the work of others.
 
 <<PassagePrevNext "common_plagiarism_00">>
 
@@ -359,7 +359,7 @@ Paraphrasing improperly is still plagiarism! To paraphrase properly, you must:
 <<case "asa">>
   <<set _txt = "an in-text reference AND in your References list">>
 <<case "chicago">>
-  <<set _txt = "a footnote OR an in-text reference, AND in your Bibliograpy">>
+  <<set _txt = "a footnote OR an in-text reference, AND in your Bibliography">>
 <<case "mla">>
   <<set _txt = "an in-text citation AND in your Works Cited list">>
 <</switch>>
@@ -383,7 +383,7 @@ Putting quotation marks around quotations isn't enough!
 <<case "ASA">>
   <<set _txt = "an in-text reference AND cite the source fully in your References list">>
 <<case "Chicago">>
-  <<set _txt = "a footnote OR an in-text reference, AND cite the source fully in your Bibliograpy">>
+  <<set _txt = "a footnote OR an in-text reference, AND cite the source fully in your Bibliography">>
 <<case "MLA">>
   <<set _txt = "an in-text citation AND cite the source fully in your Works Cited list">>
 <</switch>>
@@ -651,8 +651,7 @@ setting Zotero up on your computer.
 * If you need further assistance, any of our Librarians can help you! Book an \
 appointment with a Librarian either through our general email \
 [[ref-desk@acadiau.ca|mailto:ref-desk@acadiau.ca]] or contact your Librarian via \
-[[https://library.acadiau.ca/about/people.html]]. Or drop by the Research Help \
-Desk (10am to 4pm Monday to Friday) for help!
+[[https://library.acadiau.ca/about/people.html]].
 
 <<PassagePrevNext "common_outro_00">>
 
@@ -668,13 +667,12 @@ Desk (10am to 4pm Monday to Friday) for help!
 ::common_outro_01 [part_6 avatar_finished]
 ! Thanks for taking our tutorial!
 
-We home you've learned the basics about citation and how to avoid plagiarism.
+We hope you've learned the basics about citation and how to avoid plagiarism.
 
 * Remember you can always get help from your professor or from the Library if \
 you have any questions. Every student has their own Librarian! Find out who your \
 Librarian is at [[https://library.acadiau.ca/about/people.html]].
-* You can also get help at the Research Help Desk in person, by phone \
-(902)&nbsp;585-1170 or by email \
+* You can also get help at the Research Help Desk by email \
 [[ref-desk@acadiau.ca|mailto:ref-desk@acadiau.ca]].
 
 <<PassagePrevNext "common_outro_02">>
