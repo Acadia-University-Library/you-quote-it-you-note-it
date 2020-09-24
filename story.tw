@@ -28,10 +28,10 @@ debug.tw
 
 ::StoryInit
 <<set $debug = 0>>
-<<set $font_family = "font_family_mixed">>
-<<set $font_size = "font_size_regular">>
-<<set $student = "">>
-<<set $style = "APA">>
+<<set $font_family = recall("font_family", "font_family_mixed")>>
+<<set $font_size = recall("font_size", "font_size_regular")>>
+<<set $student = recall("student", "")>>
+<<set $style = recall("style", "APA")>>
 <<set $cnt_answer_correct = 0>>
 <<set $cnt_answer_incorrect = 0>>
 <<set $cnt_answer_fixed = 0>>
@@ -46,8 +46,8 @@ debug.tw
 
 <<set $avatar = {
   settings: {
-    "persona": "",
-    "skintone": ""
+    "persona": recall("avatar_persona", "person"),
+    "skintone": recall("avatar_skintone", "1f3fb")
   },
   path: "assets/emoji/FILE_ID.png",
   persona: ["person", "male", "female", "cat", "smiley"],

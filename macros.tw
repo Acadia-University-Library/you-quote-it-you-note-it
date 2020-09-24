@@ -279,3 +279,22 @@ Macro.add('GenerateAvatar', {
     }
   }
 });
+
+
+::Macro_MemorizeSettings [script]
+Macro.add('MemorizeSettings', {
+  skipArgs: true,
+  handler: function () {
+    try {
+      memorize("font_family", State.getVar("$font_family"));
+      memorize("font_size", State.getVar("$font_size"));
+      memorize("student", State.getVar("$student"));
+      memorize("style", State.getVar("$style"));
+      memorize("avatar_persona", State.getVar("$avatar['settings']['persona']"));
+      memorize("avatar_skintone", State.getVar("$avatar['settings']['skintone']"));
+    }
+    catch (ex) {
+      return this.error(ex.message);
+    }
+  }
+});

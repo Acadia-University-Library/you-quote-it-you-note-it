@@ -60,3 +60,4 @@
 </footer>
 <<addclass "body" $font_family>>
 <<addclass "body" $font_size>>
+<<MemorizeSettings>>
