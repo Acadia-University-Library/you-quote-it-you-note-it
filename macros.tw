@@ -190,10 +190,7 @@ Macro.add('AnswersToGrade', {
         if(cnt_fixed > 0) {
           score = score + cnt_fixed;
         }
-        if(score >= 100) {
-          grade = 'A+';
-        }
-        else if(score >= 90) {
+        if(score >= 90) {
           grade = 'A';
         }
         else if(score >= 76) {

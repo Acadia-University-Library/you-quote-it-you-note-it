@@ -717,11 +717,16 @@ infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.h
 ::End [part_99 avatar_placard avatar_end]
 ! The End
 
-<<if $student>><<print $student + ", you">><<else>>You<</if>> answered \
-<<print $cnt_answer_correct>> of \
-<<print $cnt_answer_correct + $cnt_answer_incorrect>> questions correctly \
-and completed <<print $cnt_answer_fixed>> "fix it" segments. You earned \
-a grade of <<print $grade>> on the <<print $style>> style tutorial.
+<<nobr>><div class="certificate">
+  <<script>>jQuery(this.output).wiki('<div class="grade ' + State.getVar("$grade") + '">' + State.getVar("$grade") + '</div>');<</script>>
+  <div class="remarks">
+    <<if $student>><<print "<p>" + $student + ":</p>">><</if>>
+    <p>You answered <<print $cnt_answer_correct>> of 
+    <<print $cnt_answer_correct + $cnt_answer_incorrect>> questions correctly 
+    and completed <<print $cnt_answer_fixed>> "fix it" segments in the 
+    <<print $style>> citation style tutorial.</p>
+  </div>
+</div><</nobr>>
 
 <<link "Learn about another citation style" "common_citation_02">><</link>> \ 
 <<link "Start the tutorial again">><<script>>Engine.restart();<</script>><</link>>
