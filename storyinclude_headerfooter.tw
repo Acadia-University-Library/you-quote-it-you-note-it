@@ -4,7 +4,7 @@
   <<if passage() is "Start" || tags().includes("avatar_placard")>><<audio "placard_chime" play>><</if>>
   <<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_fixed>>
   <div class="greeting">
-    <span class="nowrap"><strong><em>You Quote It, You Note It!</em></strong> (version 2.20.09a) &mdash;</span>
+    <span class="nowrap"><strong><em>You Quote It, You Note It!</em></strong> (version <<print $version>>) &mdash;</span>
     <span class="nowrap"> Developed by Acadia University,</span>
     <span class="nowrap"> Vaughan Memorial Library.</span>
   </div>
@@ -48,6 +48,8 @@
     <<print $style + " style">>
     / 
     <<link "Restart tutorial">><<script>>Engine.restart();<</script>><</link>>
+    / 
+    [[License and Usage|License]]
     / 
     <<link "Toggle debugging">><<if $debug eq 1>><<set $debug = 0>><<else>><<set $debug = 1>><</if>><</link>>
   </div>
