@@ -350,6 +350,13 @@ header div.progress-grid-item.active span {
   color: $progress-active-color;
 }
 
+body.hide-progress header div.progress-grid-item {
+  visibility: hidden;
+}
+
+body.hide-progress header div.progress-grid-item.reaction {
+  visibility: visible !important;
+}
 
 /******************************************************************************/
 
