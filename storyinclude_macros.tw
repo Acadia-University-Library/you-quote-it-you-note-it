@@ -265,10 +265,10 @@ Macro.add('GenerateAvatar', {
           new_avatar = Object.values(State.getVar("$avatar['reaction']['" + persona + "']"))[0];
         }
       }
-
       new_avatar = new_avatar.replace("persona", persona);
       new_avatar = new_avatar.replace("skintone", skintone);
-      markup = '<img src="' + State.getVar("$avatar['path']").replace("FILE_ID", new_avatar) + '">';
+      markup = '<img src="' + State.getVar("$avatar['path']").replace("FILE_ID", new_avatar) + '"';
+      markup = markup + ' alt="avatar: ' + persona + ' ' + ((typeof z !== 'undefined') ? z : ((this.args.length > 0) ? this.args[0] : 'default')) + '">';
       jQuery(this.output).wiki(markup);
     }
     catch (ex) {
