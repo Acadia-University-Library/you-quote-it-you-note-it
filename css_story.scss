@@ -444,6 +444,12 @@ body.avatar-placard .passage h1 {
   height: 0.25em !important;
 }
 
+.passage .hanging_indent {
+  display: block;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
 /*************************************/
 
 .passage a,
