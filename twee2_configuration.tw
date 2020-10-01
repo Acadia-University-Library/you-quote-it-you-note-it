@@ -2,12 +2,19 @@
 Twee2::build_config.story_format = 'SugarCube2.33.2'
 Twee2::build_config.story_ifid = 'acad2020-0001-43c9-a137-27e7b0e9b97c'
 
+
+
 ::Configuration_SugarCube [script]
-Config.passages.nobr = false;
-Config.passages.start = "Start";
-Config.addVisitedLinkClass = true;
-Config.cleanupWikifierOutput = true;
 Config.debug = false;
+Config.ui.stowBarInitially = true;
+Config.addVisitedLinkClass = true;
+Config.passages.start = "Start";
+Config.passages.nobr = false;
+Config.cleanupWikifierOutput = true;
+
+
 
 ::UI [script]
 UIBar.destroy();
+
+

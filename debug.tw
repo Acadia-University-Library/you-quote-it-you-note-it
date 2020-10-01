@@ -1,4 +1,4 @@
-/**************************************/
+
 ::debug_passages_list [debug nobr]
 <div class="debug">
 !!! DEBUG: Passages
@@ -11,7 +11,7 @@
 </div>
 
 
-/**************************************/
+
 ::debug_variables_list [debug nobr]
 <div class="debug">
 !!! DEBUG: Variables
@@ -32,7 +32,7 @@
 </div>
 
 
-/**************************************/
+
 ::debug_avatar_reactions [debug nobr]
 <div class="debug">
 !!! DEBUG: Avatar Reactions
@@ -52,7 +52,7 @@
 </div>
 
 
-/**************************************/
+
 ::debug_controls [debug nobr]
 <div class="debug">
 !!! DEBUG: Controls

@@ -1,4 +1,3 @@
-/**************************************/
 ::style_asa_plagiarism_01
 ! Is this plagiarism?
 
@@ -27,7 +26,7 @@ Extension of Structural Ritualization Theory." \
   >>
 
 
-/**************************************/
+
 ::style_asa_plagiarism_01_include_answer_yes
 !! Incorrect
 
@@ -42,7 +41,7 @@ quotation marks around the copied information and give credit to the source.
 >>
 
 
-/**************************************/
+
 ::style_asa_plagiarism_01_include_answer_no
 !! Correct
 
@@ -55,7 +54,7 @@ the copied information and the source is credited.
 >>
 
 
-/**************************************/
+
 ::style_asa_plagiarism_02
 ! Is this plagiarism?
 
@@ -83,7 +82,7 @@ Extension of Structural Ritualization Theory." \
   >>
 
 
-/**************************************/
+
 ::style_asa_plagiarism_02_include_answer_yes
 !! Incorrect
 
@@ -99,7 +98,7 @@ doesn't cut it.
 >>
 
 
-/**************************************/
+
 ::style_asa_plagiarism_02_include_answer_no
 !! Correct
 
@@ -115,7 +114,7 @@ doesn't cut it.
 >>
 
 
-/**************************************/
+
 ::style_asa_knowledge_01
 ! Common knowledge or not?
 
@@ -136,7 +135,7 @@ between 2015 and 2017.
   >>
 
 
-/**************************************/
+
 ::style_asa_knowledge_01_include_answer_a
 !! Incorrect
 
@@ -149,7 +148,7 @@ doubt, it's better to cite than not.)
 >>
 
 
-/**************************************/
+
 ::style_asa_knowledge_01_include_answer_b
 !! Correct
 
@@ -166,7 +165,7 @@ of Policy Alternatives. \
 >>
 
 
-/**************************************/
+
 ::style_asa_knowledge_02
 ! Common knowledge or not?
 
@@ -188,7 +187,7 @@ Alicia Garza, Patrisse Cullors, and Opal Tometi.
   >>
 
 
-/**************************************/
+
 ::style_asa_knowledge_02_include_answer_a
 !! Correct
 
@@ -205,7 +204,7 @@ Movement and Black Lives Matter." //Journal of Community Practice// \
 >>
 
 
-/**************************************/
+
 ::style_asa_knowledge_02_include_answer_b
 !! Incorrect
 
@@ -218,25 +217,25 @@ doubt, it's better to cite than not.)
 >>
 
 
-/**************************************/
+
 ::style_asa_knowledge_03
 /* NOT USED IN ASA CONTENT 
 See storyinclude_common.tw::common_knowledge_06 for next-passage exception. */
 
 
-/**************************************/
+
 ::style_asa_knowledge_03_include_answer_a
 /* NOT USED IN ASA CONTENT 
 See storyinclude_common.tw::common_knowledge_06 for next-passage exception. */
 
 
-/**************************************/
+
 ::style_asa_knowledge_03_include_answer_b
 /* NOT USED IN ASA CONTENT 
 See storyinclude_common.tw::common_knowledge_06 for next-passage exception. */
 
 
-/**************************************/
+
 ::style_asa_quotvpara_01_include
 ! Quoting and Paraphrasing: Differences
 
@@ -250,7 +249,7 @@ search for appropriate influencers in the social media sphere in hope of finding
 credible people disseminating their brand's message.
 
 
-/**************************************/
+
 ::style_asa_quotvpara_02_include
 ! Quoting and Paraphrasing: Differences
 
@@ -271,7 +270,7 @@ credible people disseminating their brand's message" (Schwemmer and Ziewiecki \
 //Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_03_include
 ! Quoting and Paraphrasing: Differences
 
@@ -290,7 +289,7 @@ brand and their products (Schwemmer and Ziewiecki 2018:4).
 //Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_04
 ! Quoting and Paraphrasing: Differences
 
@@ -314,7 +313,7 @@ Is this plagiarism?
   >>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_04_include_answer_yes
 !! Correct
 
@@ -327,7 +326,7 @@ and the source is not cited!
 >>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_04_include_answer_no
 !! Incorrect
 
@@ -340,7 +339,7 @@ marks and the source is not cited.
 >>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_05
 ! Quoting and Paraphrasing: Differences
 
@@ -359,7 +358,7 @@ disseminating their brand's message.''
   >>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_05_include_answer_fix
 !! Fixed
 
@@ -379,7 +378,7 @@ disseminating their brand's message" (Schwemmer and Ziewiecki 2018:4).''
 >>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_06
 ! Quoting and Paraphrasing: Differences
 
@@ -397,7 +396,7 @@ Is this plagiarism?
   >>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_06_include_answer_yes
 !! Correct
 
@@ -410,7 +409,7 @@ forgotten to cite the source!
 >>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_06_include_answer_no
 !! Incorrect
 
@@ -423,7 +422,7 @@ structure, they have forgotten to cite the source!
 >>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_07
 ! Quoting and Paraphrasing: Differences
 
@@ -440,7 +439,7 @@ out YouTubers with good reputations to promote their brand and their products.''
   >>
 
 
-/**************************************/
+
 ::style_asa_quotvpara_07_include_answer_fix
 !! Fixed
 
@@ -457,3 +456,5 @@ out YouTubers with good reputations to promote their brand and their products \
   "style_asa_quotvpara_07"
   "fixed"
 >>
+
+

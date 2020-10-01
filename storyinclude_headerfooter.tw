@@ -1,12 +1,10 @@
-/**************************************/
 ::PassageHeader [header nobr]
 <header>
   <<if passage() is "Start" || tags().includes("avatar_placard")>><<audio "placard_chime" play>><</if>>
   <<AnswersToGrade $cnt_answer_correct $cnt_answer_incorrect $cnt_answer_fixed>>
   <div class="greeting">
-    <span class="nowrap"><strong><em>You Quote It, You Note It!</em></strong> (version <<print $version>>) &mdash;</span>
-    <span class="nowrap"> Developed by Acadia University,</span>
-    <span class="nowrap"> Vaughan Memorial Library.</span>
+    <<include StoryBanner>>
+    <<include StoryCaption>>
   </div>
 
   <<if passage() is not "Start">>
@@ -39,7 +37,7 @@
 </header>
 
 
-/**************************************/
+
 ::PassageFooter [footer nobr]
 <footer>
   <div class="fineprint">
@@ -56,10 +54,12 @@
   <<if $debug>>
     <<include debug_controls>>
     <<include debug_variables_list>>
-    <<include debug_avatar_reactions>>
     <<include debug_passages_list>>
+    <<include debug_avatar_reactions>>
   <</if>>
 </footer>
 <<addclass "body" $font_family>>
 <<addclass "body" $font_size>>
 <<MemorizeSettings>>
+
+

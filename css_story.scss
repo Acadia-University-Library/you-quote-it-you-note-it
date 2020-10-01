@@ -1,18 +1,5 @@
 ::css_story [stylesheet scss]
 
-/*
-https://www.schemecolor.com/holistic-approach.php
-https://www.schemecolor.com/expert-opinion.php
-https://www.schemecolor.com/playground-outing.php
-*/
-
-$color-orange: #F39659;
-$color-red: #E06852;
-$color-pale: #F1DA88;
-$color-yellow: #EDC116;
-$color-green: #91C118;
-$color-blue: #4587B5;
-
 $body-background-color: #fff;
 $body-color: #222;
 
@@ -93,17 +80,13 @@ $debug-color: #333;
 $debug-link-background-color: transparent;
 $debug-link-color: #060;
 
-
-/******************************************************************************/
-
 @import url('assets/sugarcube2/style-bleached-for-sugarcube-2.25.0.css');
-
-/******************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
 @font-face {
     font-family: 'OpenDyslexic3';
     src: url('https://antijingoist.github.io/web-accessibility/fonts/opendyslexic3-bold.ttf') format('truetype');
@@ -111,15 +94,13 @@ $debug-link-color: #060;
     font-style: normal;
 
 }
+
 @font-face {
     font-family: 'OpenDyslexic3';
     src: url('https://antijingoist.github.io/web-accessibility/fonts/opendyslexic3-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
-
-/******************************************************************************/
 
 body {
   font: 16px/1.375 sans-serif;
@@ -155,13 +136,11 @@ strong {
   display: none;
 }
 
-
-/******************************************************************************/
-
 body.font_family_mixed, 
 label.settings_selector.font_family_mixed { 
   font-family: Poppins, sans-serif !important;
 }
+
 body.font_family_mixed h1,
 body.font_family_mixed h2,
 label.settings_selector.font_family_mixed h1,
@@ -174,6 +153,7 @@ body.font_family_sans,
 label.settings_selector.font_family_sans {
   font-family: "Open Sans", sans-serif !important;
 }
+
 body.font_family_sans h1,
 body.font_family_sans h2,
 label.settings_selector.font_family_sans h1,
@@ -185,6 +165,7 @@ body.font_family_serif,
 label.settings_selector.font_family_serif { 
   font-family: Merriweather, serif !important;
 }
+
 body.font_family_serif h1,
 body.font_family_serif h2,
 label.settings_selector.font_family_serif h1,
@@ -196,32 +177,32 @@ body.font_family_dyslexic,
 label.settings_selector.font_family_dyslexic { 
   font-family: OpenDyslexic3, sans-serif !important;
 }
+
 body.font_family_dyslexic h1,
 body.font_family_dyslexic h2,
 label.settings_selector.font_family_dyslexic h1,
 label.settings_selector.font_family_dyslexic h2 {
   font-family: inherit !important;
 }
+
 body.font_family_dyslexic * {
   line-height: 1.75em;
 }
-
-/**************************************/
 
 body.font_size_regular,
 label.settings_selector.font_size_regular {
   font-size: 16px !important;
 }
+
 body.font_size_large,
 label.settings_selector.font_size_large {
   font-size: 20px !important;
 }
+
 body.font_size_extralarge,
 label.settings_selector.font_size_extralarge {
   font-size: 24px !important;
 }
-
-/**************************************/
 
 label.settings_selector {
   display: inline-block;
@@ -231,21 +212,22 @@ label.settings_selector {
   border: 1px solid $settings-label-border-color;
   margin: 0 1em 1em 0;
 }
+
 label.settings_selector:hover {
   background-color: $settings-label-hover-background-color;
   cursor: pointer;
 }
+
 label.settings_selector div.sample_text {
   font-size: 0.75em;
 }
+
 label.settings_selector.avatar img {
   margin-left: 0.5em;
   height: $progress-avatar-height;
   width: $progress-avatar-width;
   vertical-align: middle;
 }
-
-/******************************************************************************/
 
 #init-screen {
   background-color: $body-color;
@@ -255,8 +237,6 @@ label.settings_selector.avatar img {
 #init-loading {
   display: none;
 }
-
-/******************************************************************************/
 
 header {
   display: block;
@@ -318,16 +298,21 @@ header div.progress-grid-item div.progress-line {
   position: absolute;
   transform: translate(50%, -50%);
 }
+
 header div.progress-grid-item.unvisited div.progress-line {
   border-color: $progress-unvisited-border-color;
 }
+
 header div.progress-grid-item.visited div.progress-line {
   border-color: $progress-visited-border-color;
 }
+
 header div.progress-grid-item.active div.progress-line {
   border-color: $progress-unvisited-border-color;
 }
+
 header div.progress-grid-item div.progress-line.start { }
+
 header div.progress-grid-item div.progress-line.end {
   display: none;
 }
@@ -358,8 +343,6 @@ body.hide-progress header div.progress-grid-item.reaction {
   visibility: visible !important;
 }
 
-/******************************************************************************/
-
 footer {
   display: block;
   margin-top: 1.25em;
@@ -378,14 +361,11 @@ footer .fineprint * {
   margin: 0 !important;
   border: none !important;
   color: inherit !important;
-}  
+}
 
 footer .fineprint a {
   text-decoration: underline;
 }
-
-
-/******************************************************************************/
 
 #story {
   margin: 0 auto 1.25em auto;
@@ -395,24 +375,24 @@ footer .fineprint a {
 
 #story-subtitle,
 #story-author {
-  display: none; 
-} /* Unused in Twee2 */
-
-
-/******************************************************************************/
+  display: none; /* Unused in Twee2 */
+}
 
 #passages {
   width: 100%;
   position: relative;
 }
 
-/*************************************/
-
 .passage h1 { font-size: 1.875em; }
+
 .passage h2 { font-size: 1.5em; }
+
 .passage h3 { font-size: 1.125em; }
+
 .passage h4 { font-size: 1em; }
+
 .passage h5 { font-size: 0.875em; }
+
 .passage h6 { font-size: 0.75em; }
 
 body.avatar_placard .passage h1,
@@ -449,8 +429,6 @@ body.avatar-placard .passage h1 {
   padding-left: 2em;
   text-indent: -2em;
 }
-
-/*************************************/
 
 .passage a,
 .passage a:visited {
@@ -498,8 +476,6 @@ body.avatar-placard .passage h1 {
   font-size: 0.75em;
 }
 
-/*************************************/
-
 .passage .answer, 
 .passage .answer_choices,
 .passage .answer_next {
@@ -507,7 +483,7 @@ body.avatar-placard .passage h1 {
 }
 
 .passage .answer {
-  padding: 0 1em;
+  padding: 0 1em 1em 1em;
   border-radius: 0.5em;
   overflow: hidden;
 }
@@ -527,8 +503,6 @@ body.avatar-placard .passage h1 {
   color: $answer-fixed-color;
 }
 
-/*************************************/
-
 .passage div.image-missing {
   float: right;
   line-height: 1em;
@@ -542,13 +516,12 @@ body.avatar-placard .passage h1 {
   border-radius: 4px;
   background-color: #fff;
 }
+
 .passage div.image-missing img {
   width: 10vw;
   heigh: auto;
   display: block;
 }
-
-/*************************************/
 
 .passage figure {
   float: right;
@@ -558,11 +531,13 @@ body.avatar-placard .passage h1 {
   border-radius: 4px;
   background-color: #fff;
 }
+
 .passage figure img {
   width: 10vw;
   heigh: auto;
   display: block;
 }
+
 .passage figure figcaption {
   line-height: 1em;
   font-size: 0.75em;
@@ -571,16 +546,15 @@ body.avatar-placard .passage h1 {
   width: 10vw;
   text-align: center;
 }
+
 .passage figure.empty {
   border-color: red;
   background-color: #red;
 }
+
 .passage figure.empty * {
   display: none;
 }
-
-
-/******************************************************************************/
 
 .passage div.certificate {
   display: flex;
@@ -612,18 +586,22 @@ body.avatar-placard .passage h1 {
   color: $certificate-grade-A-color;
   border-color: $certificate-grade-A-color;
 }
+
 .passage div.certificate .grade.B {
   color: $certificate-grade-B-color;
   border-color: $certificate-grade-B-color;
 }
+
 .passage div.certificate .grade.C {
   color: $certificate-grade-C-color;
   border-color: $certificate-grade-C-color;
 }
+
 .passage div.certificate .grade.D {
   color: $certificate-grade-D-color;
   border-color: $certificate-grade-D-color;
 }
+
 .passage div.certificate .grade.F {
   color: $certificate-grade-F-color;
   border-color: $certificate-grade-F-color;
@@ -633,10 +611,6 @@ body.avatar-placard .passage h1 {
   flex-shrink: 1;
   flex-grow: 1;
 }
-
-
-/******************************************************************************/
-
 
 .debug {
   background-color: $debug-background-color;
@@ -660,9 +634,6 @@ body.avatar-placard .passage h1 {
   color: $debug-link-color !important;
 }
 
-
-/******************************************************************************/
-
 /* Small screen overrides */
 
 @media screen and (max-width: 640px) {
@@ -675,15 +646,17 @@ body.avatar-placard .passage h1 {
   label.settings_selector.font_size_regular {
     font-size: 14px !important;
   }
+
   body.font_size_large,
   label.settings_selector.font_size_large {
     font-size: 18px !important;
   }
+
   body.font_size_extralarge,
   label.settings_selector.font_size_extralarge {
     font-size: 22px !important;
   }
-  
+
   #story {
     margin: 0 0 0.5rem 0;
     padding: 0 0.5rem;
@@ -720,10 +693,12 @@ body.avatar-placard .passage h1 {
   label.settings_selector.font_size_regular {
     font-size: 12px !important;
   }
+
   body.font_size_large,
   label.settings_selector.font_size_large {
     font-size: 16px !important;
   }
+
   body.font_size_extralarge,
   label.settings_selector.font_size_extralarge {
     font-size: 20px !important;
@@ -732,11 +707,11 @@ body.avatar-placard .passage h1 {
   header div.progress-grid-item.reaction img {
     height: $progress-avatar-height-xsmall;
   }
-  
+
   header div.progress-grid-item span {
     height: $progress-part-height-xsmall;
     width: $progress-part-width-xsmall;
   }
 
-
 }
+

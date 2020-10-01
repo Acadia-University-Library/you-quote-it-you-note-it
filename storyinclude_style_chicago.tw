@@ -1,4 +1,3 @@
-/**************************************/
 ::style_chicago_plagiarism_01
 ! Is this plagiarism?
 
@@ -19,7 +18,7 @@ of two seemingly unrelated by in fact closely connected developments...".1
   >>
 
 
-/**************************************/
+
 ::style_chicago_plagiarism_01_include_answer_yes
 !! Incorrect
 
@@ -34,7 +33,7 @@ quotation marks around the copied information and give credit to the source.
 >>
 
 
-/**************************************/
+
 ::style_chicago_plagiarism_01_include_answer_no
 !! Correct
 
@@ -47,7 +46,7 @@ the copied information and the source is credited.
 >>
 
 
-/**************************************/
+
 ::style_chicago_plagiarism_02
 ! Is this plagiarism?
 
@@ -73,7 +72,7 @@ to making trading deals with other nations.1
   >>
 
 
-/**************************************/
+
 ::style_chicago_plagiarism_02_include_answer_yes
 !! Incorrect
 
@@ -89,7 +88,7 @@ doesn't cut it.
 >>
 
 
-/**************************************/
+
 ::style_chicago_plagiarism_02_include_answer_no
 !! Correct
 
@@ -105,7 +104,7 @@ doesn't cut it.
 >>
 
 
-/**************************************/
+
 ::style_chicago_knowledge_01
 ! Common knowledge or not?
 
@@ -126,7 +125,7 @@ Act imposed by Britain or an agreement between sovereign colonies.
   >>
 
 
-/**************************************/
+
 ::style_chicago_knowledge_01_include_answer_a
 !! Incorrect
 
@@ -139,7 +138,7 @@ doubt, it's better to cite than not.)
 >>
 
 
-/**************************************/
+
 ::style_chicago_knowledge_01_include_answer_b
 !! Correct
 
@@ -154,7 +153,7 @@ BCcampus, 2016. """https://open.umn.edu/opentextbooks/textbooks/671""".
 >>
 
 
-/**************************************/
+
 ::style_chicago_knowledge_02
 ! Common knowledge or not?
 
@@ -175,7 +174,7 @@ financial markets.
   >>
 
 
-/**************************************/
+
 ::style_chicago_knowledge_02_include_answer_a
 !! Correct
 
@@ -191,7 +190,7 @@ study of Mexico's tequila crisis." //Journal of American Academy of Business// \
 >>
 
 
-/**************************************/
+
 ::style_chicago_knowledge_02_include_answer_b
 !! Incorrect
 
@@ -204,7 +203,7 @@ doubt, it's better to cite than not.)
 >>
 
 
-/**************************************/
+
 ::style_chicago_knowledge_03
 ! Common knowledge or not?
 
@@ -224,7 +223,7 @@ to be cited.
   >>
 
 
-/**************************************/
+
 ::style_chicago_knowledge_03_include_answer_a
 !! Correct
 
@@ -239,7 +238,7 @@ May 31, 2018. """http://worldatlas.com/articles/the-largest-countries-in-europe.
 >>
 
 
-/**************************************/
+
 ::style_chicago_knowledge_03_include_answer_b
 !! Incorrect
 
@@ -252,7 +251,7 @@ doubt, it's better to cite than not.)
 >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_01_include
 ! Quoting and Paraphrasing: Differences
 
@@ -268,7 +267,7 @@ was effectively a rule of four: two Augusti (principle emperors) and two Caesare
 west...
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_02_include
 ! Quoting and Paraphrasing: Differences
 
@@ -290,7 +289,7 @@ Ebook Central.</li></ol>
 > Leach, Andrew. //Rome.// Oxford: Polity Press. 2016. ProQuest Ebook Central.
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_03_include
 ! Quoting and Paraphrasing: Differences
 
@@ -313,7 +312,7 @@ Ebook Central.</li></ol>
 > Leach, Andrew. //Rome.// Oxford: Polity Press. 2016. ProQuest Ebook Central.
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_04
 ! Quoting and Paraphrasing: Differences
 
@@ -336,7 +335,7 @@ Is this plagiarism?
   >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_04_include_answer_yes
 !! Correct
 
@@ -349,7 +348,7 @@ and the source is not cited!
 >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_04_include_answer_no
 !! Incorrect
 
@@ -362,7 +361,7 @@ marks and the source is not cited.
 >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_05
 ! Quoting and Paraphrasing: Differences
 
@@ -380,7 +379,7 @@ from which 135,000 people were evacuated two years ago.''
   >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_05_include_answer_fix
 !! Fixed
 
@@ -404,7 +403,7 @@ of Kiev." //New York Times,// May 23, 1998. \
 >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_06
 ! Quoting and Paraphrasing: Differences
 
@@ -423,7 +422,7 @@ Is this plagiarism?
   >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_06_include_answer_yes
 !! Correct
 
@@ -436,7 +435,7 @@ forgotten to cite the source!
 >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_06_include_answer_no
 !! Incorrect
 
@@ -449,7 +448,7 @@ structure, they have forgotten to cite the source!
 >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_07
 ! Quoting and Paraphrasing: Differences
 
@@ -467,7 +466,7 @@ concerning radiation.
   >>
 
 
-/**************************************/
+
 ::style_chicago_quotvpara_07_include_answer_fix
 !! Fixed
 
@@ -489,3 +488,5 @@ of Kiev." //New York Times,// May 23, 1998. \
   "style_chicago_quotvpara_07"
   "fixed"
 >>
+
+

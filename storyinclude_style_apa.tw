@@ -1,4 +1,3 @@
-/**************************************/
 ::style_apa_plagiarism_01 
 ! Is this plagiarism?
 
@@ -20,7 +19,7 @@ Publishing.</span>
   >>
 
 
-/**************************************/
+
 ::style_apa_plagiarism_01_include_answer_yes 
 !! Incorrect
 
@@ -35,7 +34,7 @@ quotation marks around the copied information and give credit to the source.
 >>
 
 
-/**************************************/
+
 ::style_apa_plagiarism_01_include_answer_no 
 !! Correct
 
@@ -48,7 +47,7 @@ the copied information and the source is credited.
 >>
 
 
-/**************************************/
+
 ::style_apa_plagiarism_02 
 ! Is this plagiarism?
 
@@ -72,7 +71,7 @@ Publishing.</span>
   >>
 
 
-/**************************************/
+
 ::style_apa_plagiarism_02_include_answer_yes
 !! Incorrect
 
@@ -88,7 +87,7 @@ doesn't cut it.
 >>
 
 
-/**************************************/
+
 ::style_apa_plagiarism_02_include_answer_no
 !! Correct
 
@@ -104,7 +103,7 @@ doesn't cut it.
 >>
 
 
-/**************************************/
+
 ::style_apa_knowledge_01 
 ! Common knowledge or not?
 
@@ -124,7 +123,7 @@ to be cited.
   >>
 
 
-/**************************************/
+
 ::style_apa_knowledge_01_include_answer_a
 !! Incorrect
 
@@ -137,7 +136,7 @@ doubt, it's better to cite than not.)
 >>
 
 
-/**************************************/
+
 ::style_apa_knowledge_01_include_answer_b
 !! Correct
 
@@ -151,7 +150,7 @@ You're right! This needs to be cited. It's from this book:
 >>
 
 
-/**************************************/
+
 ::style_apa_knowledge_02 
 ! Common knowledge or not?
 
@@ -172,7 +171,7 @@ financial markets.
   >>
 
 
-/**************************************/
+
 ::style_apa_knowledge_02_include_answer_a
 !! Correct
 
@@ -188,7 +187,7 @@ case study of Mexico's tequila crisis. \
 >>
 
 
-/**************************************/
+
 ::style_apa_knowledge_02_include_answer_b
 !! Incorrect
 
@@ -201,7 +200,7 @@ doubt, it's better to cite than not.)
 >>
 
 
-/**************************************/
+
 ::style_apa_knowledge_03 
 ! Common knowledge or not?
 
@@ -222,7 +221,7 @@ reduce interest rates.
   >>
 
 
-/**************************************/
+
 ::style_apa_knowledge_03_include_answer_a
 !! Correct
 
@@ -237,7 +236,7 @@ Fund. """http://www.fin.gc.ca/news03/03-024e.html""".
 >>
 
 
-/**************************************/
+
 ::style_apa_knowledge_03_include_answer_b
 !! Incorrect
 
@@ -250,7 +249,7 @@ doubt, it's better to cite than not.)
 >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_01_include
 ! Quoting and Paraphrasing: Differences
 
@@ -266,7 +265,7 @@ first trans-genic potato, engineered to contain //Bacillus thuringiensis// \
 toxins...
 
 
-/**************************************/
+
 ::style_apa_quotvpara_02_include
 ! Quoting and Paraphrasing: Differences
 
@@ -286,7 +285,7 @@ as the first trans-genic potato, engineered to contain Bacillus thuringiensis \
 Publishing.</span>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_03_include
 ! Quoting and Paraphrasing: Differences
 
@@ -304,7 +303,8 @@ first genetically modified spud to contain Bt toxins (Kneen, 1999).
 //Farmageddon: Food and the culture of biotechnology.// New Society \
 Publishing.</span>
 
-/**************************************/
+
+
 ::style_apa_quotvpara_04 
 ! Quoting and Paraphrasing: Differences
 
@@ -329,7 +329,7 @@ Is this plagiarism?
   >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_04_include_answer_yes
 !! Correct
 
@@ -342,7 +342,7 @@ and the source is not cited!
 >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_04_include_answer_no
 !! Incorrect
 
@@ -355,7 +355,7 @@ marks and the source is not cited.
 >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_05 
 ! Quoting and Paraphrasing: Differences
 
@@ -375,7 +375,7 @@ appeared on the market as the first trans-genetic potato, engineered to contain 
   >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_05_include_answer_fix 
 !! Fixed
 
@@ -396,7 +396,7 @@ Publishing.</span>
 >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_06 
 ! Quoting and Paraphrasing: Differences
 
@@ -415,7 +415,7 @@ Is this plagiarism?
   >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_06_include_answer_yes
 !! Correct
 
@@ -428,7 +428,7 @@ forgotten to cite the source!
 >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_06_include_answer_no
 !! Incorrect
 
@@ -441,7 +441,7 @@ structure, they have forgotten to cite the source!
 >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_07 
 ! Quoting and Paraphrasing: Differences
 
@@ -459,7 +459,7 @@ have been the first genetically modified spud to contain Bt toxins.''
   >>
 
 
-/**************************************/
+
 ::style_apa_quotvpara_07_include_answer_fix 
 !! Fixed
 
@@ -477,3 +477,5 @@ Publishing.</span>
   "style_apa_quotvpara_07"
   "fixed"
 >>
+
+

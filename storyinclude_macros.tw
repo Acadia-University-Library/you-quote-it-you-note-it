@@ -48,6 +48,7 @@ Macro.add('AnswerChoices', {
 });
 
 
+
 ::Macro_AnswerStatus [script]
 Macro.add('AnswerStatus', {
   skipArgs: false,
@@ -88,6 +89,7 @@ Macro.add('AnswerStatus', {
     }
   }
 });
+
 
 
 ::Macro_PassageFigure [script]
@@ -147,6 +149,7 @@ Macro.add('PassageFigure', {
 });
 
 
+
 ::Macro_PassagePrevNext [script]
 Macro.add('PassagePrevNext', {
   skipArgs: false,
@@ -168,6 +171,7 @@ Macro.add('PassagePrevNext', {
     }
   }
 });
+
 
 
 ::Macro_AnswersToGrade [script]
@@ -278,6 +282,7 @@ Macro.add('GenerateAvatar', {
 });
 
 
+
 ::Macro_MemorizeSettings [script]
 Macro.add('MemorizeSettings', {
   skipArgs: true,
@@ -295,3 +300,5 @@ Macro.add('MemorizeSettings', {
     }
   }
 });
+
+

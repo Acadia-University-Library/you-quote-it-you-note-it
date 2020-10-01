@@ -2,15 +2,16 @@
 You Quote It, You Note It!
 
 
-::StoryCaption
-<strong>Version 2020.dev</strong>
-Acadia University
-[[Vaughan Memorial Library|https://library.acadiau.ca]]
-<span style="font-size:0.8em;">&copy; 2004&ndash;2020</span>
+
+::StoryBanner [nobr]
+<span class="nowrap"><strong><em>You Quote It, You Note It!</em></strong> (version <<print $version>>) &mdash;</span>
 
 
-::StoryBanner
-<img src="assets/images/tutorial-flash-you_quote_it_you_note_it.png" style="width:98%;height:auto;margin:0 auto;display: block;">
+
+::StoryCaption [nobr]
+<span class="nowrap">Developed by Acadia University, </span>
+<span class="nowrap">Vaughan Memorial Library.</span>
+
 
 
 ::StoryIncludes
@@ -25,6 +26,7 @@ storyinclude_style_chicago.tw
 storyinclude_style_mla.tw
 storyinclude_license.tw
 debug.tw
+
 
 
 ::StoryInit
@@ -134,3 +136,5 @@ debug.tw
     }
   }
 } >>
+
+

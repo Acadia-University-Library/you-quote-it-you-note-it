@@ -1,11 +1,10 @@
-/**************************************/
 ::Start [part_0 avatar_placard]
 ! You Quote It, You Note It!
 
 <<link "Let's Begin" "common_intro_01">><</link>>
 
 
-/**************************************/
+
 ::common_intro_01 [part_0 avatar_introduction]
 ! Introduction
 
@@ -21,7 +20,7 @@ But first, what is your name?
 <<PassagePrevNext "common_settings_01">>
 
 
-/**************************************/
+
 ::common_settings_01 [part_0 avatar_settings]
 ! Reading Preferences
 
@@ -55,7 +54,7 @@ Next, choose the text options that you find most comfortable to read.
 <<PassagePrevNext "common_settings_02">>
 
 
-/**************************************/
+
 ::common_settings_02 [part_0 avatar_settings]
 ! Avatar Preferences
 
@@ -95,14 +94,14 @@ Finally, choose an avatar.
 <<PassagePrevNext "common_citation_00">>
 
 
-/**************************************/
+
 ::common_citation_00 [part_1 avatar_placard]
 ! Citation
 
 <<PassagePrevNext "common_citation_01">>
 
 
-/**************************************/
+
 ::common_citation_01 [part_1 avatar_unsure]
 ! What is citation?
 
@@ -116,7 +115,7 @@ bibliography entry (a longer note at the end of your paper).
 <<PassagePrevNext "common_citation_02">>
 
 
-/**************************************/
+
 ::common_citation_02 [part_1]
 ! Citation
 
@@ -142,7 +141,7 @@ this style.
 <<PassagePrevNext "common_citation_03">>
 
 
-/**************************************/
+
 ::common_citation_03 [part_1]
 ! Citation
 
@@ -156,7 +155,7 @@ tutorial.
 <<link "ASA" "common_citation_04">><<set $style = "ASA">><</link>>
 
 
-/**************************************/
+
 ::common_citation_04 [part_1]
 ! Citation
 
@@ -167,7 +166,7 @@ Why cite sources?
 <<PassagePrevNext "common_citation_05">>
 
 
-/**************************************/
+
 ::common_citation_05 [part_1]
 ! Citation
 
@@ -177,7 +176,7 @@ actually an asynchronous conversation involving many parties.
 <<PassagePrevNext "common_citation_06">>
 
 
-/**************************************/
+
 ::common_citation_06 [part_1]
 ! Citation
 
@@ -187,7 +186,7 @@ screen), but those thoughts have not developed in your brain from nothing.
 <<PassagePrevNext "common_citation_07">>
 
 
-/**************************************/
+
 ::common_citation_07 [part_1]
 ! Citation
 
@@ -200,7 +199,7 @@ read) to their own ideas.
 <<PassagePrevNext "common_citation_08">>
 
 
-/**************************************/
+
 ::common_citation_08 [part_1]
 ! Citation
 
@@ -209,7 +208,7 @@ Citing sources is of fundamental importance to this conversation.
 <<PassagePrevNext "common_citation_09">>
 
 
-/**************************************/
+
 ::common_citation_09 [part_1]
 ! Citation
 
@@ -221,7 +220,7 @@ yours, allowing them to contribute to the conversation.
 <<PassagePrevNext "common_citation_10">>
 
 
-/**************************************/
+
 ::common_citation_10 [part_1]
 ! Citation
 
@@ -232,7 +231,7 @@ within a given subject area.
 <<PassagePrevNext "common_citation_11">>
 
 
-/**************************************/
+
 ::common_citation_11 [part_1]
 ! Citation
 
@@ -242,7 +241,7 @@ researchers.
 <<PassagePrevNext "common_citation_12">>
 
 
-/**************************************/
+
 ::common_citation_12 [part_1]
 ! Citation
 
@@ -252,14 +251,14 @@ your arguments when they are clearly supported by the work of others.
 <<PassagePrevNext "common_plagiarism_00">>
 
 
-/**************************************/
+
 ::common_plagiarism_00 [part_2 avatar_placard]
 ! Plagiarism
 
 <<PassagePrevNext "common_plagiarism_01">>
 
 
-/**************************************/
+
 ::common_plagiarism_01 [part_2]
 ! Plagiarism
 
@@ -271,7 +270,7 @@ is a punishable academic offence!
 <<PassagePrevNext "common_plagiarism_02">>
 
 
-/**************************************/
+
 ::common_plagiarism_02 [part_2 avatar_unsure]
 ! Plagiarism
 
@@ -286,7 +285,7 @@ must clearly indicate when you are doing this.
 <<PassagePrevNext "common_plagiarism_03">>
 
 
-/**************************************/
+
 ::common_plagiarism_03 [part_2]
 ! Plagiarism
 
@@ -300,7 +299,7 @@ both courses unless both instructors agree.
 <<PassagePrevNext "common_plagiarism_04">>
 
 
-/**************************************/
+
 ::common_plagiarism_04 [part_2]
 ! Plagiarism
 
@@ -314,7 +313,7 @@ including:
 <<PassagePrevNext "common_plagiarism_05">>
 
 
-/**************************************/
+
 ::common_plagiarism_05 [part_2]
 ! Plagiarism
 
@@ -324,7 +323,7 @@ helps future researchers too! Everyone wins with proper citation.
 <<PassagePrevNext "common_plagiarism_06">>
 
 
-/**************************************/
+
 ::common_plagiarism_06 [part_2]
 ! Plagiarism
 
@@ -333,21 +332,21 @@ Now, let's see if you can identify what plagiarism looks like.
 <<PassagePrevNext "common_plagiarism_07">>
 
 
-/**************************************/
+
 ::common_plagiarism_07 [part_2 avatar_question]
 <<set $next_common_passage = "common_plagiarism_08">>
 <<set $include_passage = "style_" + $style.toLowerCase() + "_plagiarism_01">>
 <<include $include_passage>>
 
 
-/**************************************/
+
 ::common_plagiarism_08 [part_2 avatar_question]
 <<set $next_common_passage = "common_tip_01">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_plagiarism_02">>
 <<include $include_passage>>
 
 
-/**************************************/
+
 ::common_tip_01 [part_2 avatar_tip]
 ! Tip #1
 
@@ -371,7 +370,7 @@ couple of words;
 <<PassagePrevNext "common_tip_02">>
 
 
-/**************************************/
+
 ::common_tip_02 [part_2 avatar_tip]
 ! Tip #2
 
@@ -393,7 +392,7 @@ You still have to insert <<print _txt>>.
 <<PassagePrevNext "common_tip_03">>
 
 
-/**************************************/
+
 ::common_tip_03 [part_2 avatar_tip]
 ! Tip #3
 
@@ -408,14 +407,14 @@ to cite it.
 <<PassagePrevNext "common_knowledge_00">>
 
 
-/**************************************/
+
 ::common_knowledge_00 [part_3 avatar_placard]
 ! Common knowledge
 
 <<PassagePrevNext "common_knowledge_01">>
 
 
-/**************************************/
+
 ::common_knowledge_01 [part_3 avatar_unsure]
 ! Common knowledge
 
@@ -429,7 +428,7 @@ common knowledge).
 <<PassagePrevNext "common_knowledge_02">>
 
 
-/**************************************/
+
 ::common_knowledge_02 [part_3]
 ! Common knowledge
 
@@ -443,7 +442,7 @@ another, so it is important to consider your intended reader's context.
 <<PassagePrevNext "common_knowledge_03">>
 
 
-/**************************************/
+
 ::common_knowledge_03 [part_3]
 ! Common knowledge
 
@@ -458,7 +457,7 @@ known.
 <<PassagePrevNext "common_knowledge_04">>
 
 
-/**************************************/
+
 ::common_knowledge_04 [part_3]
 ! Common knowledge
 
@@ -468,14 +467,14 @@ to be cited than to //not// cite something that //does// need to be cited!
 <<PassagePrevNext "common_knowledge_05">>
 
 
-/**************************************/
+
 ::common_knowledge_05 [part_3 avatar_question]
 <<set $next_common_passage = "common_knowledge_06">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_knowledge_01">>
 <<include $include_passage>>
 
 
-/**************************************/
+
 ::common_knowledge_06 [part_3 avatar_question]
 <<set $next_common_passage = "common_knowledge_07">>
 /* next passage exception for ASA style content which does not have a third 
@@ -487,21 +486,21 @@ common knowledge element, thus "common_knowledge_07" must be skipped. */
 <<include $include_passage>>
 
 
-/**************************************/
+
 ::common_knowledge_07 [part_3 avatar_question]
 <<set $next_common_passage = "common_quotvpara_00">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_knowledge_03">>
 <<include $include_passage>>
 
 
-/**************************************/
+
 ::common_quotvpara_00 [part_4 avatar_placard]
 ! Quoting vs Paraphrasing
 
 <<PassagePrevNext "common_quotvpara_01">>
 
 
-/**************************************/
+
 ::common_quotvpara_01 [part_4]
 ! Quoting vs Paraphrasing
 
@@ -516,7 +515,7 @@ exact copy, but the source must still be cited.
 <<PassagePrevNext "common_quotvpara_02">>
 
 
-/**************************************/
+
 ::common_quotvpara_02 [part_4 avatar_unsure]
 ! Quoting vs Paraphrasing
 
@@ -540,7 +539,7 @@ choose paraphrasing over quotation.
 <<PassagePrevNext "common_quotvpara_03">>
 
 
-/**************************************/
+
 ::common_quotvpara_03 [part_4]
 ! Quoting vs Paraphrasing
 
@@ -551,56 +550,56 @@ choose paraphrasing over quotation.
 <<PassagePrevNext "common_quotvpara_04">>
 
 
-/**************************************/
+
 ::common_quotvpara_04 [part_4]
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_01_include">>
 <<include $include_passage>>
 <<PassagePrevNext "common_quotvpara_05">>
 
 
-/**************************************/
+
 ::common_quotvpara_05 [part_4]
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_02_include">>
 <<include $include_passage>>
 <<PassagePrevNext "common_quotvpara_06">>
 
 
-/**************************************/
+
 ::common_quotvpara_06 [part_4]
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_03_include">>
 <<include $include_passage>>
 <<PassagePrevNext "common_quotvpara_07">>
 
 
-/**************************************/
+
 ::common_quotvpara_07 [part_4 avatar_question]
 <<set $next_common_passage = "common_quotvpara_08">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_04">>
 <<include $include_passage>>
 
 
-/**************************************/
+
 ::common_quotvpara_08 [part_4 avatar_fixit]
 <<set $next_common_passage = "common_quotvpara_09">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_05">>
 <<include $include_passage>>
 
 
-/**************************************/
+
 ::common_quotvpara_09 [part_4 avatar_question]
 <<set $next_common_passage = "common_quotvpara_10">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_06">>
 <<include $include_passage>>
 
 
-/**************************************/
+
 ::common_quotvpara_10 [part_4 avatar_fixit]
 <<set $next_common_passage = "common_tip_04">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_07">>
 <<include $include_passage>>
 
 
-/**************************************/
+
 ::common_tip_04 [part_4 avatar_tip]
 ! Tip #4
 
@@ -610,7 +609,7 @@ own words.
 <<PassagePrevNext "common_tip_05">>
 
 
-/**************************************/
+
 ::common_tip_05 [part_4 avatar_tip]
 ! Tip #5
 
@@ -620,7 +619,7 @@ ask your professor, or ask a librarian.
 <<PassagePrevNext "common_tip_06">>
 
 
-/**************************************/
+
 ::common_tip_06 [part_4 avatar_tip]
 ! Tip #6
 
@@ -631,14 +630,14 @@ from.
 <<PassagePrevNext "common_zotero_00">>
 
 
-/**************************************/
+
 ::common_zotero_00 [part_5 avatar_placard]
 ! Zotero
 
 <<PassagePrevNext "common_zotero_01">>
 
 
-/**************************************/
+
 ::common_zotero_01 [part_5 avatar_write]
 ! Zotero
 
@@ -656,14 +655,14 @@ appointment with a Librarian either through our general email \
 <<PassagePrevNext "common_outro_00">>
 
 
-/**************************************/
+
 ::common_outro_00 [part_6 avatar_placard]
 ! Wrapping Up
 
 <<PassagePrevNext "common_outro_01">>
 
 
-/**************************************/
+
 ::common_outro_01 [part_6 avatar_finished]
 ! Thanks for taking our tutorial!
 
@@ -678,7 +677,7 @@ Librarian is at [[https://library.acadiau.ca/about/people.html]].
 <<PassagePrevNext "common_outro_02">>
 
 
-/**************************************/
+
 ::common_outro_02 [part_6 avatar_moreinfo]
 ! Getting Help
 
@@ -692,7 +691,7 @@ Librarian is at [[https://library.acadiau.ca/about/people.html]].
 <<PassagePrevNext "common_outro_03">>
 
 
-/**************************************/
+
 ::common_outro_03 [part_6 avatar_moreinfo]
 ! Other Resources
 
@@ -713,7 +712,7 @@ infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.h
 <<PassagePrevNext "End">>
 
 
-/**************************************/
+
 ::End [part_99 avatar_placard avatar_end]
 ! The End
 
@@ -730,3 +729,5 @@ infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.h
 
 <<link "Learn about another citation style" "common_citation_02">><</link>> \ 
 <<link "Start the tutorial again">><<script>>Engine.restart();<</script>><</link>>
+
+
