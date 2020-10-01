@@ -48,8 +48,6 @@
     <<link "Restart tutorial">><<script>>Engine.restart();<</script>><</link>>
     / 
     [[License and Usage|License]]
-    / 
-    <<link "Toggle debugging">><<if $debug eq 1>><<set $debug = 0>><<else>><<set $debug = 1>><</if>><</link>>
   </div>
   <<if $debug>>
     <<include debug_controls>>
