@@ -47,7 +47,9 @@
     / 
     <<link "Restart tutorial">><<script>>Engine.restart();<</script>><</link>>
     / 
-    [[License and Usage|License]]
+    [[License and usage|License]]
+    /
+    [[Give your feedback|https://library.acadiau.ca/research/tutorials/feedback.html]]
   </div>
   <<if $debug>>
     <<include debug_controls>>
