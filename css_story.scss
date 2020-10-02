@@ -350,7 +350,7 @@ footer {
 
 footer .fineprint {
   font-size: 0.625em;
-  color: #ddd;
+  color: #999;
   text-align: right;
 }
 
@@ -365,6 +365,10 @@ footer .fineprint * {
 
 footer .fineprint a {
   text-decoration: underline !important;
+}
+
+footer .fineprint span.nowrap {
+  white-space: nowrap;
 }
 
 #story {

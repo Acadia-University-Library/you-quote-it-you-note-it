@@ -41,15 +41,12 @@
 ::PassageFooter [footer nobr]
 <footer>
   <div class="fineprint">
-    <<if $student>><<print $student>> / <</if>>
-    <<if $grade>><<print "Grade: " + $grade>> / <</if>>
-    <<print $style + " style">>
-    / 
-    <<link "Restart tutorial">><<script>>Engine.restart();<</script>><</link>>
-    / 
-    [[License and usage|License]]
-    /
-    [[Give your feedback|https://library.acadiau.ca/research/tutorials/feedback.html]]
+    <<if $student>><span class="nowrap"><<print $student>> / </span><</if>>
+    <<if $grade>><span class="nowrap"><<print "Grade: " + $grade>> / </span><</if>>
+    <span class="nowrap"><<print $style + " style">> / </span>
+    <span class="nowrap"><<link "Restart tutorial">><<script>>Engine.restart();<</script>><</link>> / </span>
+    <span class="nowrap">[[License and usage|License]] / </span>
+    <span class="nowrap">[[Give your feedback|https://library.acadiau.ca/research/tutorials/feedback.html]]</span>
   </div>
   <<if $debug>>
     <<include debug_controls>>
