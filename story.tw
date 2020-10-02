@@ -30,7 +30,7 @@ debug.tw
 
 
 ::StoryInit
-<<set $version = "2.20.09d">>
+<<set $version = "2.20.09e.beta">>
 <<set $debug = 0>>
 
 <<set $font_family = recall("font_family", "font_family_mixed")>>
@@ -58,8 +58,8 @@ debug.tw
   },
   path: "assets/emoji/FILE_ID.png",
   persona: ["person", "male", "female", "cat", "smiley"],
-  skintone: ["1f3fb", "1f3fc", "1f3fd", "1f3fe", "1f3ff"],  // light to dark
-  gender: ["200d-2642", "200d-2640", ""],                             // man, woman, fixed adult
+  skintone: ["1f3fb", "1f3fc", "1f3fd", "1f3fe", "1f3ff"], // light to dark
+  gender: ["200d-2642", "200d-2640", ""], // man, woman, fixed adult
   reaction: {
     person: {
       "default": "1f9d1-skintone-200d-1f4bb",
