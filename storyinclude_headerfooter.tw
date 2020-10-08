@@ -41,8 +41,6 @@
 ::PassageFooter [footer nobr]
 <footer>
   <div class="fineprint">
-    <<if $student>><span class="nowrap"><<print $student>> / </span><</if>>
-    <<if $grade>><span class="nowrap"><<print "Grade: " + $grade>> / </span><</if>>
     <span class="nowrap"><<print $style + " style">> / </span>
     <span class="nowrap"><<link "Restart tutorial">><<script>>Engine.restart();<</script>><</link>> / </span>
     <span class="nowrap">[[License and usage|License]] / </span>
