@@ -1,4 +1,5 @@
 rm -rf ./build
 mkdir ./build
 cp -r ./assets ./build/
+cp *.md ./build/
 twee2 build story.tw ./build/story.html

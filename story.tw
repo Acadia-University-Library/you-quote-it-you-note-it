@@ -25,12 +25,12 @@ storyinclude_style_asa.tw
 storyinclude_style_chicago.tw
 storyinclude_style_mla.tw
 storyinclude_license.tw
-debug.tw
+storyinclude_debug.tw
 
 
 
 ::StoryInit
-<<set $version = "2.20.09f.beta">>
+<<set $version = "2.20.09g.beta">>
 <<set $debug = 0>>
 
 <<set $font_family = recall("font_family", "font_family_mixed")>>
