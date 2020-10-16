@@ -389,21 +389,6 @@ Putting quotation marks around quotations isn't enough!
 <</nobr>>
 You still have to insert <<print _txt>>.
 
-<<PassagePrevNext "common_tip_03">>
-
-
-
-::common_tip_03 [part_2 avatar_tip]
-! Tip #3
-
-Even if you found something online, you must still cite it!
-
-Using things from the web is no different than using print sources as far as \
-plagiarism goes: you still have to cite the source. Just because something is \
-publicly available on the web doesn't mean that it's in the public \
-domain&mdash;and even it it really //is// in the public domain, you still have \
-to cite it.
-
 <<PassagePrevNext "common_knowledge_00">>
 
 
@@ -488,9 +473,39 @@ common knowledge element, thus "common_knowledge_07" must be skipped. */
 
 
 ::common_knowledge_07 [part_3 avatar_question]
-<<set $next_common_passage = "common_quotvpara_00">>
+<<set $next_common_passage = "common_tip_03">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_knowledge_03">>
 <<include $include_passage>>
+
+
+
+::common_tip_03 [part_3 avatar_tip]
+! Tip #3
+
+Even if you found something online, you must still cite it!
+
+Using things from the web is no different than using print sources as far as \
+plagiarism goes: you still have to cite the source. Just because something is \
+publicly available on the web doesn't mean that it's in the public \
+domain&mdash;and even it it really //is// in the public domain, you still have \
+to cite it.
+
+<<PassagePrevNext "common_tip_04">>
+
+
+
+::common_tip_04 [part_3 avatar_tip]
+! Tip #4
+
+Start your research early!​
+
+It is important to give yourself lots of time to do research before your paper \
+is due. It can take time to find the best resources to support your arguments, \
+and you may find that your arguments change as you do research and learn more \
+about your topic. So, make sure to start your research well before your work is \
+due.​
+
+<<PassagePrevNext "common_quotvpara_00">>
 
 
 
@@ -594,27 +609,17 @@ choose paraphrasing over quotation.
 
 
 ::common_quotvpara_10 [part_4 avatar_fixit]
-<<set $next_common_passage = "common_tip_04">>
+<<set $next_common_passage = "common_tip_05">>
 <<set $include_passage = "style_"+ $style.toLowerCase() + "_quotvpara_07">>
 <<include $include_passage>>
-
-
-
-::common_tip_04 [part_4 avatar_tip]
-! Tip #4
-
-Use direct quotations sparingly. The majority of your paper should be in your \
-own words.
-
-<<PassagePrevNext "common_tip_05">>
 
 
 
 ::common_tip_05 [part_4 avatar_tip]
 ! Tip #5
 
-If you're unsure of if, when, or how to cite something, check a citation guide, \
-ask your professor, or ask a librarian.
+Use direct quotations sparingly. The majority of your paper should be in your \
+own words.
 
 <<PassagePrevNext "common_tip_06">>
 
@@ -622,6 +627,16 @@ ask your professor, or ask a librarian.
 
 ::common_tip_06 [part_4 avatar_tip]
 ! Tip #6
+
+If you're unsure of if, when, or how to cite something, check a citation guide, \
+ask your professor, or ask a librarian.
+
+<<PassagePrevNext "common_tip_07">>
+
+
+
+::common_tip_07 [part_4 avatar_tip]
+! Tip #7
 
 Document your sources immediately as you are doing your research. That way, when \
 you're writing your paper, you'll always know where that perfect quotation came \

@@ -30,7 +30,7 @@ storyinclude_debug.tw
 
 
 ::StoryInit
-<<set $version = "2.20.09g.beta">>
+<<set $version = "2.20.09h.beta">>
 <<set $debug = 0>>
 
 <<set $font_family = recall("font_family", "font_family_mixed")>>
