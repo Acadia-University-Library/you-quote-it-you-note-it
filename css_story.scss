@@ -442,6 +442,7 @@ body.avatar-placard .passage h1 {
 }
 
 .passage a:hover,
+.passage a:focus,
 .passage a:active {
   background-color: $link-active-background-color;
   color: $link-active-color;
@@ -465,6 +466,13 @@ body.avatar-placard .passage h1 {
   background-color: $link-internal-active-background-color;
   color: $link-internal-active-color;
 }
+
+.passage a.link-internal:focus {
+  background-color: $link-internal-active-background-color;
+  color: $link-internal-active-color;
+  text-decoration: underline;
+}
+
 
 .passage a.link-external:after {
   display: none;
