@@ -1,6 +1,6 @@
 # You Quote It, You Note It!
 
-Twine-based reimagination of the Vaughan Memorial Library's award-winning original _You Quote It, You Note It!_ Adobe Flash plagiarism tutorial.
+Twine-based reimagination of the [Vaughan Memorial Library](https://library.acadiau.ca)'s award-winning original _You Quote It, You Note It!_ Adobe Flash plagiarism tutorial.
 
 ## License
 
