@@ -1,6 +1,6 @@
 ::Configuration [twee2]
 Twee2::build_config.story_format = 'SugarCube2.33.2'
-Twee2::build_config.story_ifid = 'acad2020-0001-43c9-a137-27e7b0e9b97c'
+Twee2::build_config.story_ifid = 'acad2020-0002-43c9-a137-27e7b0e9b97c'
 
 
 
