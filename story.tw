@@ -14,6 +14,11 @@ You Quote It, You Note It!
 
 
 
+::StoryInterface [nobr]
+<div id="story"><div id="passages"></div></div>
+
+
+
 ::StoryIncludes
 twee2_configuration.tw
 css_story.scss
@@ -30,7 +35,7 @@ storyinclude_debug.tw
 
 
 ::StoryInit
-<<set $version = "2.20.09i">>
+<<set $version = "2.20.09h">>
 <<set $debug = 0>>
 
 <<set $font_family = recall("font_family", "font_family_mixed")>>
