@@ -13,7 +13,7 @@ Please refer to ``LICENSE.md``.
 Acadia University: [Vaughan Memorial Library](https://library.acadiau.ca)
 50 Acadia Street, Wolfville, Nova Scotia, Canada, B4P 2R6
 
-[https://library.acadiau.ca/research/citation-help.html]
+<https://library.acadiau.ca/research/citation-help.html>
 
 ## Build Instructions
 
