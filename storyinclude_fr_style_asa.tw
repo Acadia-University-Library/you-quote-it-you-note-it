@@ -1,0 +1,460 @@
+::fr_style_asa_plagiarism_01
+! Is this plagiarism?
+
+Copying a direct quotation into your paper, placing quotation marks around it, \
+and crediting the source.
+
+> "Players who focus on human resources required for a ritual event, for example, \
+new or preexisting social networks, will be more likely to feel committed to \
+their MMORPG community, while players who focus on nonhuman resources or material \
+aspects of the game like collecting gold or equipment in the game are less likely \
+to feel committed to their MMORPG community" (Simpson, Knottnerus, and Stern \
+2018:9).
+> ...
+> References:
+> <span class="hanging_indent">Simpson, Joseph M., J. David Knottnerus, and \
+Michael J. Stern. 2018. "Virtual Rituals: Community, Emotion, and Ritual in \
+Massive Multiplayer Online Role-Playing Games&mdash;A Quantitative Test and \
+Extension of Structural Ritualization Theory." \
+//Socius: Sociological Research for a Dynamic World// \ 4:1-13. doi: \
+10.1177/2378023118779839.</span>
+
+<<AnswerChoices
+  "fr_style_asa_plagiarism_01" $next_common_passage "hide"
+  "fr_style_asa_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
+  "fr_style_asa_plagiarism_01_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+
+::fr_style_asa_plagiarism_01_include_answer_yes
+!! Incorrect
+
+This is not plagiarism.
+
+Copying information word-for-word from a source is okay as long as you put \
+quotation marks around the copied information and give credit to the source.
+
+<<AnswerStatus
+  "fr_style_asa_plagiarism_01"
+  "incorrect"
+>>
+
+
+
+::fr_style_asa_plagiarism_01_include_answer_no
+!! Correct
+
+You're right! This is not plagiarism because there are quotation marks around \
+the copied information and the source is credited.
+
+<<AnswerStatus
+  "fr_style_asa_plagiarism_01"
+  "correct"
+>>
+
+
+
+::fr_style_asa_plagiarism_02
+! Is this plagiarism?
+
+How about this?
+
+Taking someone's ideas or words, putting them into your own words, and crediting \
+the source.
+
+> In MMORPGs, the players who are most committed to their online communities \
+are those whose main goal is to engage with other players, rather than to \
+acquire in-game loot (Simpson, Knottnerus, and Stern 2018:9).
+> ...
+> References:
+> <span class="hanging_indent">Simpson, Joseph M., J. David Knottnerus, and \
+Michael J. Stern. 2018. "Virtual Rituals: Community, Emotion, and Ritual in \
+Massive Multiplayer Online Role-Playing Games&mdash;A Quantitative Test and \
+Extension of Structural Ritualization Theory." \
+//Socius: Sociological Research for a Dynamic World// \ 4:1-13. doi: \
+10.1177/2378023118779839.</span>
+
+<<AnswerChoices
+  "fr_style_asa_plagiarism_02" $next_common_passage "hide"
+  "fr_style_asa_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
+  "fr_style_asa_plagiarism_02_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+
+::fr_style_asa_plagiarism_02_include_answer_yes
+!! Incorrect
+
+Actually, this is not plagiarism: it's paraphrasing.
+
+Paraphrasing is fine as long as you credit the source and the paraphrase is \
+entirely in your words&mdash;just changing a couple words here and there \
+doesn't cut it.
+
+<<AnswerStatus
+  "fr_style_asa_plagiarism_02"
+  "incorrect"
+>>
+
+
+
+::fr_style_asa_plagiarism_02_include_answer_no
+!! Correct
+
+You're right! This is not plagiarism. It's paraphrasing.
+
+Paraphrasing is fine as long as you credit the source and the paraphrase is \
+entirely in your words&mdash;just changing a couple words here and there \
+doesn't cut it.
+
+<<AnswerStatus
+  "fr_style_asa_plagiarism_02"
+  "correct"
+>>
+
+
+
+::fr_style_asa_knowledge_01
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> There are children living in poverty in Canada.
+
+''Sentence B''
+> Nova Scotia is the only province that experienced an increase in child poverty \
+between 2015 and 2017.
+
+<<AnswerChoices
+  "fr_style_asa_knowledge_01" $next_common_passage "hide"
+  "fr_style_asa_knowledge_01_include_answer_a" "Sentence A"
+  "fr_style_asa_knowledge_01_include_answer_b" "Sentence B"
+  >>
+
+
+
+::fr_style_asa_knowledge_01_include_answer_a
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "fr_style_asa_knowledge_01"
+  "incorrect"
+>>
+
+
+
+::fr_style_asa_knowledge_01_include_answer_b
+!! Correct
+
+You're right! This needs to be cited. It's from this report:
+
+> Frank, Lesley and Laura Fisher. 2020. "2019 Report Card on Child and Family \
+Poverty in Nova Scotia: Three Decades Lost." Halifax, NS: Canadian Association \
+of Policy Alternatives. \
+"""https://www.policyalternatives.ca/publications/reports/2019-report-card-child-and-family-poverty-nova-scotia""".
+
+<<AnswerStatus
+  "fr_style_asa_knowledge_01"
+  "correct"
+>>
+
+
+
+::fr_style_asa_knowledge_02
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> Unlike the Civil Rights Movement, whose female leadership took a backseat to \
+men, Black Lives Matter was founded by three female community organizers: \
+Alicia Garza, Patrisse Cullors, and Opal Tometi.
+
+''Sentence B''
+> Black Lives Matter is an anti-racist social movement.
+
+<<AnswerChoices
+  "fr_style_asa_knowledge_02" $next_common_passage "hide"
+  "fr_style_asa_knowledge_02_include_answer_a" "Sentence A"
+  "fr_style_asa_knowledge_02_include_answer_b" "Sentence B"
+  >>
+
+
+
+::fr_style_asa_knowledge_02_include_answer_a
+!! Correct
+
+You're right! This needs to be cited. It's from this journal article:
+
+> Jones-Eversley, Sharon, A. Christson Adedoyin, Michael A. Robinson, and Sharon \
+E. Moore. 2017. "Protesting Black Inequality: A Commentary on the Civil Rights \
+Movement and Black Lives Matter." //Journal of Community Practice// \
+25(3-4):309-24. doi: 10.1080/10705422.2017.1367343.
+
+<<AnswerStatus
+  "fr_style_asa_knowledge_02"
+  "correct"
+>>
+
+
+
+::fr_style_asa_knowledge_02_include_answer_b
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "fr_style_asa_knowledge_02"
+  "incorrect"
+>>
+
+
+
+::fr_style_asa_knowledge_03
+/* NOT USED IN ASA CONTENT 
+See storyinclude_common.tw::fr_common_knowledge_06 for next-passage exception. */
+
+
+
+::fr_style_asa_knowledge_03_include_answer_a
+/* NOT USED IN ASA CONTENT 
+See storyinclude_common.tw::fr_common_knowledge_06 for next-passage exception. */
+
+
+
+::fr_style_asa_knowledge_03_include_answer_b
+/* NOT USED IN ASA CONTENT 
+See storyinclude_common.tw::fr_common_knowledge_06 for next-passage exception. */
+
+
+
+::fr_style_asa_quotvpara_01_include
+! Quoting and Paraphrasing: Differences
+
+Maybe it would help to show the difference between quoting and paraphrasing, and \
+how to do each correctly using ASA style.
+
+Here is a passage from a journal article that you could use in your paper:
+
+> Since YouTube creators enjoy the reputation as reliable endorsers, companies \
+search for appropriate influencers in the social media sphere in hope of finding \
+credible people disseminating their brand's message.
+
+
+
+::fr_style_asa_quotvpara_02_include
+! Quoting and Paraphrasing: Differences
+
+!! Quoting
+
+A quotation uses exactly the same words as those found in the source material \
+and puts them in quotation marks. Here's what a quotation looks like with a \
+proper in-text reference in ASA style:
+
+> "Since YouTube creators enjoy the reputation as reliable endorsers, companies \
+search for appropriate influencers in the social media sphere in hope of finding \
+credible people disseminating their brand's message" (Schwemmer and Ziewiecki \
+2018:4).
+> ...
+> References:
+> <span class="hanging_indent">Schwemmer, Carsten and Sandra Ziewiecki. 2018. \
+"Social Media Sellout: The Increasing Role of Product Promotion on YouTube." \
+//Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
+
+
+
+::fr_style_asa_quotvpara_03_include
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing
+
+A paraphrase is another author’s ideas expressed //in your own words//&mdash;\
+without quotation marks, since it's no longer a word-for-word quotation. And \
+just changing a few words from the original doesn't count!
+
+> Many companies seek out YouTubers with good reputations to promote their \
+brand and their products (Schwemmer and Ziewiecki 2018:4).
+> ...
+> References:
+> <span class="hanging_indent">Schwemmer, Carsten and Sandra Ziewiecki. 2018. \
+"Social Media Sellout: The Increasing Role of Product Promotion on YouTube." \
+//Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
+
+
+
+::fr_style_asa_quotvpara_04
+! Quoting and Paraphrasing: Differences
+
+!! Quoting
+
+Now that you know the difference between quoting and paraphrasing, let's make \
+sure you can do it properly in an actual assignment. Imagine that this is your \
+essay so far:
+
+> Product endorsement is increasingly common on YouTube. ''Since YouTube creators \
+enjoy the reputation as reliable endorsers, companies search for appropriate \
+influencers in the social media sphere in hope of finding credible people \
+disseminating their brand's message.''
+
+Is this plagiarism?
+
+<<AnswerChoices
+  "fr_style_asa_quotvpara_04" $next_common_passage "hide"
+  "fr_style_asa_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
+  "fr_style_asa_quotvpara_04_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+
+::fr_style_asa_quotvpara_04_include_answer_yes
+!! Correct
+
+Good catch! This is plagiarism because the quotation is not in quotation marks \
+and the source is not cited!
+
+<<AnswerStatus
+  "fr_style_asa_quotvpara_04"
+  "correct"
+>>
+
+
+
+::fr_style_asa_quotvpara_04_include_answer_no
+!! Incorrect
+
+Oh yes, it is! This is plagiarism because the quotation is not in quotation \
+marks and the source is not cited.
+
+<<AnswerStatus
+  "fr_style_asa_quotvpara_04"
+  "incorrect"
+>>
+
+
+
+::fr_style_asa_quotvpara_05
+! Quoting and Paraphrasing: Differences
+
+!! Quoting Revisions
+
+Click "Fix it" to see how to quote without plagiarising.
+
+> Product endorsement is increasingly common on YouTube. ''Since YouTube creators \
+enjoy the reputation as reliable endorsers, companies search for appropriate \
+influencers in the social media sphere in hope of finding credible people \
+disseminating their brand's message.''
+
+<<AnswerChoices
+  "fr_style_asa_quotvpara_05" $next_common_passage "hide"
+  "fr_style_asa_quotvpara_05_include_answer_fix" "Fix it"
+  >>
+
+
+
+::fr_style_asa_quotvpara_05_include_answer_fix
+!! Fixed
+
+> Product endorsement is increasingly common on YouTube. ''"Since YouTube creators \
+enjoy the reputation as reliable endorsers, companies search for appropriate \
+influencers in the social media sphere in hope of finding credible people \
+disseminating their brand's message" (Schwemmer and Ziewiecki 2018:4).''
+> ...
+> References:
+> <span class="hanging_indent">Schwemmer, Carsten and Sandra Ziewiecki. 2018. \
+"Social Media Sellout: The Increasing Role of Product Promotion on YouTube." \
+//Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
+
+<<AnswerStatus
+  "fr_style_asa_quotvpara_05"
+  "fixed"
+>>
+
+
+
+::fr_style_asa_quotvpara_06
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing
+
+> Product endorsement is increasingly common on YouTube. ''Many companies seek \
+out YouTubers with good reputations to promote their brand and their products.''
+
+Is this plagiarism?
+
+<<AnswerChoices
+  "fr_style_asa_quotvpara_06" $next_common_passage "hide"
+  "fr_style_asa_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
+  "fr_style_asa_quotvpara_06_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+
+::fr_style_asa_quotvpara_06_include_answer_yes
+!! Correct
+
+Definitely. The author has used their own words and sentence structure but \
+forgotten to cite the source!
+
+<<AnswerStatus
+  "fr_style_asa_quotvpara_06"
+  "correct"
+>>
+
+
+
+::fr_style_asa_quotvpara_06_include_answer_no
+!! Incorrect
+
+Actually, it IS plagiarism. Although they used their own words and sentence \
+structure, they have forgotten to cite the source!
+
+<<AnswerStatus
+  "fr_style_asa_quotvpara_06"
+  "incorrect"
+>>
+
+
+
+::fr_style_asa_quotvpara_07
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing Revisions
+
+Click "Fix it" to see how to paraphrase without plagiarising.
+
+> Product endorsement is increasingly common on YouTube. ''Many companies seek \
+out YouTubers with good reputations to promote their brand and their products.''
+
+<<AnswerChoices
+  "fr_style_asa_quotvpara_07" $next_common_passage "hide"
+  "fr_style_asa_quotvpara_07_include_answer_fix" "Fix it"
+  >>
+
+
+
+::fr_style_asa_quotvpara_07_include_answer_fix
+!! Fixed
+
+> Product endorsement is increasingly common on YouTube. ''Many companies seek \
+out YouTubers with good reputations to promote their brand and their products \
+(Schwemmer and Ziewiecki 2018:4).''
+> ...
+> References:
+> <span class="hanging_indent">Schwemmer, Carsten and Sandra Ziewiecki. 2018. \
+"Social Media Sellout: The Increasing Role of Product Promotion on YouTube." \
+//Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
+
+<<AnswerStatus
+  "fr_style_asa_quotvpara_07"
+  "fixed"
+>>
+
+

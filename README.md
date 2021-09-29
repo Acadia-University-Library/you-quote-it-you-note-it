@@ -37,6 +37,7 @@ Or if you prefer to build the project manually:
 - From the project root directory, run ``twee2 build story.tw ./build/story.html``
 
 Google Analytics (optional):
+
 - Open ``/build/story.html`` in a plain-text editor.
 - Insert your Google Site Tag snippet in the ``<head>`` block between the ``<meta name="viewport" ...>`` tag and SugarCube preamble comments block.
 - If _You Quote It, You Note It!_ renders improperly or displays error messages when viewed in a browser after inserting Google Analytics code, you can assume that either there is a syntax error—double-check placement of the Google Site Tag snippet—or that your text editor improperly saved ``story.html`` (in which case, you must start over and rebuild the project from scratch).
@@ -49,19 +50,32 @@ Changes can be made to the project's Twee and SCSS files using your favorite tex
 
 - ``twee2_configuration.tw``: Twee2-specific configuration settings, plus global SugarCube2 overrides.
 - ``story.tw``: Story initialization, includes, and select application-level passages.
-- ``storyinclude_<X>.tw``: Included story passages broken up into logical components.
-  - ``storyinclude_common.tw``: Content passages that are common to the entire tutorial, regardless of citation style.
-  - ``storyinclude_style_<apa|asa|chicago|mla>.tw``: Content passages specific to an individual citation style—APA, ASA, Chicago and MLA.
+- ``storyinclude_<LANG>_<X>.tw``: Included story passages broken up into logical components.
+  - ``storyinclude_<LANG>_common.tw``: Content passages that are common to the entire tutorial, regardless of citation style.
+  - ``storyinclude_<LANG>_style_<apa|asa|chicago|mla>.tw``: Content passages specific to an individual citation style—APA, ASA, Chicago and MLA.
   - ``storyinclude_license.tw``: License information passage.
+  - ``storyinclude_start.tw``: Title ("Start") passage.
   - ``storyinclude_headerfooter.tw``: Global header and footer portions of the user interface.
   - ``storyinclude_macros.tw``: Assorted macro functions used throughout the application.
   - ``storyinclude_debug.tw``: Debugging passages, macros and CSS. Used only when ``$debug = 1`` in ``story.tw``.
 - ``css_story.scss``: SCSS-syntax stylesheet for the entire application.
-- ``assets/``: Supplementary assets including audio, emoji and images. (Note: No images are included with the project by default.) 
+- ``assets/``: Supplementary assets including audio, emoji and images. (Note: No images are included with the project by default.)
 - ``dowatch`` and ``dowatch.bat``: Project watch scripts—allows one to make changes and recompile automatically for real-time application testing in a web browser. (Requires Google Chrome to be installed on your computer.)
 - ``dobuild`` and ``dobuild.bat``: Project build scripts.
 - ``include_google_analytics.html``: Google Site Tag snippet for optional Google Analytics addition post-build. Don't forget to replace the ``UA-...`` ID value with that from your own Analytics account.
 - ``sugarcube2/SugarCube2.33.2/``: SugarCube2 story format version 2.33.2 provided for convenience.
+
+### Language Settings
+
+Tutorial content is provided in English and French with ``storyinclude_...`` files denoted by "en" and "fr" abbreviations, respectively.
+
+To translate _You Quote It, You Note It!_ into another language, copy each of the English storyinclude files (``storyinclude_en_<X>.tw``) to new files named with your preferred language abbreviation and replace the contents therein. For example, German and Spanish translations should be named ``storyinclude_de_<X>.tw`` and ``storyinclude_es_<X>.tw``, respectively. Passage identifiers within the Twee source code must also use these same language abbreviations. 
+
+Open ``story.tw`` for editing and append the names of your newly translated storyinclude files to the list identified by ``::StoryIncludes``. Next, open ``storyinclude_start.tw`` for editing and add a new ``link`` element to the ``::Start`` passage for the new translation. The "Start" passage acts as the tutorial's title page and these ``link`` elements provide the way for one to choose their preferred language.
+
+To add or remove support for a language, open ``storyinclude_start.tw`` for editing. Each translation that is to be available in the tutorial must have a corresponding ``link`` element. Copy an existing ``link`` to add language support. Delete or comment-out (HTML style comment tags) a ``link`` element to remove that language. You can also change the order of the ``link`` elements if English should not be the first language.
+
+Finally, don't forget to rebuild the project after you've made changes to the language settings.
 
 ## Resources
 

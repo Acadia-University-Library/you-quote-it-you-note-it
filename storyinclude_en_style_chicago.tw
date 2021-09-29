@@ -1,4 +1,4 @@
-::style_chicago_plagiarism_01
+::en_style_chicago_plagiarism_01
 ! Is this plagiarism?
 
 > "Canadians may well be approaching another such juncture today as the result \
@@ -12,14 +12,14 @@ of two seemingly unrelated by in fact closely connected developments...".<sup>1<
 //International Journal// 58, no.1 (2002): 25-42, doi:10.2307/40203811.
 
 <<AnswerChoices
-  "style_chicago_plagiarism_01" $next_common_passage "hide"
-  "style_chicago_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
-  "style_chicago_plagiarism_01_include_answer_no" "No, this is not plagiarism"
+  "en_style_chicago_plagiarism_01" $next_common_passage "hide"
+  "en_style_chicago_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_chicago_plagiarism_01_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_chicago_plagiarism_01_include_answer_yes
+::en_style_chicago_plagiarism_01_include_answer_yes
 !! Incorrect
 
 This is not plagiarism.
@@ -28,26 +28,26 @@ Copying information word-for-word from a source is okay as long as you put \
 quotation marks around the copied information and give credit to the source.
 
 <<AnswerStatus
-  "style_chicago_plagiarism_01"
+  "en_style_chicago_plagiarism_01"
   "incorrect"
 >>
 
 
 
-::style_chicago_plagiarism_01_include_answer_no
+::en_style_chicago_plagiarism_01_include_answer_no
 !! Correct
 
 You're right! This is not plagiarism because there are quotation marks around \
 the copied information and the source is credited.
 
 <<AnswerStatus
-  "style_chicago_plagiarism_01"
+  "en_style_chicago_plagiarism_01"
   "correct"
 >>
 
 
 
-::style_chicago_plagiarism_02
+::en_style_chicago_plagiarism_02
 ! Is this plagiarism?
 
 How about this?
@@ -66,14 +66,14 @@ to making trading deals with other nations.<sup>1</sup>
 //International Journal// 58, no.1 (2002): 25-42, doi:10.2307/40203811.
 
 <<AnswerChoices
-  "style_chicago_plagiarism_02" $next_common_passage "hide"
-  "style_chicago_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
-  "style_chicago_plagiarism_02_include_answer_no" "No, this is not plagiarism"
+  "en_style_chicago_plagiarism_02" $next_common_passage "hide"
+  "en_style_chicago_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_chicago_plagiarism_02_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_chicago_plagiarism_02_include_answer_yes
+::en_style_chicago_plagiarism_02_include_answer_yes
 !! Incorrect
 
 Actually, this is not plagiarism: it's paraphrasing.
@@ -83,13 +83,13 @@ entirely in your words&mdash;just changing a couple words here and there \
 doesn't cut it.
 
 <<AnswerStatus
-  "style_chicago_plagiarism_02"
+  "en_style_chicago_plagiarism_02"
   "incorrect"
 >>
 
 
 
-::style_chicago_plagiarism_02_include_answer_no
+::en_style_chicago_plagiarism_02_include_answer_no
 !! Correct
 
 You're right! This is not plagiarism. It's paraphrasing.
@@ -99,13 +99,13 @@ entirely in your words&mdash;just changing a couple words here and there \
 doesn't cut it.
 
 <<AnswerStatus
-  "style_chicago_plagiarism_02"
+  "en_style_chicago_plagiarism_02"
   "correct"
 >>
 
 
 
-::style_chicago_knowledge_01
+::en_style_chicago_knowledge_01
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -119,27 +119,27 @@ to be cited.
 Act imposed by Britain or an agreement between sovereign colonies.
 
 <<AnswerChoices
-  "style_chicago_knowledge_01" $next_common_passage "hide"
-  "style_chicago_knowledge_01_include_answer_a" "Sentence A"
-  "style_chicago_knowledge_01_include_answer_b" "Sentence B"
+  "en_style_chicago_knowledge_01" $next_common_passage "hide"
+  "en_style_chicago_knowledge_01_include_answer_a" "Sentence A"
+  "en_style_chicago_knowledge_01_include_answer_b" "Sentence B"
   >>
 
 
 
-::style_chicago_knowledge_01_include_answer_a
+::en_style_chicago_knowledge_01_include_answer_a
 !! Incorrect
 
 Actually, this is common knowledge and doesn't need to be cited. (But when in \
 doubt, it's better to cite than not.)
 
 <<AnswerStatus
-  "style_chicago_knowledge_01"
+  "en_style_chicago_knowledge_01"
   "incorrect"
 >>
 
 
 
-::style_chicago_knowledge_01_include_answer_b
+::en_style_chicago_knowledge_01_include_answer_b
 !! Correct
 
 You're right! This needs to be cited. It's from this book:
@@ -148,13 +148,13 @@ You're right! This needs to be cited. It's from this book:
 BCcampus, 2016. """https://open.umn.edu/opentextbooks/textbooks/671""".
 
 <<AnswerStatus
-  "style_chicago_knowledge_01"
+  "en_style_chicago_knowledge_01"
   "correct"
 >>
 
 
 
-::style_chicago_knowledge_02
+::en_style_chicago_knowledge_02
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -168,14 +168,14 @@ financial markets.
 > The peso is the currency used in the country of Mexico.
 
 <<AnswerChoices
-  "style_chicago_knowledge_02" $next_common_passage "hide"
-  "style_chicago_knowledge_02_include_answer_a" "Sentence A"
-  "style_chicago_knowledge_02_include_answer_b" "Sentence B"
+  "en_style_chicago_knowledge_02" $next_common_passage "hide"
+  "en_style_chicago_knowledge_02_include_answer_a" "Sentence A"
+  "en_style_chicago_knowledge_02_include_answer_b" "Sentence B"
   >>
 
 
 
-::style_chicago_knowledge_02_include_answer_a
+::en_style_chicago_knowledge_02_include_answer_a
 !! Correct
 
 You're right! This needs to be cited. It's from this journal article:
@@ -185,26 +185,26 @@ study of Mexico's tequila crisis." //Journal of American Academy of Business// \
 2, no. 2 (2003): 545-549.
 
 <<AnswerStatus
-  "style_chicago_knowledge_02"
+  "en_style_chicago_knowledge_02"
   "correct"
 >>
 
 
 
-::style_chicago_knowledge_02_include_answer_b
+::en_style_chicago_knowledge_02_include_answer_b
 !! Incorrect
 
 Actually, this is common knowledge and doesn't need to be cited. (But when in \
 doubt, it's better to cite than not.)
 
 <<AnswerStatus
-  "style_chicago_knowledge_02"
+  "en_style_chicago_knowledge_02"
   "incorrect"
 >>
 
 
 
-::style_chicago_knowledge_03
+::en_style_chicago_knowledge_03
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -217,14 +217,14 @@ to be cited.
 > Paris is the Capitol of France.
 
 <<AnswerChoices
-  "style_chicago_knowledge_03" $next_common_passage "hide"
-  "style_chicago_knowledge_03_include_answer_a" "Sentence A"
-  "style_chicago_knowledge_03_include_answer_b" "Sentence B"
+  "en_style_chicago_knowledge_03" $next_common_passage "hide"
+  "en_style_chicago_knowledge_03_include_answer_a" "Sentence A"
+  "en_style_chicago_knowledge_03_include_answer_b" "Sentence B"
   >>
 
 
 
-::style_chicago_knowledge_03_include_answer_a
+::en_style_chicago_knowledge_03_include_answer_a
 !! Correct
 
 You're right! This needs to be cited. It's from this website:
@@ -233,26 +233,26 @@ You're right! This needs to be cited. It's from this website:
 May 31, 2018. """http://worldatlas.com/articles/the-largest-countries-in-europe.html""". 
 
 <<AnswerStatus
-  "style_chicago_knowledge_03"
+  "en_style_chicago_knowledge_03"
   "correct"
 >>
 
 
 
-::style_chicago_knowledge_03_include_answer_b
+::en_style_chicago_knowledge_03_include_answer_b
 !! Incorrect
 
 Actually, this is common knowledge and doesn't need to be cited. (But when in \
 doubt, it's better to cite than not.)
 
 <<AnswerStatus
-  "style_chicago_knowledge_03"
+  "en_style_chicago_knowledge_03"
   "incorrect"
 >>
 
 
 
-::style_chicago_quotvpara_01_include
+::en_style_chicago_quotvpara_01_include
 ! Quoting and Paraphrasing: Differences
 
 Maybe it would help to show the difference between quoting and paraphrasing, and \
@@ -268,7 +268,7 @@ west...
 
 
 
-::style_chicago_quotvpara_02_include
+::en_style_chicago_quotvpara_02_include
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting
@@ -290,7 +290,7 @@ Ebook Central.</li></ol>
 
 
 
-::style_chicago_quotvpara_03_include
+::en_style_chicago_quotvpara_03_include
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing
@@ -313,7 +313,7 @@ Ebook Central.</li></ol>
 
 
 
-::style_chicago_quotvpara_04
+::en_style_chicago_quotvpara_04
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting
@@ -329,40 +329,40 @@ from which 135,000 people were evacuated two years ago.''
 Is this plagiarism?
 
 <<AnswerChoices
-  "style_chicago_quotvpara_04" $next_common_passage "hide"
-  "style_chicago_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
-  "style_chicago_quotvpara_04_include_answer_no" "No, this is not plagiarism"
+  "en_style_chicago_quotvpara_04" $next_common_passage "hide"
+  "en_style_chicago_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_chicago_quotvpara_04_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_chicago_quotvpara_04_include_answer_yes
+::en_style_chicago_quotvpara_04_include_answer_yes
 !! Correct
 
 Good catch! This is plagiarism because the quotation is not in quotation marks \
 and the source is not cited!
 
 <<AnswerStatus
-  "style_chicago_quotvpara_04"
+  "en_style_chicago_quotvpara_04"
   "correct"
 >>
 
 
 
-::style_chicago_quotvpara_04_include_answer_no
+::en_style_chicago_quotvpara_04_include_answer_no
 !! Incorrect
 
 Oh yes, it is! This is plagiarism because the quotation is not in quotation \
 marks and the source is not cited.
 
 <<AnswerStatus
-  "style_chicago_quotvpara_04"
+  "en_style_chicago_quotvpara_04"
   "incorrect"
 >>
 
 
 
-::style_chicago_quotvpara_05
+::en_style_chicago_quotvpara_05
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting Revisions
@@ -374,13 +374,13 @@ residents not to have outings in the woods north of Kiev, near the 18-mile zone 
 from which 135,000 people were evacuated two years ago.''
 
 <<AnswerChoices
-  "style_chicago_quotvpara_05" $next_common_passage "hide"
-  "style_chicago_quotvpara_05_include_answer_fix" "Fix it"
+  "en_style_chicago_quotvpara_05" $next_common_passage "hide"
+  "en_style_chicago_quotvpara_05_include_answer_fix" "Fix it"
   >>
 
 
 
-::style_chicago_quotvpara_05_include_answer_fix
+::en_style_chicago_quotvpara_05_include_answer_fix
 !! Fixed
 
 > In an interview, the Ukranian Health Minister, Anatoly Y. Romanenko "advised \
@@ -398,13 +398,13 @@ of Kiev." //New York Times,// May 23, 1998. \
 """https://ezproxy.acadiau.ca:9443/login?url=https://search-proquest-com.ezproxy.acadiau.ca:9443/docview/426829329?accountid=8172"""
 
 <<AnswerStatus
-  "style_chicago_quotvpara_05"
+  "en_style_chicago_quotvpara_05"
   "fixed"
 >>
 
 
 
-::style_chicago_quotvpara_06
+::en_style_chicago_quotvpara_06
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing
@@ -416,40 +416,40 @@ concerning radiation.
 Is this plagiarism?
 
 <<AnswerChoices
-  "style_chicago_quotvpara_06" $next_common_passage "hide"
-  "style_chicago_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
-  "style_chicago_quotvpara_06_include_answer_no" "No, this is not plagiarism"
+  "en_style_chicago_quotvpara_06" $next_common_passage "hide"
+  "en_style_chicago_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_chicago_quotvpara_06_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_chicago_quotvpara_06_include_answer_yes
+::en_style_chicago_quotvpara_06_include_answer_yes
 !! Correct
 
 Definitely. The author has used their own words and sentence structure but \
 forgotten to cite the source!
 
 <<AnswerStatus
-  "style_chicago_quotvpara_06"
+  "en_style_chicago_quotvpara_06"
   "correct"
 >>
 
 
 
-::style_chicago_quotvpara_06_include_answer_no
+::en_style_chicago_quotvpara_06_include_answer_no
 !! Incorrect
 
 Actually, it IS plagiarism. Although they used their own words and sentence \
 structure, they have forgotten to cite the source!
 
 <<AnswerStatus
-  "style_chicago_quotvpara_06"
+  "en_style_chicago_quotvpara_06"
   "incorrect"
 >>
 
 
 
-::style_chicago_quotvpara_07
+::en_style_chicago_quotvpara_07
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing Revisions
@@ -461,13 +461,13 @@ the woods near Kiev, he continued to disregard the worries residents had \
 concerning radiation.
 
 <<AnswerChoices
-  "style_chicago_quotvpara_07" $next_common_passage "hide"
-  "style_chicago_quotvpara_07_include_answer_fix" "Fix it"
+  "en_style_chicago_quotvpara_07" $next_common_passage "hide"
+  "en_style_chicago_quotvpara_07_include_answer_fix" "Fix it"
   >>
 
 
 
-::style_chicago_quotvpara_07_include_answer_fix
+::en_style_chicago_quotvpara_07_include_answer_fix
 !! Fixed
 
 > Although the Ukranian Health Minister recommended that residents did not go in \
@@ -485,7 +485,7 @@ of Kiev." //New York Times,// May 23, 1998. \
 """https://ezproxy.acadiau.ca:9443/login?url=https://search-proquest-com.ezproxy.acadiau.ca:9443/docview/426829329?accountid=8172"""
 
 <<AnswerStatus
-  "style_chicago_quotvpara_07"
+  "en_style_chicago_quotvpara_07"
   "fixed"
 >>
 

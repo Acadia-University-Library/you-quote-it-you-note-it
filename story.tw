@@ -24,18 +24,24 @@ twee2_configuration.tw
 css_story.scss
 storyinclude_macros.tw
 storyinclude_headerfooter.tw
-storyinclude_common.tw
-storyinclude_style_apa.tw
-storyinclude_style_asa.tw
-storyinclude_style_chicago.tw
-storyinclude_style_mla.tw
+storyinclude_start.tw
+storyinclude_en_common.tw
+storyinclude_en_style_apa.tw
+storyinclude_en_style_asa.tw
+storyinclude_en_style_chicago.tw
+storyinclude_en_style_mla.tw
+storyinclude_fr_common.tw
+storyinclude_fr_style_apa.tw
+storyinclude_fr_style_asa.tw
+storyinclude_fr_style_chicago.tw
+storyinclude_fr_style_mla.tw
 storyinclude_license.tw
 storyinclude_debug.tw
 
 
 
 ::StoryInit
-<<set $version = "2.20.09h">>
+<<set $version = "2.21.10a-dev">>
 <<set $debug = 0>>
 
 <<set $font_family = recall("font_family", "font_family_mixed")>>

@@ -1,4 +1,4 @@
-::style_apa_plagiarism_01 
+::en_style_apa_plagiarism_01 
 ! Is this plagiarism?
 
 Copying a direct quotation into your paper, placing quotation marks around it, \
@@ -13,14 +13,14 @@ and crediting the source.
 Publishing.</span>
 
 <<AnswerChoices
-  "style_apa_plagiarism_01" $next_common_passage "hide"
-  "style_apa_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
-  "style_apa_plagiarism_01_include_answer_no" "No, this is not plagiarism"
+  "en_style_apa_plagiarism_01" $next_common_passage "hide"
+  "en_style_apa_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_apa_plagiarism_01_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_apa_plagiarism_01_include_answer_yes 
+::en_style_apa_plagiarism_01_include_answer_yes 
 !! Incorrect
 
 This is not plagiarism.
@@ -29,26 +29,26 @@ Copying information word-for-word from a source is okay as long as you put \
 quotation marks around the copied information and give credit to the source.
 
 <<AnswerStatus
-  "style_apa_plagiarism_01"
+  "en_style_apa_plagiarism_01"
   "incorrect"
 >>
 
 
 
-::style_apa_plagiarism_01_include_answer_no 
+::en_style_apa_plagiarism_01_include_answer_no 
 !! Correct
 
 You're right! This is not plagiarism because there are quotation marks around \
 the copied information and the source is credited.
 
 <<AnswerStatus
-  "style_apa_plagiarism_01"
+  "en_style_apa_plagiarism_01"
   "correct"
 >>
 
 
 
-::style_apa_plagiarism_02 
+::en_style_apa_plagiarism_02 
 ! Is this plagiarism?
 
 How about this?
@@ -65,14 +65,14 @@ the source.
 Publishing.</span>
 
 <<AnswerChoices
-  "style_apa_plagiarism_02" $next_common_passage "hide"
-  "style_apa_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
-  "style_apa_plagiarism_02_include_answer_no" "No, this is not plagiarism"
+  "en_style_apa_plagiarism_02" $next_common_passage "hide"
+  "en_style_apa_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_apa_plagiarism_02_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_apa_plagiarism_02_include_answer_yes
+::en_style_apa_plagiarism_02_include_answer_yes
 !! Incorrect
 
 Actually, this is not plagiarism: it's paraphrasing.
@@ -82,13 +82,13 @@ entirely in your words&mdash;just changing a couple words here and there \
 doesn't cut it.
 
 <<AnswerStatus
-  "style_apa_plagiarism_02"
+  "en_style_apa_plagiarism_02"
   "incorrect"
 >>
 
 
 
-::style_apa_plagiarism_02_include_answer_no
+::en_style_apa_plagiarism_02_include_answer_no
 !! Correct
 
 You're right! This is not plagiarism. It's paraphrasing.
@@ -98,13 +98,13 @@ entirely in your words&mdash;just changing a couple words here and there \
 doesn't cut it.
 
 <<AnswerStatus
-  "style_apa_plagiarism_02"
+  "en_style_apa_plagiarism_02"
   "correct"
 >>
 
 
 
-::style_apa_knowledge_01 
+::en_style_apa_knowledge_01 
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -117,27 +117,27 @@ to be cited.
 > The first modern Molson brand, Export Ale, appeared in 1903.
 
 <<AnswerChoices
-  "style_apa_knowledge_01" $next_common_passage "hide"
-  "style_apa_knowledge_01_include_answer_a" "Sentence A"
-  "style_apa_knowledge_01_include_answer_b" "Sentence B"
+  "en_style_apa_knowledge_01" $next_common_passage "hide"
+  "en_style_apa_knowledge_01_include_answer_a" "Sentence A"
+  "en_style_apa_knowledge_01_include_answer_b" "Sentence B"
   >>
 
 
 
-::style_apa_knowledge_01_include_answer_a
+::en_style_apa_knowledge_01_include_answer_a
 !! Incorrect
 
 Actually, this is common knowledge and doesn't need to be cited. (But when in \
 doubt, it's better to cite than not.)
 
 <<AnswerStatus
-  "style_apa_knowledge_01"
+  "en_style_apa_knowledge_01"
   "incorrect"
 >>
 
 
 
-::style_apa_knowledge_01_include_answer_b
+::en_style_apa_knowledge_01_include_answer_b
 !! Correct
 
 You're right! This needs to be cited. It's from this book:
@@ -145,13 +145,13 @@ You're right! This needs to be cited. It's from this book:
 > Hunter, D. (2001). //Molson: The birth of a business empire.// Viking.
 
 <<AnswerStatus
-  "style_apa_knowledge_01"
+  "en_style_apa_knowledge_01"
   "correct"
 >>
 
 
 
-::style_apa_knowledge_02 
+::en_style_apa_knowledge_02 
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -165,14 +165,14 @@ financial markets.
 > The peso is the currency used in the country of Mexico.
 
 <<AnswerChoices
-  "style_apa_knowledge_02" $next_common_passage "hide"
-  "style_apa_knowledge_02_include_answer_a" "Sentence A"
-  "style_apa_knowledge_02_include_answer_b" "Sentence B"
+  "en_style_apa_knowledge_02" $next_common_passage "hide"
+  "en_style_apa_knowledge_02_include_answer_a" "Sentence A"
+  "en_style_apa_knowledge_02_include_answer_b" "Sentence B"
   >>
 
 
 
-::style_apa_knowledge_02_include_answer_a
+::en_style_apa_knowledge_02_include_answer_a
 !! Correct
 
 You're right! This needs to be cited. It's from this journal article:
@@ -182,26 +182,26 @@ case study of Mexico's tequila crisis. \
 //Journal of American Academy of Business//, 2(2), 545-549.
 
 <<AnswerStatus
-  "style_apa_knowledge_02"
+  "en_style_apa_knowledge_02"
   "correct"
 >>
 
 
 
-::style_apa_knowledge_02_include_answer_b
+::en_style_apa_knowledge_02_include_answer_b
 !! Incorrect
 
 Actually, this is common knowledge and doesn't need to be cited. (But when in \
 doubt, it's better to cite than not.)
 
 <<AnswerStatus
-  "style_apa_knowledge_02"
+  "en_style_apa_knowledge_02"
   "incorrect"
 >>
 
 
 
-::style_apa_knowledge_03 
+::en_style_apa_knowledge_03 
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -215,14 +215,14 @@ reduce interest rates.
 > The Bank of Canada regulates interest rates.
 
 <<AnswerChoices
-  "style_apa_knowledge_03" $next_common_passage "hide"
-  "style_apa_knowledge_03_include_answer_a" "Sentence A"
-  "style_apa_knowledge_03_include_answer_b" "Sentence B"
+  "en_style_apa_knowledge_03" $next_common_passage "hide"
+  "en_style_apa_knowledge_03_include_answer_a" "Sentence A"
+  "en_style_apa_knowledge_03_include_answer_b" "Sentence B"
   >>
 
 
 
-::style_apa_knowledge_03_include_answer_a
+::en_style_apa_knowledge_03_include_answer_a
 !! Correct
 
 You're right! This needs to be cited. It's from this article:
@@ -231,26 +231,26 @@ You're right! This needs to be cited. It's from this article:
 Fund. """http://www.fin.gc.ca/news03/03-024e.html""".
 
 <<AnswerStatus
-  "style_apa_knowledge_03"
+  "en_style_apa_knowledge_03"
   "correct"
 >>
 
 
 
-::style_apa_knowledge_03_include_answer_b
+::en_style_apa_knowledge_03_include_answer_b
 !! Incorrect
 
 Actually, this is common knowledge and doesn't need to be cited. (But when in \
 doubt, it's better to cite than not.)
 
 <<AnswerStatus
-  "style_apa_knowledge_03"
+  "en_style_apa_knowledge_03"
   "incorrect"
 >>
 
 
 
-::style_apa_quotvpara_01_include
+::en_style_apa_quotvpara_01_include
 ! Quoting and Paraphrasing: Differences
 
 Maybe it would help to show the difference between quoting and paraphrasing, and \
@@ -266,7 +266,7 @@ toxins...
 
 
 
-::style_apa_quotvpara_02_include
+::en_style_apa_quotvpara_02_include
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting
@@ -286,7 +286,7 @@ Publishing.</span>
 
 
 
-::style_apa_quotvpara_03_include
+::en_style_apa_quotvpara_03_include
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing
@@ -305,7 +305,7 @@ Publishing.</span>
 
 
 
-::style_apa_quotvpara_04 
+::en_style_apa_quotvpara_04 
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting
@@ -323,40 +323,40 @@ appeared on the market as the first trans-genetic potato, engineered to contain 
 Is this plagiarism?
 
 <<AnswerChoices
-  "style_apa_quotvpara_04" $next_common_passage "hide"
-  "style_apa_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
-  "style_apa_quotvpara_04_include_answer_no" "No, this is not plagiarism"
+  "en_style_apa_quotvpara_04" $next_common_passage "hide"
+  "en_style_apa_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_apa_quotvpara_04_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_apa_quotvpara_04_include_answer_yes
+::en_style_apa_quotvpara_04_include_answer_yes
 !! Correct
 
 Good catch! This is plagiarism because the quotation is not in quotation marks \
 and the source is not cited!
 
 <<AnswerStatus
-  "style_apa_quotvpara_04"
+  "en_style_apa_quotvpara_04"
   "correct"
 >>
 
 
 
-::style_apa_quotvpara_04_include_answer_no
+::en_style_apa_quotvpara_04_include_answer_no
 !! Incorrect
 
 Oh yes, it is! This is plagiarism because the quotation is not in quotation \
 marks and the source is not cited.
 
 <<AnswerStatus
-  "style_apa_quotvpara_04"
+  "en_style_apa_quotvpara_04"
   "incorrect"
 >>
 
 
 
-::style_apa_quotvpara_05 
+::en_style_apa_quotvpara_05 
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting Revisions
@@ -370,13 +370,13 @@ appeared on the market as the first trans-genetic potato, engineered to contain 
 //Bacillus thuringiensis// (Bt) toxins.''
 
 <<AnswerChoices
-  "style_apa_quotvpara_05" $next_common_passage "hide"
-  "style_apa_quotvpara_05_include_answer_fix" "Fix it"
+  "en_style_apa_quotvpara_05" $next_common_passage "hide"
+  "en_style_apa_quotvpara_05_include_answer_fix" "Fix it"
   >>
 
 
 
-::style_apa_quotvpara_05_include_answer_fix 
+::en_style_apa_quotvpara_05_include_answer_fix 
 !! Fixed
 
 > The biotechnology industry continues to affect many of the staple foods of \
@@ -391,13 +391,13 @@ appeared on the market as the first trans-genetic potato, engineered to contain 
 Publishing.</span>
 
 <<AnswerStatus
-  "style_apa_quotvpara_05"
+  "en_style_apa_quotvpara_05"
   "fixed"
 >>
 
 
 
-::style_apa_quotvpara_06 
+::en_style_apa_quotvpara_06 
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing
@@ -409,40 +409,40 @@ have been the first genetically modified spud to contain Bt toxins.''
 Is this plagiarism?
 
 <<AnswerChoices
-  "style_apa_quotvpara_06" $next_common_passage "hide"
-  "style_apa_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
-  "style_apa_quotvpara_06_include_answer_no" "No, this is not plagiarism"
+  "en_style_apa_quotvpara_06" $next_common_passage "hide"
+  "en_style_apa_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_apa_quotvpara_06_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_apa_quotvpara_06_include_answer_yes
+::en_style_apa_quotvpara_06_include_answer_yes
 !! Correct
 
 Definitely. The author has used their own words and sentence structure but \
 forgotten to cite the source!
 
 <<AnswerStatus
-  "style_apa_quotvpara_06"
+  "en_style_apa_quotvpara_06"
   "correct"
 >>
 
 
 
-::style_apa_quotvpara_06_include_answer_no
+::en_style_apa_quotvpara_06_include_answer_no
 !! Incorrect
 
 Actually, it IS plagiarism. Although they used their own words and sentence \
 structure, they have forgotten to cite the source!
 
 <<AnswerStatus
-  "style_apa_quotvpara_06"
+  "en_style_apa_quotvpara_06"
   "incorrect"
 >>
 
 
 
-::style_apa_quotvpara_07 
+::en_style_apa_quotvpara_07 
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing Revisions
@@ -454,13 +454,13 @@ our Western diet. ''The popular North American russet Burbank potato is said to 
 have been the first genetically modified spud to contain Bt toxins.''
 
 <<AnswerChoices
-  "style_apa_quotvpara_07" $next_common_passage "hide"
-  "style_apa_quotvpara_07_include_answer_fix" "Fix it"
+  "en_style_apa_quotvpara_07" $next_common_passage "hide"
+  "en_style_apa_quotvpara_07_include_answer_fix" "Fix it"
   >>
 
 
 
-::style_apa_quotvpara_07_include_answer_fix 
+::en_style_apa_quotvpara_07_include_answer_fix 
 !! Fixed
 
 > The biotechnology industry continues to affect many of the staple foods of \
@@ -474,7 +474,7 @@ have been the first genetically modified spud to contain Bt toxins'' (Kneen, \
 Publishing.</span>
 
 <<AnswerStatus
-  "style_apa_quotvpara_07"
+  "en_style_apa_quotvpara_07"
   "fixed"
 >>
 

@@ -1,0 +1,460 @@
+::en_style_mla_plagiarism_01
+! Is this plagiarism?
+
+Copying a direct quotation into your paper, placing quotation marks around it, \
+and crediting the source.
+
+> "At the end of the Middle Ages, leprosy disappeared from the Western world" \
+(Foucault 3).
+> ...
+> Works Cited:
+> <span class="hanging_indent">Foucault, Michel. //Madness and Civilization.// \
+Random House, 1965.</span>
+
+<<AnswerChoices
+  "en_style_mla_plagiarism_01" $next_common_passage "hide"
+  "en_style_mla_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_mla_plagiarism_01_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+
+::en_style_mla_plagiarism_01_include_answer_yes
+!! Incorrect
+
+This is not plagiarism.
+
+Copying information word-for-word from a source is okay as long as you put \
+quotation marks around the copied information and give credit to the source.
+
+<<AnswerStatus
+  "en_style_mla_plagiarism_01"
+  "incorrect"
+>>
+
+
+
+::en_style_mla_plagiarism_01_include_answer_no
+!! Correct
+
+You're right! This is not plagiarism because there are quotation marks around \
+the copied information and the source is credited.
+
+<<AnswerStatus
+  "en_style_mla_plagiarism_01"
+  "correct"
+>>
+
+
+
+::en_style_mla_plagiarism_02
+! Is this plagiarism?
+
+How about this?
+
+Taking someone's ideas or words, putting them into your own words, and crediting \
+the source.
+
+> Leprosy was eradicated in the west by the end of medieval times (Foucault 3).
+> ...
+> Works Cited:
+> <span class="hanging_indent">Foucault, Michel. //Madness and Civilization.// \
+Random House, 1965.</span>
+
+<<AnswerChoices
+  "en_style_mla_plagiarism_02" $next_common_passage "hide"
+  "en_style_mla_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_mla_plagiarism_02_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+
+::en_style_mla_plagiarism_02_include_answer_yes
+!! Incorrect
+
+Actually, this is not plagiarism: it's paraphrasing.
+
+Paraphrasing is fine as long as you credit the source and the paraphrase is \
+entirely in your words&mdash;just changing a couple words here and there \
+doesn't cut it.
+
+<<AnswerStatus
+  "en_style_mla_plagiarism_02"
+  "incorrect"
+>>
+
+
+
+::en_style_mla_plagiarism_02_include_answer_no
+!! Correct
+
+You're right! This is not plagiarism. It's paraphrasing.
+
+Paraphrasing is fine as long as you credit the source and the paraphrase is \
+entirely in your words&mdash;just changing a couple words here and there \
+doesn't cut it.
+
+<<AnswerStatus
+  "en_style_mla_plagiarism_02"
+  "correct"
+>>
+
+
+
+::en_style_mla_knowledge_01
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> Bram Stoker is the author of //Dracula//.
+
+''Sentence B''
+> Bram Stoker's death certificate suggests that he died of tertiary syphilis.
+
+<<AnswerChoices
+  "en_style_mla_knowledge_01" $next_common_passage "hide"
+  "en_style_mla_knowledge_01_include_answer_a" "Sentence A"
+  "en_style_mla_knowledge_01_include_answer_b" "Sentence B"
+  >>
+
+
+
+::en_style_mla_knowledge_01_include_answer_a
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "en_style_mla_knowledge_01"
+  "incorrect"
+>>
+
+
+
+::en_style_mla_knowledge_01_include_answer_b
+!! Correct
+
+You're right! This needs to be cited. It's from this journal article:
+
+> Fry, Carol L., and John Robert Craig. "'Unfit for Earth, Undoomed for Heaven': \
+The Genesis of Coppola's Byronic Dracula." //Literature and Film Quarterly//, \
+vol. 30, no. 4, 1994, pp. 271-78.
+
+<<AnswerStatus
+  "en_style_mla_knowledge_01"
+  "correct"
+>>
+
+
+
+::en_style_mla_knowledge_02
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> Shakespeare probably earned about 200 pounds a year from his work in the \
+theatre.
+
+''Sentence B''
+> William Shakespeare was born in England in the 16th century.
+
+<<AnswerChoices
+  "en_style_mla_knowledge_02" $next_common_passage "hide"
+  "en_style_mla_knowledge_02_include_answer_a" "Sentence A"
+  "en_style_mla_knowledge_02_include_answer_b" "Sentence B"
+  >>
+
+
+
+::en_style_mla_knowledge_02_include_answer_a
+!! Correct
+
+You're right! This needs to be cited. It's from this book:
+
+> Hyland, Peter. //An Introduction to Shakespeare: The Dramatist in His \
+Context//. St. Martin's Press, 1996.
+
+<<AnswerStatus
+  "en_style_mla_knowledge_02"
+  "correct"
+>>
+
+
+
+::en_style_mla_knowledge_02_include_answer_b
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "en_style_mla_knowledge_02"
+  "incorrect"
+>>
+
+
+
+::en_style_mla_knowledge_03
+! Common knowledge or not?
+
+One sentence is common knowledge and the other is not. Pick the one that needs \
+to be cited.
+
+''Sentence A''
+> Tolkien's //The Hobbit//, published in 1937, was originally written for \
+Tolkien's own children.
+
+''Sentence B''
+> J.R.R. Tolkien is the author of //The Lord Of The Rings//.
+
+<<AnswerChoices
+  "en_style_mla_knowledge_03" $next_common_passage "hide"
+  "en_style_mla_knowledge_03_include_answer_a" "Sentence A"
+  "en_style_mla_knowledge_03_include_answer_b" "Sentence B"
+  >>
+
+
+
+::en_style_mla_knowledge_03_include_answer_a
+!! Correct
+
+You're right! This needs to be cited. It's from this website:
+
+> Wood, Ralph C. "Biography of J.R.R. Tolkein." //LeadershipU//, \
+"""http://www.learderu.com/humanities/wood-biography.html""".
+
+<<AnswerStatus
+  "en_style_mla_knowledge_03"
+  "correct"
+>>
+
+
+
+::en_style_mla_knowledge_03_include_answer_b
+!! Incorrect
+
+Actually, this is common knowledge and doesn't need to be cited. (But when in \
+doubt, it's better to cite than not.)
+
+<<AnswerStatus
+  "en_style_mla_knowledge_03"
+  "incorrect"
+>>
+
+
+
+::en_style_mla_quotvpara_01_include
+! Quoting and Paraphrasing: Differences
+
+Maybe it would help to show the difference between quoting and paraphrasing, and \
+how to do each correctly using MLA style.
+
+> In //The Pastures of Heaven//, readers first see the natural and poetic use \
+of language familiar in Steinbeck's greatest works.
+
+
+
+::en_style_mla_quotvpara_02_include
+! Quoting and Paraphrasing: Differences
+
+!! Quoting
+
+A quotation uses exactly the same words as those found in the source material \
+and puts them in quotation marks. Here's what a quotation looks like with a \
+proper in-text reference in MLA style:
+
+> "In //The Pastures of Heaven//, readers first see the natural and poetic use \
+of language familiar in Steinbeck's greatest works" (Burkhead 17).
+> ...
+> Works Cited:
+> <span class="hanging_indent">Burkhead, Cynthia. \
+//Student Companion to John Steinbeck.// Greenwood, 2002.</span>
+
+
+
+::en_style_mla_quotvpara_03_include
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing
+
+A paraphrase is another author’s ideas expressed //in your own words//&mdash;\
+without quotation marks, since it's no longer a word-for-word quotation. And \
+just changing a few words from the original doesn't count!
+
+> The first use of Steinbeck's works to use language in the poetic way for which \
+he became famous is //The Pastures of Heaven// (Burkhead 17).
+> ...
+> Works Cited:
+> <span class="hanging_indent">Burkhead, Cynthia. \
+//Student Companion to John Steinbeck.// Greenwood, 2002.</span>
+
+
+
+::en_style_mla_quotvpara_04
+! Quoting and Paraphrasing: Differences
+
+!! Quoting
+
+Let's look at an example in context:
+
+> Steinbeck's early works betray an undeveloped style. ''In //The Pastures of \
+Heaven//, readers first see the natural and poetic use of language familiar in \
+Steinbeck's greatest works.''
+
+Is this plagiarism?
+
+<<AnswerChoices
+  "en_style_mla_quotvpara_04" $next_common_passage "hide"
+  "en_style_mla_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_mla_quotvpara_04_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+
+::en_style_mla_quotvpara_04_include_answer_yes
+!! Correct
+
+Good catch! This is plagiarism because the quotation is not in quotation marks \
+and the source is not cited!
+
+<<AnswerStatus
+  "en_style_mla_quotvpara_04"
+  "correct"
+>>
+
+
+
+::en_style_mla_quotvpara_04_include_answer_no
+!! Incorrect
+
+Oh yes, it is! This is plagiarism because the quotation is not in quotation \
+marks and the source is not cited.
+
+<<AnswerStatus
+  "en_style_mla_quotvpara_04"
+  "incorrect"
+>>
+
+
+
+::en_style_mla_quotvpara_05
+! Quoting and Paraphrasing: Differences
+
+!! Quoting Revisions
+
+Click "Fix it" to see how to quote without plagiarising.
+
+> Steinbeck's early works betray an undeveloped style. ''In //The Pastures of \
+Heaven//, readers first see the natural and poetic use of language familiar in \
+Steinbeck's greatest works.''
+
+<<AnswerChoices
+  "en_style_mla_quotvpara_05" $next_common_passage "hide"
+  "en_style_mla_quotvpara_05_include_answer_fix" "Fix it"
+  >>
+
+
+
+::en_style_mla_quotvpara_05_include_answer_fix
+!! Fixed
+
+> Steinbeck's early works betray an undeveloped style. ''In //The Pastures of \
+Heaven//, readers first see the natural and poetic use of language familiar in \
+Steinbeck's greatest works'' (Burkhead 17).
+> ...
+> Works Cited:
+> <span class="hanging_indent">Burkhead, Cynthia. \
+//Student Companion to John Steinbeck.// Greenwood, 2002.</span>
+
+<<AnswerStatus
+  "en_style_mla_quotvpara_05"
+  "fixed"
+>>
+
+
+
+::en_style_mla_quotvpara_06
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing
+
+> Steinbeck's early works betray an undeveloped style. ''The first of \
+Steinbeck's works to use language in the poetic way for which he became famous \
+is //The Pastures of Heaven//.''
+
+Is this plagiarism?
+
+<<AnswerChoices
+  "en_style_mla_quotvpara_06" $next_common_passage "hide"
+  "en_style_mla_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
+  "en_style_mla_quotvpara_06_include_answer_no" "No, this is not plagiarism"
+  >>
+
+
+
+::en_style_mla_quotvpara_06_include_answer_yes
+!! Correct
+
+Definitely. The author has used their own words and sentence structure but \
+forgotten to cite the source!
+
+<<AnswerStatus
+  "en_style_mla_quotvpara_06"
+  "correct"
+>>
+
+
+
+::en_style_mla_quotvpara_06_include_answer_no
+!! Incorrect
+
+Actually, it IS plagiarism. Although they used their own words and sentence \
+structure, they have forgotten to cite the source!
+
+<<AnswerStatus
+  "en_style_mla_quotvpara_06"
+  "incorrect"
+>>
+
+
+
+::en_style_mla_quotvpara_07
+! Quoting and Paraphrasing: Differences
+
+!! Paraphrasing Revisions
+
+Click "Fix it" to see how to paraphrase without plagiarising.
+
+> Steinbeck's early works betray an undeveloped style. ''The first of \
+Steinbeck's works to use language in the poetic way for which he became famous \
+is //The Pastures of Heaven//.''
+
+<<AnswerChoices
+  "en_style_mla_quotvpara_07" $next_common_passage "hide"
+  "en_style_mla_quotvpara_07_include_answer_fix" "Fix it"
+  >>
+
+
+
+::en_style_mla_quotvpara_07_include_answer_fix
+!! Fixed
+
+> Steinbeck's early works betray an undeveloped style. ''The first of \
+Steinbeck's works to use language in the poetic way for which he became famous \
+is //The Pastures of Heaven//'' (Burkhead 17).
+> ...
+> Works Cited:
+> <span class="hanging_indent">Burkhead, Cynthia. \
+//Student Companion to John Steinbeck.// Greenwood, 2002.</span>
+
+<<AnswerStatus
+  "en_style_mla_quotvpara_07"
+  "fixed"
+>>
+
+

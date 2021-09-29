@@ -1,4 +1,4 @@
-::style_mla_plagiarism_01
+::fr_style_mla_plagiarism_01
 ! Is this plagiarism?
 
 Copying a direct quotation into your paper, placing quotation marks around it, \
@@ -12,14 +12,14 @@ and crediting the source.
 Random House, 1965.</span>
 
 <<AnswerChoices
-  "style_mla_plagiarism_01" $next_common_passage "hide"
-  "style_mla_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
-  "style_mla_plagiarism_01_include_answer_no" "No, this is not plagiarism"
+  "fr_style_mla_plagiarism_01" $next_common_passage "hide"
+  "fr_style_mla_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
+  "fr_style_mla_plagiarism_01_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_mla_plagiarism_01_include_answer_yes
+::fr_style_mla_plagiarism_01_include_answer_yes
 !! Incorrect
 
 This is not plagiarism.
@@ -28,26 +28,26 @@ Copying information word-for-word from a source is okay as long as you put \
 quotation marks around the copied information and give credit to the source.
 
 <<AnswerStatus
-  "style_mla_plagiarism_01"
+  "fr_style_mla_plagiarism_01"
   "incorrect"
 >>
 
 
 
-::style_mla_plagiarism_01_include_answer_no
+::fr_style_mla_plagiarism_01_include_answer_no
 !! Correct
 
 You're right! This is not plagiarism because there are quotation marks around \
 the copied information and the source is credited.
 
 <<AnswerStatus
-  "style_mla_plagiarism_01"
+  "fr_style_mla_plagiarism_01"
   "correct"
 >>
 
 
 
-::style_mla_plagiarism_02
+::fr_style_mla_plagiarism_02
 ! Is this plagiarism?
 
 How about this?
@@ -62,14 +62,14 @@ the source.
 Random House, 1965.</span>
 
 <<AnswerChoices
-  "style_mla_plagiarism_02" $next_common_passage "hide"
-  "style_mla_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
-  "style_mla_plagiarism_02_include_answer_no" "No, this is not plagiarism"
+  "fr_style_mla_plagiarism_02" $next_common_passage "hide"
+  "fr_style_mla_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
+  "fr_style_mla_plagiarism_02_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_mla_plagiarism_02_include_answer_yes
+::fr_style_mla_plagiarism_02_include_answer_yes
 !! Incorrect
 
 Actually, this is not plagiarism: it's paraphrasing.
@@ -79,13 +79,13 @@ entirely in your words&mdash;just changing a couple words here and there \
 doesn't cut it.
 
 <<AnswerStatus
-  "style_mla_plagiarism_02"
+  "fr_style_mla_plagiarism_02"
   "incorrect"
 >>
 
 
 
-::style_mla_plagiarism_02_include_answer_no
+::fr_style_mla_plagiarism_02_include_answer_no
 !! Correct
 
 You're right! This is not plagiarism. It's paraphrasing.
@@ -95,13 +95,13 @@ entirely in your words&mdash;just changing a couple words here and there \
 doesn't cut it.
 
 <<AnswerStatus
-  "style_mla_plagiarism_02"
+  "fr_style_mla_plagiarism_02"
   "correct"
 >>
 
 
 
-::style_mla_knowledge_01
+::fr_style_mla_knowledge_01
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -114,27 +114,27 @@ to be cited.
 > Bram Stoker's death certificate suggests that he died of tertiary syphilis.
 
 <<AnswerChoices
-  "style_mla_knowledge_01" $next_common_passage "hide"
-  "style_mla_knowledge_01_include_answer_a" "Sentence A"
-  "style_mla_knowledge_01_include_answer_b" "Sentence B"
+  "fr_style_mla_knowledge_01" $next_common_passage "hide"
+  "fr_style_mla_knowledge_01_include_answer_a" "Sentence A"
+  "fr_style_mla_knowledge_01_include_answer_b" "Sentence B"
   >>
 
 
 
-::style_mla_knowledge_01_include_answer_a
+::fr_style_mla_knowledge_01_include_answer_a
 !! Incorrect
 
 Actually, this is common knowledge and doesn't need to be cited. (But when in \
 doubt, it's better to cite than not.)
 
 <<AnswerStatus
-  "style_mla_knowledge_01"
+  "fr_style_mla_knowledge_01"
   "incorrect"
 >>
 
 
 
-::style_mla_knowledge_01_include_answer_b
+::fr_style_mla_knowledge_01_include_answer_b
 !! Correct
 
 You're right! This needs to be cited. It's from this journal article:
@@ -144,13 +144,13 @@ The Genesis of Coppola's Byronic Dracula." //Literature and Film Quarterly//, \
 vol. 30, no. 4, 1994, pp. 271-78.
 
 <<AnswerStatus
-  "style_mla_knowledge_01"
+  "fr_style_mla_knowledge_01"
   "correct"
 >>
 
 
 
-::style_mla_knowledge_02
+::fr_style_mla_knowledge_02
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -164,14 +164,14 @@ theatre.
 > William Shakespeare was born in England in the 16th century.
 
 <<AnswerChoices
-  "style_mla_knowledge_02" $next_common_passage "hide"
-  "style_mla_knowledge_02_include_answer_a" "Sentence A"
-  "style_mla_knowledge_02_include_answer_b" "Sentence B"
+  "fr_style_mla_knowledge_02" $next_common_passage "hide"
+  "fr_style_mla_knowledge_02_include_answer_a" "Sentence A"
+  "fr_style_mla_knowledge_02_include_answer_b" "Sentence B"
   >>
 
 
 
-::style_mla_knowledge_02_include_answer_a
+::fr_style_mla_knowledge_02_include_answer_a
 !! Correct
 
 You're right! This needs to be cited. It's from this book:
@@ -180,26 +180,26 @@ You're right! This needs to be cited. It's from this book:
 Context//. St. Martin's Press, 1996.
 
 <<AnswerStatus
-  "style_mla_knowledge_02"
+  "fr_style_mla_knowledge_02"
   "correct"
 >>
 
 
 
-::style_mla_knowledge_02_include_answer_b
+::fr_style_mla_knowledge_02_include_answer_b
 !! Incorrect
 
 Actually, this is common knowledge and doesn't need to be cited. (But when in \
 doubt, it's better to cite than not.)
 
 <<AnswerStatus
-  "style_mla_knowledge_02"
+  "fr_style_mla_knowledge_02"
   "incorrect"
 >>
 
 
 
-::style_mla_knowledge_03
+::fr_style_mla_knowledge_03
 ! Common knowledge or not?
 
 One sentence is common knowledge and the other is not. Pick the one that needs \
@@ -213,14 +213,14 @@ Tolkien's own children.
 > J.R.R. Tolkien is the author of //The Lord Of The Rings//.
 
 <<AnswerChoices
-  "style_mla_knowledge_03" $next_common_passage "hide"
-  "style_mla_knowledge_03_include_answer_a" "Sentence A"
-  "style_mla_knowledge_03_include_answer_b" "Sentence B"
+  "fr_style_mla_knowledge_03" $next_common_passage "hide"
+  "fr_style_mla_knowledge_03_include_answer_a" "Sentence A"
+  "fr_style_mla_knowledge_03_include_answer_b" "Sentence B"
   >>
 
 
 
-::style_mla_knowledge_03_include_answer_a
+::fr_style_mla_knowledge_03_include_answer_a
 !! Correct
 
 You're right! This needs to be cited. It's from this website:
@@ -229,26 +229,26 @@ You're right! This needs to be cited. It's from this website:
 """http://www.learderu.com/humanities/wood-biography.html""".
 
 <<AnswerStatus
-  "style_mla_knowledge_03"
+  "fr_style_mla_knowledge_03"
   "correct"
 >>
 
 
 
-::style_mla_knowledge_03_include_answer_b
+::fr_style_mla_knowledge_03_include_answer_b
 !! Incorrect
 
 Actually, this is common knowledge and doesn't need to be cited. (But when in \
 doubt, it's better to cite than not.)
 
 <<AnswerStatus
-  "style_mla_knowledge_03"
+  "fr_style_mla_knowledge_03"
   "incorrect"
 >>
 
 
 
-::style_mla_quotvpara_01_include
+::fr_style_mla_quotvpara_01_include
 ! Quoting and Paraphrasing: Differences
 
 Maybe it would help to show the difference between quoting and paraphrasing, and \
@@ -259,7 +259,7 @@ of language familiar in Steinbeck's greatest works.
 
 
 
-::style_mla_quotvpara_02_include
+::fr_style_mla_quotvpara_02_include
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting
@@ -277,7 +277,7 @@ of language familiar in Steinbeck's greatest works" (Burkhead 17).
 
 
 
-::style_mla_quotvpara_03_include
+::fr_style_mla_quotvpara_03_include
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing
@@ -295,7 +295,7 @@ he became famous is //The Pastures of Heaven// (Burkhead 17).
 
 
 
-::style_mla_quotvpara_04
+::fr_style_mla_quotvpara_04
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting
@@ -309,40 +309,40 @@ Steinbeck's greatest works.''
 Is this plagiarism?
 
 <<AnswerChoices
-  "style_mla_quotvpara_04" $next_common_passage "hide"
-  "style_mla_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
-  "style_mla_quotvpara_04_include_answer_no" "No, this is not plagiarism"
+  "fr_style_mla_quotvpara_04" $next_common_passage "hide"
+  "fr_style_mla_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
+  "fr_style_mla_quotvpara_04_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_mla_quotvpara_04_include_answer_yes
+::fr_style_mla_quotvpara_04_include_answer_yes
 !! Correct
 
 Good catch! This is plagiarism because the quotation is not in quotation marks \
 and the source is not cited!
 
 <<AnswerStatus
-  "style_mla_quotvpara_04"
+  "fr_style_mla_quotvpara_04"
   "correct"
 >>
 
 
 
-::style_mla_quotvpara_04_include_answer_no
+::fr_style_mla_quotvpara_04_include_answer_no
 !! Incorrect
 
 Oh yes, it is! This is plagiarism because the quotation is not in quotation \
 marks and the source is not cited.
 
 <<AnswerStatus
-  "style_mla_quotvpara_04"
+  "fr_style_mla_quotvpara_04"
   "incorrect"
 >>
 
 
 
-::style_mla_quotvpara_05
+::fr_style_mla_quotvpara_05
 ! Quoting and Paraphrasing: Differences
 
 !! Quoting Revisions
@@ -354,13 +354,13 @@ Heaven//, readers first see the natural and poetic use of language familiar in \
 Steinbeck's greatest works.''
 
 <<AnswerChoices
-  "style_mla_quotvpara_05" $next_common_passage "hide"
-  "style_mla_quotvpara_05_include_answer_fix" "Fix it"
+  "fr_style_mla_quotvpara_05" $next_common_passage "hide"
+  "fr_style_mla_quotvpara_05_include_answer_fix" "Fix it"
   >>
 
 
 
-::style_mla_quotvpara_05_include_answer_fix
+::fr_style_mla_quotvpara_05_include_answer_fix
 !! Fixed
 
 > Steinbeck's early works betray an undeveloped style. ''In //The Pastures of \
@@ -372,13 +372,13 @@ Steinbeck's greatest works'' (Burkhead 17).
 //Student Companion to John Steinbeck.// Greenwood, 2002.</span>
 
 <<AnswerStatus
-  "style_mla_quotvpara_05"
+  "fr_style_mla_quotvpara_05"
   "fixed"
 >>
 
 
 
-::style_mla_quotvpara_06
+::fr_style_mla_quotvpara_06
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing
@@ -390,40 +390,40 @@ is //The Pastures of Heaven//.''
 Is this plagiarism?
 
 <<AnswerChoices
-  "style_mla_quotvpara_06" $next_common_passage "hide"
-  "style_mla_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
-  "style_mla_quotvpara_06_include_answer_no" "No, this is not plagiarism"
+  "fr_style_mla_quotvpara_06" $next_common_passage "hide"
+  "fr_style_mla_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
+  "fr_style_mla_quotvpara_06_include_answer_no" "No, this is not plagiarism"
   >>
 
 
 
-::style_mla_quotvpara_06_include_answer_yes
+::fr_style_mla_quotvpara_06_include_answer_yes
 !! Correct
 
 Definitely. The author has used their own words and sentence structure but \
 forgotten to cite the source!
 
 <<AnswerStatus
-  "style_mla_quotvpara_06"
+  "fr_style_mla_quotvpara_06"
   "correct"
 >>
 
 
 
-::style_mla_quotvpara_06_include_answer_no
+::fr_style_mla_quotvpara_06_include_answer_no
 !! Incorrect
 
 Actually, it IS plagiarism. Although they used their own words and sentence \
 structure, they have forgotten to cite the source!
 
 <<AnswerStatus
-  "style_mla_quotvpara_06"
+  "fr_style_mla_quotvpara_06"
   "incorrect"
 >>
 
 
 
-::style_mla_quotvpara_07
+::fr_style_mla_quotvpara_07
 ! Quoting and Paraphrasing: Differences
 
 !! Paraphrasing Revisions
@@ -435,13 +435,13 @@ Steinbeck's works to use language in the poetic way for which he became famous \
 is //The Pastures of Heaven//.''
 
 <<AnswerChoices
-  "style_mla_quotvpara_07" $next_common_passage "hide"
-  "style_mla_quotvpara_07_include_answer_fix" "Fix it"
+  "fr_style_mla_quotvpara_07" $next_common_passage "hide"
+  "fr_style_mla_quotvpara_07_include_answer_fix" "Fix it"
   >>
 
 
 
-::style_mla_quotvpara_07_include_answer_fix
+::fr_style_mla_quotvpara_07_include_answer_fix
 !! Fixed
 
 > Steinbeck's early works betray an undeveloped style. ''The first of \
@@ -453,7 +453,7 @@ is //The Pastures of Heaven//'' (Burkhead 17).
 //Student Companion to John Steinbeck.// Greenwood, 2002.</span>
 
 <<AnswerStatus
-  "style_mla_quotvpara_07"
+  "fr_style_mla_quotvpara_07"
   "fixed"
 >>
 

@@ -1,0 +1,741 @@
+::fr_common_intro_01 [part_0 avatar_introduction]
+! FR Introduction
+
+Welcome to the <em>You Quote It, You Note It!</em> tutorial. This tutorial will \
+explain what citation is and when and how to cite your sources properly. It will \
+also explain the concept of plagiarism, so that you understand how to avoid \
+plagiarizing the works of others. The tutorial will take about 10 minutes to \
+complete.
+
+But first, what is your name?
+<<textbox "$student" "">>
+
+<<PassagePrevNext "fr_common_settings_01">>
+
+
+
+::fr_common_settings_01 [part_0 avatar_settings]
+! Reading Preferences
+
+Next, choose the text options that you find most comfortable to read. 
+
+!! Styles
+<label class="settings_selector font_family_mixed"> \
+  <<radiobutton "$font_family" "font_family_mixed" autocheck>> <span class="pseudo_heading">Mixed</span> \
+</label> \
+<label class="settings_selector font_family_sans"> \
+  <<radiobutton "$font_family" "font_family_sans" autocheck>> Sans-serif \
+</label> \
+<label class="settings_selector font_family_serif"> \
+  <<radiobutton "$font_family" "font_family_serif" autocheck>> Serif \
+</label> \
+<label class="settings_selector font_family_dyslexic"> \
+  <<radiobutton "$font_family" "font_family_dyslexic" autocheck>> Dyslexic \
+</label>
+
+!! Sizes
+<label class="settings_selector font_size_regular"> \
+  <<radiobutton "$font_size" "font_size_regular" autocheck>> Regular \
+</label> \
+<label class="settings_selector font_size_large"> \
+  <<radiobutton "$font_size" "font_size_large" autocheck>> Large \
+</label> \
+<label class="settings_selector font_size_extralarge"> \
+  <<radiobutton "$font_size" "font_size_extralarge" autocheck>> Extra-Large \
+</label>
+
+<<PassagePrevNext "fr_common_settings_02">>
+
+
+
+::fr_common_settings_02 [part_0 avatar_settings]
+! Avatar Preferences
+
+Finally, choose an avatar.
+
+!! Personas
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['persona']" "person" autocheck>> <<GenerateAvatar "face" "person">> \
+</label> \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['persona']" "male" autocheck>> <<GenerateAvatar "face" "male">> \
+</label> \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['persona']" "female" autocheck>> <<GenerateAvatar "face" "female">> \
+</label> \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['persona']" "smiley" autocheck>> <<GenerateAvatar "face" "smiley">> \
+</label>
+
+!! Skin Tones
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fb" autocheck>> <<GenerateAvatar "face" "person" "1f3fb">> \
+</label> \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fc" autocheck>> <<GenerateAvatar "face" "person" "1f3fc">> \
+</label> \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fd" autocheck>> <<GenerateAvatar "face" "person" "1f3fd">> \
+</label> \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3fe" autocheck>> <<GenerateAvatar "face" "person" "1f3fe">> \
+</label> \
+<label class="settings_selector avatar"> \
+  <<radiobutton "$avatar['settings']['skintone']" "1f3ff" autocheck>> <<GenerateAvatar "face" "person" "1f3ff">> \
+</label> \
+
+<<PassagePrevNext "fr_common_citation_00">>
+
+
+
+::fr_common_citation_00 [part_1 avatar_placard]
+! Citation
+
+<<PassagePrevNext "fr_common_citation_01">>
+
+
+
+::fr_common_citation_01 [part_1 avatar_unsure]
+! What is citation?
+
+Citation is the process of documenting the sources you use in your writing. A \
+source is any document (a book, an article, a video, etc.) that you borrow ideas \
+from to support your writing. The specific details of how you cite your sources \
+depend on the citation style that you use, but generally, all citation includes \
+two parts: an in-text citation (a note in the body of your paper) and a \
+bibliography entry (a longer note at the end of your paper).
+
+<<PassagePrevNext "fr_common_citation_02">>
+
+
+
+::fr_common_citation_02 [part_1]
+! Citation
+
+There are many different citation styles out there, but here are a few of the most \
+common ones:
+
+!! APA
+This style originates in psychology but is used widely in the social sciences \
+and sciences. If you're not sure which style to choose, try this one.
+
+!! MLA
+This style is managed by the Modern Language Association and is used primarily \
+in the study of language and literature. English majors, this one is for you.
+
+!! Chicago
+This is another popular style in the humanities and social sciences. History, \
+politics, and theology majors should choose this style.
+
+!! ASA
+This style is used exclusively in sociology. If you're a sociology major, choose \
+this style.
+
+<<PassagePrevNext "fr_common_citation_03">>
+
+
+
+::fr_common_citation_03 [part_1]
+! Citation
+
+Let's start by choosing the style that will be shown to you during this \
+tutorial.
+
+<<back "< Back">> \
+<<link "APA" "fr_common_citation_04">><<set $style = "APA">><</link>> \
+<<link "MLA" "fr_common_citation_04">><<set $style = "MLA">><</link>> \
+<<link "Chicago" "fr_common_citation_04">><<set $style = "Chicago">><</link>> \
+<<link "ASA" "fr_common_citation_04">><<set $style = "ASA">><</link>>
+
+
+
+::fr_common_citation_04 [part_1]
+! Citation
+
+Now that you've selected your citation style, let's dig into the basics:
+
+Why cite sources?
+
+<<PassagePrevNext "fr_common_citation_05">>
+
+
+
+::fr_common_citation_05 [part_1]
+! Citation
+
+While writing can often feel like a solitary activity, good academic writing is \
+actually an asynchronous conversation involving many parties.
+
+<<PassagePrevNext "fr_common_citation_06">>
+
+
+
+::fr_common_citation_06 [part_1]
+! Citation
+
+One party is you, the author. You are sharing your thoughts on paper (or on a \
+screen), but those thoughts have not developed in your brain from nothing.
+
+<<PassagePrevNext "fr_common_citation_07">>
+
+
+
+::fr_common_citation_07 [part_1]
+! Citation
+
+You've received ideas from other researchers. They have, in a sense, spoken to \
+you. They are part of the conversation. And then there are the people who you \
+will speak to through your writing&mdash;people who will add your thoughts and \
+ideas (and by extension, the thoughts and ideas of all the authors that you \
+read) to their own ideas.
+
+<<PassagePrevNext "fr_common_citation_08">>
+
+
+
+::fr_common_citation_08 [part_1]
+! Citation
+
+Citing sources is of fundamental importance to this conversation.
+
+<<PassagePrevNext "fr_common_citation_09">>
+
+
+
+::fr_common_citation_09 [part_1]
+! Citation
+
+By properly citing your sources, you can quickly provide important context for \
+your research, and lead your readers to the research that you relied on to \
+inform your work. Your readers can then engage with the ideas that came before \
+yours, allowing them to contribute to the conversation.
+
+<<PassagePrevNext "fr_common_citation_10">>
+
+
+
+::fr_common_citation_10 [part_1]
+! Citation
+
+It is this conversation that pushes all research forward. Researchers comment on \
+each other's work, informing one another, and generating newer and better ideas \
+within a given subject area.
+
+<<PassagePrevNext "fr_common_citation_11">>
+
+
+
+::fr_common_citation_11 [part_1]
+! Citation
+
+In this sense, properly citing your sources is a tremendous gift to future \
+researchers.
+
+<<PassagePrevNext "fr_common_citation_12">>
+
+
+
+::fr_common_citation_12 [part_1]
+! Citation
+
+And, as an added bonus, readers will be more likely to trust the validity of \
+your arguments when they are clearly supported by the work of others.
+
+<<PassagePrevNext "fr_common_plagiarism_00">>
+
+
+
+::fr_common_plagiarism_00 [part_2 avatar_placard]
+! Plagiarism
+
+<<PassagePrevNext "fr_common_plagiarism_01">>
+
+
+
+::fr_common_plagiarism_01 [part_2]
+! Plagiarism
+
+If all of those wonderful reasons to properly cite your sources aren't enough to \
+convince you to do it, there is something else you should know. There is a name \
+for the act of failing to properly cite your sources: plagiarism. And plagiarism \
+is a punishable academic offence!
+
+<<PassagePrevNext "fr_common_plagiarism_02">>
+
+
+
+::fr_common_plagiarism_02 [part_2 avatar_unsure]
+! Plagiarism
+
+What exactly is plagiarism? \
+[[Acadia's calendar|https://registrar.acadiau.ca/AcademicCalendars.html]] \
+defines it as "the act of presenting the ideas or words of another as one's own" \
+(p. 37).
+
+Using another writer's ideas or words is a normal part of academic work, but you \
+must clearly indicate when you are doing this.
+
+<<PassagePrevNext "fr_common_plagiarism_03">>
+
+
+
+::fr_common_plagiarism_03 [part_2]
+! Plagiarism
+
+[[Acadia's calendar|https://registrar.acadiau.ca/AcademicCalendars.html]] \
+continues: "Self-plagiarism is also a form of plagiarism. It is the presentation \
+of the same work in more than one course without the permission of the \
+instructors involved" (p. 37). Writing two different papers on the same topic \
+for two different courses is fine, but you can't submit the exact same paper in \
+both courses unless both instructors agree.
+
+<<PassagePrevNext "fr_common_plagiarism_04">>
+
+
+
+::fr_common_plagiarism_04 [part_2]
+! Plagiarism
+
+If you are caught plagiarising, there are a range of penalties you may face, \
+including:
+
+* Failing your assignment
+* Failing your course
+* Being expelled from university
+
+<<PassagePrevNext "fr_common_plagiarism_05">>
+
+
+
+::fr_common_plagiarism_05 [part_2]
+! Plagiarism
+
+Proper citation helps you write a better paper and stay out of trouble. And it \
+helps future researchers too! Everyone wins with proper citation.
+
+<<PassagePrevNext "fr_common_plagiarism_06">>
+
+
+
+::fr_common_plagiarism_06 [part_2]
+! Plagiarism
+
+Now, let's see if you can identify what plagiarism looks like.
+
+<<PassagePrevNext "fr_common_plagiarism_07">>
+
+
+
+::fr_common_plagiarism_07 [part_2 avatar_question]
+<<set $next_common_passage = "fr_common_plagiarism_08">>
+<<set $include_passage = "en_style_" + $style.toLowerCase() + "_plagiarism_01">>
+<<include $include_passage>>
+
+
+
+::fr_common_plagiarism_08 [part_2 avatar_question]
+<<set $next_common_passage = "fr_common_tip_01">>
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_plagiarism_02">>
+<<include $include_passage>>
+
+
+
+::fr_common_tip_01 [part_2 avatar_tip]
+! Tip #1
+
+Paraphrasing improperly is still plagiarism! To paraphrase properly, you must:
+<<nobr>>
+<<switch $style.toLowerCase()>>
+<<case "apa">>
+  <<set _txt = "an in-text citation AND in your References list">>
+<<case "asa">>
+  <<set _txt = "an in-text reference AND in your References list">>
+<<case "chicago">>
+  <<set _txt = "a footnote OR an in-text reference, AND in your Bibliography">>
+<<case "mla">>
+  <<set _txt = "an in-text citation AND in your Works Cited list">>
+<</switch>>
+<</nobr>>
+# really, truly use your own words and sentence structure: don't just change a \
+couple of words;
+# cite the source with <<print _txt>>.
+
+<<PassagePrevNext "fr_common_tip_02">>
+
+
+
+::fr_common_tip_02 [part_2 avatar_tip]
+! Tip #2
+
+Putting quotation marks around quotations isn't enough!
+<<nobr>>
+<<switch $style>>
+<<case "APA">>
+  <<set _txt = "an in-text citation AND cite the source fully in your References list">>
+<<case "ASA">>
+  <<set _txt = "an in-text reference AND cite the source fully in your References list">>
+<<case "Chicago">>
+  <<set _txt = "a footnote OR an in-text reference, AND cite the source fully in your Bibliography">>
+<<case "MLA">>
+  <<set _txt = "an in-text citation AND cite the source fully in your Works Cited list">>
+<</switch>>
+<</nobr>>
+You still have to insert <<print _txt>>.
+
+<<PassagePrevNext "fr_common_knowledge_00">>
+
+
+
+::fr_common_knowledge_00 [part_3 avatar_placard]
+! Common knowledge
+
+<<PassagePrevNext "fr_common_knowledge_01">>
+
+
+
+::fr_common_knowledge_01 [part_3 avatar_unsure]
+! Common knowledge
+
+Common knowledge does not need to be cited. But what exactly //is// common \
+knowledge?
+
+"Common knowledge" refers to facts that are widely known to society at large \
+(general common knowledge) or to a particular discipline (discipline-specific \
+common knowledge).
+
+<<PassagePrevNext "fr_common_knowledge_02">>
+
+
+
+::fr_common_knowledge_02 [part_3]
+! Common knowledge
+
+''General common knowledge'' includes things like basic facts about famous \
+people (Mozart was born in 1756), well-known historical events (Canada won the \
+Summit Series in 1972), or scientific facts (table salt is sodium chloride). It \
+should be clear from the Summit Series example that what is general common \
+knowledge in one culture or country is not necessarily common knowledge in \
+another, so it is important to consider your intended reader's context.
+
+<<PassagePrevNext "fr_common_knowledge_03">>
+
+
+
+::fr_common_knowledge_03 [part_3]
+! Common knowledge
+
+''Discipline-specific common knowledge'' refers to basic facts that would be \
+common knowledge only to people well-versed in the discipline and not \
+necessarily to society at large. For example, a reference to the zeroth law of \
+thermodynamics would not need to be cited in a physics paper because it would \
+be commonly known among physicists, but it would need to be cited in a paper \
+intended for a non-specialist audience for whom it would //not// be commonly \
+known.
+
+<<PassagePrevNext "fr_common_knowledge_04">>
+
+
+
+::fr_common_knowledge_04 [part_3]
+! Common knowledge
+
+''When in doubt, cite!'' It is always safer to cite something that doesn't need \
+to be cited than to //not// cite something that //does// need to be cited!
+
+<<PassagePrevNext "fr_common_knowledge_05">>
+
+
+
+::fr_common_knowledge_05 [part_3 avatar_question]
+<<set $next_common_passage = "fr_common_knowledge_06">>
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_knowledge_01">>
+<<include $include_passage>>
+
+
+
+::fr_common_knowledge_06 [part_3 avatar_question]
+<<set $next_common_passage = "fr_common_knowledge_07">>
+/* next passage exception for ASA style content which does not have a third 
+common knowledge element, thus "fr_common_knowledge_07" must be skipped. */
+<<if $style.toLowerCase() == "asa">>
+  <<set $next_common_passage = "fr_common_quotvpara_00">>
+<</if>>
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_knowledge_02">>
+<<include $include_passage>>
+
+
+
+::fr_common_knowledge_07 [part_3 avatar_question]
+<<set $next_common_passage = "fr_common_tip_03">>
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_knowledge_03">>
+<<include $include_passage>>
+
+
+
+::fr_common_tip_03 [part_3 avatar_tip]
+! Tip #3
+
+Even if you found something online, you must still cite it!
+
+Using things from the web is no different than using print sources as far as \
+plagiarism goes: you still have to cite the source. Just because something is \
+publicly available on the web doesn't mean that it's in the public \
+domain&mdash;and even it it really //is// in the public domain, you still have \
+to cite it.
+
+<<PassagePrevNext "fr_common_tip_04">>
+
+
+
+::fr_common_tip_04 [part_3 avatar_tip]
+! Tip #4
+
+Start your research early!​
+
+It is important to give yourself lots of time to do research before your paper \
+is due. It can take time to find the best resources to support your arguments, \
+and you may find that your arguments change as you do research and learn more \
+about your topic. So, make sure to start your research well before your work is \
+due.​
+
+<<PassagePrevNext "fr_common_quotvpara_00">>
+
+
+
+::fr_common_quotvpara_00 [part_4 avatar_placard]
+! Quoting vs Paraphrasing
+
+<<PassagePrevNext "fr_common_quotvpara_01">>
+
+
+
+::fr_common_quotvpara_01 [part_4]
+! Quoting vs Paraphrasing
+
+Quoting is copying a source exactly, word for word. A direct quotation is placed \
+between double quotation marks to indicate precisely where the copying begins \
+and ends, and the source must always be cited.
+
+Paraphrasing is taking information from a source and putting it into your own \
+words. A paraphrase is not indicated by quotation marks because it's not an \
+exact copy, but the source must still be cited.
+
+<<PassagePrevNext "fr_common_quotvpara_02">>
+
+
+
+::fr_common_quotvpara_02 [part_4 avatar_unsure]
+! Quoting vs Paraphrasing
+
+How do you know whether you should quote or paraphrase a source?
+
+Quoting is only necessary when the exact words of the source matter. For example, \
+if you are writing an English paper in which you are analyzing the actual words \
+and phrases an author uses, it is helpful to your reader if you directly quote \
+those words and phrases. Quotation is therefore much more common in the \
+discipline of literature and language studies than in any other subject area.
+
+The other situations in which quotation is preferable to paraphrasing, in any \
+discipline, are if the language of the original source is extremely well-known \
+or historically significant (e.g. "To be or not to be") or if it is so perfectly \
+crafted that any attempt to paraphrase would diminish or fail to capture its \
+meaning.
+
+These situations are rare, so apart from the literary essay, you should normally \
+choose paraphrasing over quotation.
+
+<<PassagePrevNext "fr_common_quotvpara_03">>
+
+
+
+::fr_common_quotvpara_03 [part_4]
+! Quoting vs Paraphrasing
+
+''Quote'' if the exact words of the source matter.
+
+''Paraphrase'' if it's just the idea expressed by the source that matters.
+
+<<PassagePrevNext "fr_common_quotvpara_04">>
+
+
+
+::fr_common_quotvpara_04 [part_4]
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_01_include">>
+<<include $include_passage>>
+<<PassagePrevNext "fr_common_quotvpara_05">>
+
+
+
+::fr_common_quotvpara_05 [part_4]
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_02_include">>
+<<include $include_passage>>
+<<PassagePrevNext "fr_common_quotvpara_06">>
+
+
+
+::fr_common_quotvpara_06 [part_4]
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_03_include">>
+<<include $include_passage>>
+<<PassagePrevNext "fr_common_quotvpara_07">>
+
+
+
+::fr_common_quotvpara_07 [part_4 avatar_question]
+<<set $next_common_passage = "fr_common_quotvpara_08">>
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_04">>
+<<include $include_passage>>
+
+
+
+::fr_common_quotvpara_08 [part_4 avatar_fixit]
+<<set $next_common_passage = "fr_common_quotvpara_09">>
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_05">>
+<<include $include_passage>>
+
+
+
+::fr_common_quotvpara_09 [part_4 avatar_question]
+<<set $next_common_passage = "fr_common_quotvpara_10">>
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_06">>
+<<include $include_passage>>
+
+
+
+::fr_common_quotvpara_10 [part_4 avatar_fixit]
+<<set $next_common_passage = "fr_common_tip_05">>
+<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_07">>
+<<include $include_passage>>
+
+
+
+::fr_common_tip_05 [part_4 avatar_tip]
+! Tip #5
+
+Use direct quotations sparingly. The majority of your paper should be in your \
+own words.
+
+<<PassagePrevNext "fr_common_tip_06">>
+
+
+
+::fr_common_tip_06 [part_4 avatar_tip]
+! Tip #6
+
+If you're unsure of if, when, or how to cite something, check a citation guide, \
+ask your professor, or ask a librarian.
+
+<<PassagePrevNext "fr_common_tip_07">>
+
+
+
+::fr_common_tip_07 [part_4 avatar_tip]
+! Tip #7
+
+Document your sources immediately as you are doing your research. That way, when \
+you're writing your paper, you'll always know where that perfect quotation came \
+from.
+
+<<PassagePrevNext "fr_common_zotero_00">>
+
+
+
+::fr_common_zotero_00 [part_5 avatar_placard]
+! Zotero
+
+<<PassagePrevNext "fr_common_zotero_01">>
+
+
+
+::fr_common_zotero_01 [part_5 avatar_write]
+! Zotero
+
+* Zotero is a citation management tool that can help you track, organize, and \
+cite your sources.
+* This tool is open source and freely available, meaning you can use it even \
+after you leave Acadia University.
+* Visit [[https://libguides.acadiau.ca/zotero]] to learn more and for help \
+setting Zotero up on your computer.
+* If you need further assistance, any of our Librarians can help you! Book an \
+appointment with a Librarian either through our general email \
+[[ref-desk@acadiau.ca|mailto:ref-desk@acadiau.ca]] or contact your Librarian via \
+[[https://library.acadiau.ca/about/people.html]].
+
+<<PassagePrevNext "fr_common_outro_00">>
+
+
+
+::fr_common_outro_00 [part_6 avatar_placard]
+! Wrapping Up
+
+<<PassagePrevNext "fr_common_outro_01">>
+
+
+
+::fr_common_outro_01 [part_6 avatar_finished]
+! Thanks for taking our tutorial!
+
+We hope you've learned the basics about citation and how to avoid plagiarism.
+
+* Remember you can always get help from your professor or from the Library if \
+you have any questions. Every student has their own Librarian! Find out who your \
+Librarian is at [[https://library.acadiau.ca/about/people.html]].
+* You can also get help at the Research Help Desk by email \
+[[ref-desk@acadiau.ca|mailto:ref-desk@acadiau.ca]].
+
+<<PassagePrevNext "fr_common_outro_02">>
+
+
+
+::fr_common_outro_02 [part_6 avatar_moreinfo]
+! Getting Help
+
+* Chicago [[https://libguides.acadiau.ca/chicago-turabian]]
+* MLA [[https://libguides.acadiau.ca/MLA]]
+* APA [[https://libguides.acadiau.ca/apa]]
+* Writing Centre [[https://writingcentre.acadiau.ca]]
+* Plagiarism [[https://libguides.acadiau.ca/plagiarism]]
+* You Quote It, You Note It Quiz [[https://acorn.acadiau.ca/course/view.php?id=21289]]
+
+<<PassagePrevNext "fr_common_outro_03">>
+
+
+
+::fr_common_outro_03 [part_6 avatar_moreinfo]
+! Other Resources
+
+<ul>
+<li>Purdue Online Writing Lab (OWL)​
+  <ul>
+  <li>[[APA Guide|https://owl.purdue.edu/owl/research_and_citation/apa_style/index.html​]]</li>
+  <li>[[Chicago Guide|https://owl.purdue.edu/owl/research_and_citation/chicago_manual_17th_edition/cmos_formatting_and_style_guide/chicago_manual_of_style_17th_edition.html]]​</li>
+  <li>[[MLA Guide|https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_style_introduction.html​]]</li>
+  </ul>
+</li>
+<li>Plagiarism: A Faculty Member's Guide​</li>
+<li>Plagiarism: A Student's Guide​</li>
+<li>Acadia University's statement on Academic Integrity and procedures concerning \
+infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.html]]</li>
+</ul>
+
+<<PassagePrevNext "End">>
+
+
+
+::fr_End [part_99 avatar_placard avatar_end]
+! The End
+
+<<nobr>><div class="certificate">
+  <<script>>jQuery(this.output).wiki('<div class="grade ' + State.getVar("$grade") + '">' + State.getVar("$grade") + '</div>');<</script>>
+  <div class="remarks">
+    <<if $student>><<print "<p>" + $student + ":</p>">><</if>>
+    <p>You answered <<print $cnt_answer_correct>> of 
+    <<print $cnt_answer_correct + $cnt_answer_incorrect>> questions correctly 
+    and completed <<print $cnt_answer_fixed>> "fix it" segments in the 
+    <<print $style>> citation style tutorial.</p>
+  </div>
+</div><</nobr>>
+
+<<link "Learn about another citation style" "fr_common_citation_02">><</link>> \ 
+<<link "Start the tutorial again">><<script>>Engine.restart();<</script>><</link>>
+
+
