@@ -1,13 +1,13 @@
 ::fr_common_intro_01 [part_0 avatar_introduction]
-! FR Introduction
+! Introduction
 
-Welcome to the <em>You Quote It, You Note It!</em> tutorial. This tutorial will \
-explain what citation is and when and how to cite your sources properly. It will \
-also explain the concept of plagiarism, so that you understand how to avoid \
-plagiarizing the works of others. The tutorial will take about 10 minutes to \
-complete.
+Bienvenue au tutoriel <em>Vous le citez, vous le notez!</em> Ce tutoriel \
+explique ce qu’est la citation, ainsi que quand et comment citer correctement \
+vos sources. Il explique aussi le concept de plagiat, afin que vous compreniez \
+comment éviter de plagier le travail des autres. Il vous faudra environ 10 \
+minutes pour suivre le tutoriel.
 
-But first, what is your name?
+Mais d’abord, quel est votre nom?
 <<textbox "$student" "">>
 
 <<PassagePrevNext "fr_common_settings_01">>
@@ -15,33 +15,33 @@ But first, what is your name?
 
 
 ::fr_common_settings_01 [part_0 avatar_settings]
-! Reading Preferences
+! Préférences de lecture
 
-Next, choose the text options that you find most comfortable to read. 
+Ensuite, choisissez les options de texte avec lesquelles vous êtes plus à l’aise. 
 
-!! Styles
+!! Style
 <label class="settings_selector font_family_mixed"> \
-  <<radiobutton "$font_family" "font_family_mixed" autocheck>> <span class="pseudo_heading">Mixed</span> \
+  <<radiobutton "$font_family" "font_family_mixed" autocheck>> <span class="pseudo_heading">Mixte</span> \
 </label> \
 <label class="settings_selector font_family_sans"> \
-  <<radiobutton "$font_family" "font_family_sans" autocheck>> Sans-serif \
+  <<radiobutton "$font_family" "font_family_sans" autocheck>> Sans sérif \
 </label> \
 <label class="settings_selector font_family_serif"> \
-  <<radiobutton "$font_family" "font_family_serif" autocheck>> Serif \
+  <<radiobutton "$font_family" "font_family_serif" autocheck>> Avec sérif \
 </label> \
 <label class="settings_selector font_family_dyslexic"> \
-  <<radiobutton "$font_family" "font_family_dyslexic" autocheck>> Dyslexic \
+  <<radiobutton "$font_family" "font_family_dyslexic" autocheck>> Dyslexique \
 </label>
 
-!! Sizes
+!! Taille
 <label class="settings_selector font_size_regular"> \
-  <<radiobutton "$font_size" "font_size_regular" autocheck>> Regular \
+  <<radiobutton "$font_size" "font_size_regular" autocheck>> Normal \
 </label> \
 <label class="settings_selector font_size_large"> \
-  <<radiobutton "$font_size" "font_size_large" autocheck>> Large \
+  <<radiobutton "$font_size" "font_size_large" autocheck>> Grand \
 </label> \
 <label class="settings_selector font_size_extralarge"> \
-  <<radiobutton "$font_size" "font_size_extralarge" autocheck>> Extra-Large \
+  <<radiobutton "$font_size" "font_size_extralarge" autocheck>> Très grand \
 </label>
 
 <<PassagePrevNext "fr_common_settings_02">>
@@ -49,11 +49,11 @@ Next, choose the text options that you find most comfortable to read.
 
 
 ::fr_common_settings_02 [part_0 avatar_settings]
-! Avatar Preferences
+! Préférences pour l’avatar
 
-Finally, choose an avatar.
+Finalement, choisissez un avatar.
 
-!! Personas
+!! Personnage
 <label class="settings_selector avatar"> \
   <<radiobutton "$avatar['settings']['persona']" "person" autocheck>> <<GenerateAvatar "face" "person">> \
 </label> \
@@ -67,7 +67,7 @@ Finally, choose an avatar.
   <<radiobutton "$avatar['settings']['persona']" "smiley" autocheck>> <<GenerateAvatar "face" "smiley">> \
 </label>
 
-!! Skin Tones
+!! Teint de la peau
 <label class="settings_selector avatar"> \
   <<radiobutton "$avatar['settings']['skintone']" "1f3fb" autocheck>> <<GenerateAvatar "face" "person" "1f3fb">> \
 </label> \
@@ -82,7 +82,7 @@ Finally, choose an avatar.
 </label> \
 <label class="settings_selector avatar"> \
   <<radiobutton "$avatar['settings']['skintone']" "1f3ff" autocheck>> <<GenerateAvatar "face" "person" "1f3ff">> \
-</label> \
+</label>
 
 <<PassagePrevNext "fr_common_citation_00">>
 
@@ -96,14 +96,15 @@ Finally, choose an avatar.
 
 
 ::fr_common_citation_01 [part_1 avatar_unsure]
-! What is citation?
+! Qu’est-ce que la citation?
 
-Citation is the process of documenting the sources you use in your writing. A \
-source is any document (a book, an article, a video, etc.) that you borrow ideas \
-from to support your writing. The specific details of how you cite your sources \
-depend on the citation style that you use, but generally, all citation includes \
-two parts: an in-text citation (a note in the body of your paper) and a \
-bibliography entry (a longer note at the end of your paper).
+La citation c’est le processus de documentation des sources que vous utilisez \
+dans vos écrits. Une source est tout matériel (un livre, un article, une vidéo, \
+etc.) auquel vous empruntez des idées lorsque vous rédigez un texte. Les détails \
+précis de la manière dont vous citez vos sources dépendent du style de citation \
+que vous utilisez, mais généralement, toute citation comprend deux parties : \
+une citation dans le texte (une note dans le corps de votre texte) et une entrée \
+bibliographique (une note plus longue à la fin de votre texte).
 
 <<PassagePrevNext "fr_common_citation_02">>
 
@@ -112,24 +113,24 @@ bibliography entry (a longer note at the end of your paper).
 ::fr_common_citation_02 [part_1]
 ! Citation
 
-There are many different citation styles out there, but here are a few of the most \
-common ones:
+Il existe de nombreux styles de citation différents, mais en voici quelques-uns \
+des plus communs :
 
 !! APA
-This style originates in psychology but is used widely in the social sciences \
-and sciences. If you're not sure which style to choose, try this one.
+Ce style émane de la psychologie, mais est largement utilisé dans les sciences \
+sociales et les sciences. Si vous ne savez pas quel style choisir, essayez celui-ci.
 
 !! MLA
-This style is managed by the Modern Language Association and is used primarily \
-in the study of language and literature. English majors, this one is for you.
+Ce style est géré par la Modern Language Association et est utilisé \
+principalement dans les langues et la littérature. Étudiants en anglais : celui-ci \
+est pour vous.
 
-!! Chicago
-This is another popular style in the humanities and social sciences. History, \
-politics, and theology majors should choose this style.
+!! Méthode traditionnelle
+Voici un exemple de style bibliographique pour les travaux en français.
 
-!! ASA
-This style is used exclusively in sociology. If you're a sociology major, choose \
-this style.
+!! Méthode auteur-date
+Ce style est semblable au style APA, un style principalement associé aux travaux \
+de langue anglaise.
 
 <<PassagePrevNext "fr_common_citation_03">>
 
@@ -138,23 +139,23 @@ this style.
 ::fr_common_citation_03 [part_1]
 ! Citation
 
-Let's start by choosing the style that will be shown to you during this \
-tutorial.
+Commençons par choisir le style qui vous sera montré au cours de ce tutoriel.
 
-<<back "< Back">> \
+<<back "< Retour">> \
 <<link "APA" "fr_common_citation_04">><<set $style = "APA">><</link>> \
 <<link "MLA" "fr_common_citation_04">><<set $style = "MLA">><</link>> \
-<<link "Chicago" "fr_common_citation_04">><<set $style = "Chicago">><</link>> \
-<<link "ASA" "fr_common_citation_04">><<set $style = "ASA">><</link>>
+<<link "Méthode traditionnelle" "fr_common_citation_04">><<set $style = "Chicago">><</link>> \
+<<link "Méthode auteur-date" "fr_common_citation_04">><<set $style = "ASA">><</link>>
 
 
 
 ::fr_common_citation_04 [part_1]
 ! Citation
 
-Now that you've selected your citation style, let's dig into the basics:
+Maintenant que vous avez choisi le style de citation, approfondissons un peu \
+plus le sujet.
 
-Why cite sources?
+Pourquoi citer les sources?
 
 <<PassagePrevNext "fr_common_citation_05">>
 
@@ -163,8 +164,9 @@ Why cite sources?
 ::fr_common_citation_05 [part_1]
 ! Citation
 
-While writing can often feel like a solitary activity, good academic writing is \
-actually an asynchronous conversation involving many parties.
+Bien que l’écriture puisse souvent paraître comme une activité solitaire, une \
+bonne écriture académique est en fait une conversation asynchrone qui fait appel \
+à de nombreuses parties.
 
 <<PassagePrevNext "fr_common_citation_06">>
 
@@ -173,8 +175,9 @@ actually an asynchronous conversation involving many parties.
 ::fr_common_citation_06 [part_1]
 ! Citation
 
-One party is you, the author. You are sharing your thoughts on paper (or on a \
-screen), but those thoughts have not developed in your brain from nothing.
+Une des parties c’est vous, l’auteur. Vous écrivez vos idées sur papier (ou sur \
+un écran), mais ces pensées ne se sont pas développées dans votre cerveau à \
+partir de rien.
 
 <<PassagePrevNext "fr_common_citation_07">>
 
@@ -183,11 +186,11 @@ screen), but those thoughts have not developed in your brain from nothing.
 ::fr_common_citation_07 [part_1]
 ! Citation
 
-You've received ideas from other researchers. They have, in a sense, spoken to \
-you. They are part of the conversation. And then there are the people who you \
-will speak to through your writing&mdash;people who will add your thoughts and \
-ideas (and by extension, the thoughts and ideas of all the authors that you \
-read) to their own ideas.
+Vous avez reçu des idées d’autres chercheurs. Dans un certain sens, ils vous ont \
+parlé. Ils font partie de la conversation. Et puis il y a les personnes à qui \
+vous parlerez par l’entremise de vos écrits – des personnes qui ajouteront vos \
+pensées et vos idées (et, par extension, les pensées et idées de tous les \
+auteurs que vous lisez) à leurs propres idées.
 
 <<PassagePrevNext "fr_common_citation_08">>
 
@@ -196,7 +199,8 @@ read) to their own ideas.
 ::fr_common_citation_08 [part_1]
 ! Citation
 
-Citing sources is of fundamental importance to this conversation.
+La citation des sources est d’une importance fondamentale pour cette \
+conversation.
 
 <<PassagePrevNext "fr_common_citation_09">>
 
@@ -205,10 +209,11 @@ Citing sources is of fundamental importance to this conversation.
 ::fr_common_citation_09 [part_1]
 ! Citation
 
-By properly citing your sources, you can quickly provide important context for \
-your research, and lead your readers to the research that you relied on to \
-inform your work. Your readers can then engage with the ideas that came before \
-yours, allowing them to contribute to the conversation.
+Si vous citez bien vos sources, vous pouvez rapidement fournir un contexte \
+important pour votre recherche et mener vos lecteurs vers les recherches sur \
+lesquelles vous vous êtes appuyés pour faire votre travail. Vos lecteurs peuvent \
+ensuite prendre en considération les idées qui ont précédé les vôtres, ce qui \
+leur permet de contribuer à la conversation.
 
 <<PassagePrevNext "fr_common_citation_10">>
 
@@ -217,9 +222,9 @@ yours, allowing them to contribute to the conversation.
 ::fr_common_citation_10 [part_1]
 ! Citation
 
-It is this conversation that pushes all research forward. Researchers comment on \
-each other's work, informing one another, and generating newer and better ideas \
-within a given subject area.
+C’est cette conversation qui fait avancer toute la recherche. Les chercheurs \
+commentent les travaux des autres, s’informent les uns les autres et génèrent de \
+nouvelles et meilleures idées dans un domaine en particulier.
 
 <<PassagePrevNext "fr_common_citation_11">>
 
@@ -228,8 +233,8 @@ within a given subject area.
 ::fr_common_citation_11 [part_1]
 ! Citation
 
-In this sense, properly citing your sources is a tremendous gift to future \
-researchers.
+En ce sens, citer correctement vos sources est un magnifique cadeau pour les \
+futurs chercheurs.
 
 <<PassagePrevNext "fr_common_citation_12">>
 
@@ -238,89 +243,92 @@ researchers.
 ::fr_common_citation_12 [part_1]
 ! Citation
 
-And, as an added bonus, readers will be more likely to trust the validity of \
-your arguments when they are clearly supported by the work of others.
+Et, en prime, les lecteurs seront plus susceptibles de faire confiance à la \
+validité de vos arguments lorsqu’ils sont clairement appuyés par les travaux des \
+autres.
 
 <<PassagePrevNext "fr_common_plagiarism_00">>
 
 
 
 ::fr_common_plagiarism_00 [part_2 avatar_placard]
-! Plagiarism
+! Plagiat
 
 <<PassagePrevNext "fr_common_plagiarism_01">>
 
 
 
 ::fr_common_plagiarism_01 [part_2]
-! Plagiarism
+! Plagiat
 
-If all of those wonderful reasons to properly cite your sources aren't enough to \
-convince you to do it, there is something else you should know. There is a name \
-for the act of failing to properly cite your sources: plagiarism. And plagiarism \
-is a punishable academic offence!
+Si toutes ces merveilleuses raisons de citer correctement vos sources ne \
+suffisent pas à vous convaincre de le faire, il y a autre chose que vous devez \
+savoir. Il y a un nom pour l’acte de ne pas citer correctement vos sources : le \
+plagiat. Et le plagiat, c’est un délit académique punissable!
 
 <<PassagePrevNext "fr_common_plagiarism_02">>
 
 
 
 ::fr_common_plagiarism_02 [part_2 avatar_unsure]
-! Plagiarism
+! Plagiat
 
-What exactly is plagiarism? \
-[[Acadia's calendar|https://registrar.acadiau.ca/AcademicCalendars.html]] \
-defines it as "the act of presenting the ideas or words of another as one's own" \
-(p. 37).
+Qu’est-ce que le plagiat ? Dans l’annuaire de \
+[[l’Université Sainte-Anne|https://www.usainteanne.ca/annuairepdf]], à \
+l’article 26.2, on indique que : « Le plagiat consiste à faire passer pour \
+siennes les idées et les paroles d'autrui ou tout matériel obtenu par le biais \
+des ressources informatiques » (p. 102).
 
-Using another writer's ideas or words is a normal part of academic work, but you \
-must clearly indicate when you are doing this.
+Il est tout à fait normal d’utiliser des idées ou des mots d’un autre écrivain \
+dans un travail universitaire, mais vous devez l’indiquer clairement lorsque \
+vous le faites.
 
 <<PassagePrevNext "fr_common_plagiarism_03">>
 
 
 
 ::fr_common_plagiarism_03 [part_2]
-! Plagiarism
+! Plagiat
 
-[[Acadia's calendar|https://registrar.acadiau.ca/AcademicCalendars.html]] \
-continues: "Self-plagiarism is also a form of plagiarism. It is the presentation \
-of the same work in more than one course without the permission of the \
-instructors involved" (p. 37). Writing two different papers on the same topic \
-for two different courses is fine, but you can't submit the exact same paper in \
-both courses unless both instructors agree.
+Présenter un même travail dans plus d'un cours ou dans plus d'un contexte (par \
+exemple, dans deux revues) sans dévoiler qu'il a été utilisé ailleurs consiste \
+d'une malhonnêteté intellectuelle qui s'appelle l'autoplagiat. Si vous désirez \
+soumettre un même devoir à deux professeur.e.s différent.e.s, pour éviter \
+l'autoplagiat vous devez demander et recevoir leur autorisation.
 
 <<PassagePrevNext "fr_common_plagiarism_04">>
 
 
 
 ::fr_common_plagiarism_04 [part_2]
-! Plagiarism
+! Plagiat
 
-If you are caught plagiarising, there are a range of penalties you may face, \
-including:
+Si vous faites du plagiat, vous pourriez faire face à diverses sanctions, y \
+compris:
 
-* Failing your assignment
-* Failing your course
-* Being expelled from university
+* Échouer votre devoir
+* Échouer votre cours
+* Être expulser de l’Université
 
 <<PassagePrevNext "fr_common_plagiarism_05">>
 
 
 
 ::fr_common_plagiarism_05 [part_2]
-! Plagiarism
+! Plagiat
 
-Proper citation helps you write a better paper and stay out of trouble. And it \
-helps future researchers too! Everyone wins with proper citation.
+Si vous citez correctement, vous rédigerez un meilleur texte et éviterez des \
+ennuis. Et cela aidera les futurs chercheurs aussi! Tout le monde est gagnant \
+avec une citation appropriée.
 
 <<PassagePrevNext "fr_common_plagiarism_06">>
 
 
 
 ::fr_common_plagiarism_06 [part_2]
-! Plagiarism
+! Plagiat
 
-Now, let's see if you can identify what plagiarism looks like.
+Maintenant, allons voir si vous pouvez identifier des cas de plagiat.
 
 <<PassagePrevNext "fr_common_plagiarism_07">>
 

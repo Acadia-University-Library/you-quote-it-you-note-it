@@ -1,5 +1,5 @@
 ::en_common_intro_01 [part_0 avatar_introduction]
-! EN Introduction
+! Introduction
 
 Welcome to the <em>You Quote It, You Note It!</em> tutorial. This tutorial will \
 explain what citation is and when and how to cite your sources properly. It will \
@@ -82,7 +82,7 @@ Finally, choose an avatar.
 </label> \
 <label class="settings_selector avatar"> \
   <<radiobutton "$avatar['settings']['skintone']" "1f3ff" autocheck>> <<GenerateAvatar "face" "person" "1f3ff">> \
-</label> \
+</label>
 
 <<PassagePrevNext "en_common_citation_00">>
 
