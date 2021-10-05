@@ -350,22 +350,23 @@ Maintenant, allons voir si vous pouvez identifier des cas de plagiat.
 ::fr_common_tip_01 [part_2 avatar_tip]
 ! Conseil no. 1
 
-Paraphrasing improperly is still plagiarism! To paraphrase properly, you must:
+Paraphraser incorrectement, c’est encore du plagiat. Pour paraphraser \
+correctement, vous devez:
 <<nobr>>
 <<switch $style.toLowerCase()>>
 <<case "apa">>
-  <<set _txt = "an in-text citation AND in your References list">>
+  <<set _txt = "une référence dans le texte ET dans votre bibliographie">>
 <<case "asa">>
-  <<set _txt = "an in-text reference AND in your References list">>
+  <<set _txt = "une référence dans le texte ET dans votre bibliographie">>
 <<case "chicago">>
-  <<set _txt = "a footnote OR an in-text reference, AND in your Bibliography">>
+  <<set _txt = "une note de bas de page dans le texte ET dans votre bibliographie">>
 <<case "mla">>
-  <<set _txt = "an in-text citation AND in your Works Cited list">>
+  <<set _txt = "une référence dans le texte ET dans votre bibliographie">>
 <</switch>>
 <</nobr>>
-# really, truly use your own words and sentence structure: don't just change a \
-couple of words;
-# cite the source with <<print _txt>>.
+# Vraiment utiliser vos propres mots et votre propre structure de phrase. Ne \
+changez pas seulement quelques mots;
+# Citer la source avec <<print _txt>>.
 
 <<PassagePrevNext "fr_common_tip_02">>
 
@@ -374,80 +375,83 @@ couple of words;
 ::fr_common_tip_02 [part_2 avatar_tip]
 ! Conseil no. 2
 
-Putting quotation marks around quotations isn't enough!
+Il ne suffit pas de seulement placer des guillemets autour d’une citation!
 <<nobr>>
 <<switch $style>>
 <<case "APA">>
-  <<set _txt = "an in-text citation AND cite the source fully in your References list">>
+  <<set _txt = "une référence dans le texte ET citer la source intégralement dans votre bibliographie">>
 <<case "ASA">>
-  <<set _txt = "an in-text reference AND cite the source fully in your References list">>
+  <<set _txt = "une référence dans le texte ET citer la source intégralement dans votre bibliographie">>
 <<case "Chicago">>
-  <<set _txt = "a footnote OR an in-text reference, AND cite the source fully in your Bibliography">>
+  <<set _txt = "une note de bas de page ET citer la source intégralement dans votre bibliographie">>
 <<case "MLA">>
-  <<set _txt = "an in-text citation AND cite the source fully in your Works Cited list">>
+  <<set _txt = "une référence dans le texte ET citer la source intégralement dans votre bibliographie">>
 <</switch>>
 <</nobr>>
-You still have to insert <<print _txt>>.
+Vous devez encore insérer <<print _txt>>.
 
 <<PassagePrevNext "fr_common_knowledge_00">>
 
 
 
 ::fr_common_knowledge_00 [part_3 avatar_placard]
-! Common knowledge
+! Connaissances communes
 
 <<PassagePrevNext "fr_common_knowledge_01">>
 
 
 
 ::fr_common_knowledge_01 [part_3 avatar_unsure]
-! Common knowledge
+! Connaissances communes
 
-Common knowledge does not need to be cited. But what exactly //is// common \
-knowledge?
+Il n’est pas nécessaire de citer les connaissances communes. Mais que sont les \
+connaissances communes exactement? 
 
-"Common knowledge" refers to facts that are widely known to society at large \
-(general common knowledge) or to a particular discipline (discipline-specific \
-common knowledge).
+Les connaissances communes sont les faits qui sont généralement connus de tous \
+(connaissances communes générales) ou dans une discipline particulière \
+(connaissances communes propres à une discipline).
 
 <<PassagePrevNext "fr_common_knowledge_02">>
 
 
 
 ::fr_common_knowledge_02 [part_3]
-! Common knowledge
+! Connaissances communes
 
-''General common knowledge'' includes things like basic facts about famous \
-people (Mozart was born in 1756), well-known historical events (Canada won the \
-Summit Series in 1972), or scientific facts (table salt is sodium chloride). It \
-should be clear from the Summit Series example that what is general common \
-knowledge in one culture or country is not necessarily common knowledge in \
-another, so it is important to consider your intended reader's context.
+Les connaissances communes générales comprennent des choses comme des faits de \
+base sur des personnes célèbres (Mozart est né en 1756), des événements \
+historiques bien connus (le Canada a remporté la Série du siècle 1972) ou des \
+faits scientifiques (le sel de table est du chlorure de sodium). D’après \
+l’exemple de la Série du siècle 1972, il doit être clair que ce qui représente \
+des connaissances communes générales dans une culture ou dans un pays ne l’est \
+pas nécessairement dans une autre culture ou un autre pays, donc il est \
+important de tenir compte du contexte du lectorat que vous visez. 
 
 <<PassagePrevNext "fr_common_knowledge_03">>
 
 
 
 ::fr_common_knowledge_03 [part_3]
-! Common knowledge
+! Connaissances communes
 
-''Discipline-specific common knowledge'' refers to basic facts that would be \
-common knowledge only to people well-versed in the discipline and not \
-necessarily to society at large. For example, a reference to the zeroth law of \
-thermodynamics would not need to be cited in a physics paper because it would \
-be commonly known among physicists, but it would need to be cited in a paper \
-intended for a non-specialist audience for whom it would //not// be commonly \
-known.
+Les connaissances communes propres à une discipline font référence à des faits \
+de base qui sont généralement connus seulement par des gens qui connaissent bien \
+la discipline en question, et pas nécessairement par tout le monde. Par exemple, \
+une référence au principe zéro de la thermodynamique n’aurait pas besoin d’être \
+citée dans un article de physique parce que le principe est bien connu des \
+physiciens. Elle aurait cependant besoin d’être citée dans un article destiné à \
+un public non spécialisé qui ne le connaîtrait pas.
 
 <<PassagePrevNext "fr_common_knowledge_04">>
 
 
 
 ::fr_common_knowledge_04 [part_3]
-! Common knowledge
+! Connaissances communes
 
-''When in doubt, cite!'' It is always safer to cite something that doesn't need \
-to be cited than to //not// cite something that //does// need to be cited!
+En cas de doute, citez! Il est toujours plus sûr de citer quelque chose qui n’a \
+pas besoin d’être cité que de ne pas citer quelque chose qui a besoin d’être \
+cité!
 
 <<PassagePrevNext "fr_common_knowledge_05">>
 

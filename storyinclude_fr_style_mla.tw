@@ -1,20 +1,20 @@
 ::fr_style_mla_plagiarism_01
-! Is this plagiarism?
+! Est-ce du plagiat?
 
-Copying a direct quotation into your paper, placing quotation marks around it, \
-and crediting the source.
+Copier une citation directe dans votre document, la placer entre guillemets et \
+indiquer la source.
 
-> "At the end of the Middle Ages, leprosy disappeared from the Western world" \
-(Foucault 3).
+> « Le roman historique populaire excelle, aujourd’hui encore, à flatter nos \
+attentes et nos désirs » (Gengembre 97).
 > ...
-> Works Cited:
-> <span class="hanging_indent">Foucault, Michel. //Madness and Civilization.// \
-Random House, 1965.</span>
+> Bibliographie :
+> <span class="hanging_indent">Gengembre, Gérard. //Le roman historique.// \
+Klincksieck, 2006.</span>
 
 <<AnswerChoices
   "fr_style_mla_plagiarism_01" $next_common_passage "hide"
-  "fr_style_mla_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
-  "fr_style_mla_plagiarism_01_include_answer_no" "No, this is not plagiarism"
+  "fr_style_mla_plagiarism_01_include_answer_yes" "Oui, c’est du plagiat"
+  "fr_style_mla_plagiarism_01_include_answer_no" "Non, ce n’est pas du plagiat"
   >>
 
 
@@ -22,10 +22,10 @@ Random House, 1965.</span>
 ::fr_style_mla_plagiarism_01_include_answer_yes
 !! Incorrect
 
-This is not plagiarism.
+Ce n’est pas du plagiat.
 
-Copying information word-for-word from a source is okay as long as you put \
-quotation marks around the copied information and give credit to the source.
+Copier une information mot pour mot d’une source est acceptable si vous placez \
+des guillemets autour de l’information copiée et indiquez la source.
 
 <<AnswerStatus
   "fr_style_mla_plagiarism_01"
@@ -37,8 +37,8 @@ quotation marks around the copied information and give credit to the source.
 ::fr_style_mla_plagiarism_01_include_answer_no
 !! Correct
 
-You're right! This is not plagiarism because there are quotation marks around \
-the copied information and the source is credited.
+Vous avez raison! Ce n’est pas du plagiat parce qu’il y a des guillemets autour \
+de l’information copiée et la source est indiquée.
 
 <<AnswerStatus
   "fr_style_mla_plagiarism_01"
@@ -48,23 +48,24 @@ the copied information and the source is credited.
 
 
 ::fr_style_mla_plagiarism_02
-! Is this plagiarism?
+! Est-ce du plagiat?
 
-How about this?
+Et cet exemple?
 
-Taking someone's ideas or words, putting them into your own words, and crediting \
-the source.
+Prendre les idées ou les mots de quelqu’un, les mettre dans vos propres mots, et 
+indiquer la source. 
 
-> Leprosy was eradicated in the west by the end of medieval times (Foucault 3).
+> Le roman historique est encore important aujourd’hui parce qu’il répond aux \
+désirs et aux attentes populaires (Gengembre 97).
 > ...
-> Works Cited:
-> <span class="hanging_indent">Foucault, Michel. //Madness and Civilization.// \
-Random House, 1965.</span>
+> Bibliographie :
+> <span class="hanging_indent">Gengembre, Gérard. //Le roman historique.// \
+Klincksieck, 2006.</span>
 
 <<AnswerChoices
   "fr_style_mla_plagiarism_02" $next_common_passage "hide"
-  "fr_style_mla_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
-  "fr_style_mla_plagiarism_02_include_answer_no" "No, this is not plagiarism"
+  "fr_style_mla_plagiarism_02_include_answer_yes" "Oui, c’est du plagiat"
+  "fr_style_mla_plagiarism_02_include_answer_no" "Non, ce n’est pas du plagiat"
   >>
 
 
@@ -72,11 +73,11 @@ Random House, 1965.</span>
 ::fr_style_mla_plagiarism_02_include_answer_yes
 !! Incorrect
 
-Actually, this is not plagiarism: it's paraphrasing.
+En fait, ce n’est pas du plagiat, c’est de la paraphrase.
 
-Paraphrasing is fine as long as you credit the source and the paraphrase is \
-entirely in your words&mdash;just changing a couple words here and there \
-doesn't cut it.
+Il est tout à fait acceptable de paraphraser, pourvu que vous indiquiez la \
+source et que la paraphrase soit entièrement dans vos mots – changer quelques \
+mots ici et là ne suffit pas.
 
 <<AnswerStatus
   "fr_style_mla_plagiarism_02"
@@ -88,11 +89,11 @@ doesn't cut it.
 ::fr_style_mla_plagiarism_02_include_answer_no
 !! Correct
 
-You're right! This is not plagiarism. It's paraphrasing.
+Vous avez raison! Ce n’est pas du plagiat. C’est de la paraphrase.
 
-Paraphrasing is fine as long as you credit the source and the paraphrase is \
-entirely in your words&mdash;just changing a couple words here and there \
-doesn't cut it.
+Il est tout à fait acceptable de paraphraser, pourvu que vous indiquiez la \
+source et que la paraphrase soit entièrement dans vos mots – changer quelques \
+mots ici et là ne suffit pas.
 
 <<AnswerStatus
   "fr_style_mla_plagiarism_02"
@@ -310,8 +311,8 @@ Is this plagiarism?
 
 <<AnswerChoices
   "fr_style_mla_quotvpara_04" $next_common_passage "hide"
-  "fr_style_mla_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
-  "fr_style_mla_quotvpara_04_include_answer_no" "No, this is not plagiarism"
+  "fr_style_mla_quotvpara_04_include_answer_yes" "Oui, c’est du plagiat"
+  "fr_style_mla_quotvpara_04_include_answer_no" "Non, ce n’est pas du plagiat"
   >>
 
 
@@ -391,8 +392,8 @@ Is this plagiarism?
 
 <<AnswerChoices
   "fr_style_mla_quotvpara_06" $next_common_passage "hide"
-  "fr_style_mla_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
-  "fr_style_mla_quotvpara_06_include_answer_no" "No, this is not plagiarism"
+  "fr_style_mla_quotvpara_06_include_answer_yes" "Oui, c’est du plagiat"
+  "fr_style_mla_quotvpara_06_include_answer_no" "Non, ce n’est pas du plagiat"
   >>
 
 

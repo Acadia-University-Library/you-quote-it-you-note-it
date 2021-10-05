@@ -1,20 +1,23 @@
 ::fr_style_chicago_plagiarism_01
-! Is this plagiarism?
+! Est-ce du plagiat?
 
-> "Canadians may well be approaching another such juncture today as the result \
-of two seemingly unrelated by in fact closely connected developments...".<sup>1</sup>
+Copier une citation directe dans votre document, la placer entre guillemets et \
+indiquer la source.
+
+> « À l’âge classique, inutile de chercher à distinguer les thérapeutiques \
+physiques et les médications psychologiques. »<sup>1</sup>
 > ...
-> <ol><li>Michael Hart, "Lessons from Canada's History as a Trading Nation," \
-//International Journal// 58, no.1 (2002): 40, doi:10.2307/40203811.</li></ol>
+> <ol><li>Michel Foucault, //Histoire de la folie à l’âge classique,// Mayenne, \
+Gallimard, 1972, p. 359.</li></ol>
 > ...
-> __Bibliography__
-> Hart, Michael. "Lessons from Canada's History as a Trading Nation." \
-//International Journal// 58, no.1 (2002): 25-42, doi:10.2307/40203811.
+> Bibliographie :
+> FOUCAULT, Michel. //Histoire de la folie à l’âge classique,// Mayenne, \
+Gallimard, 1972, 613 p.
 
 <<AnswerChoices
   "fr_style_chicago_plagiarism_01" $next_common_passage "hide"
-  "fr_style_chicago_plagiarism_01_include_answer_yes" "Yes, this is plagiarism"
-  "fr_style_chicago_plagiarism_01_include_answer_no" "No, this is not plagiarism"
+  "fr_style_chicago_plagiarism_01_include_answer_yes" "Oui, c’est du plagiat"
+  "fr_style_chicago_plagiarism_01_include_answer_no" "Non, ce n’est pas du plagiat"
   >>
 
 
@@ -22,10 +25,10 @@ of two seemingly unrelated by in fact closely connected developments...".<sup>1<
 ::fr_style_chicago_plagiarism_01_include_answer_yes
 !! Incorrect
 
-This is not plagiarism.
+Ce n’est pas du plagiat.
 
-Copying information word-for-word from a source is okay as long as you put \
-quotation marks around the copied information and give credit to the source.
+Copier une information mot pour mot d’une source est acceptable si vous placez \
+des guillemets autour de l’information copiée et indiquez la source.
 
 <<AnswerStatus
   "fr_style_chicago_plagiarism_01"
@@ -37,8 +40,8 @@ quotation marks around the copied information and give credit to the source.
 ::fr_style_chicago_plagiarism_01_include_answer_no
 !! Correct
 
-You're right! This is not plagiarism because there are quotation marks around \
-the copied information and the source is credited.
+Vous avez raison! Ce n’est pas du plagiat parce qu’il y a des guillemets autour \
+de l’information copiée et la source est indiquée.
 
 <<AnswerStatus
   "fr_style_chicago_plagiarism_01"
@@ -50,25 +53,25 @@ the copied information and the source is credited.
 ::fr_style_chicago_plagiarism_02
 ! Is this plagiarism?
 
-How about this?
+Et cet exemple?
 
-Taking someone's ideas or words, putting them into your own words, and crediting \
-the source.
+Prendre les idées ou les mots de quelqu’un, les mettre dans vos propres mots, et 
+indiquer la source.
 
-> Since Canada had such a small economy it did not have much to say when it came \
-to making trading deals with other nations.<sup>1</sup>
+> Les thérapeutiques physiques et les médications psychologiques étaient \
+effectivement identiques à l’âge classique.<sup>1</sup>
 > ...
-> <ol><li>Michael Hart, "Lessons from Canada's History as a Trading Nation," \
-//International Journal// 58, no.1 (2002): 42, doi:10.2307/40203811.</li></ol>
+> <ol><li>Michel Foucault, //Histoire de la folie à l’âge classique,// Mayenne, \
+Gallimard, 1972, p. 359.</li></ol>
 > ...
-> __Bibliography__
-> Hart, Michael. "Lessons from Canada's History as a Trading Nation." \
-//International Journal// 58, no.1 (2002): 25-42, doi:10.2307/40203811.
+> Bibliographie :
+> FOUCAULT, Michel. //Histoire de la folie à l’âge classique,// Mayenne, \
+Gallimard, 1972, 613 p.
 
 <<AnswerChoices
   "fr_style_chicago_plagiarism_02" $next_common_passage "hide"
-  "fr_style_chicago_plagiarism_02_include_answer_yes" "Yes, this is plagiarism"
-  "fr_style_chicago_plagiarism_02_include_answer_no" "No, this is not plagiarism"
+  "fr_style_chicago_plagiarism_02_include_answer_yes" "Oui, c’est du plagiat"
+  "fr_style_chicago_plagiarism_02_include_answer_no" "Non, ce n’est pas du plagiat"
   >>
 
 
@@ -76,11 +79,11 @@ to making trading deals with other nations.<sup>1</sup>
 ::fr_style_chicago_plagiarism_02_include_answer_yes
 !! Incorrect
 
-Actually, this is not plagiarism: it's paraphrasing.
+En fait, ce n’est pas du plagiat, c’est de la paraphrase.
 
-Paraphrasing is fine as long as you credit the source and the paraphrase is \
-entirely in your words&mdash;just changing a couple words here and there \
-doesn't cut it.
+Il est tout à fait acceptable de paraphraser, pourvu que vous indiquiez la \
+source et que la paraphrase soit entièrement dans vos mots – changer quelques \
+mots ici et là ne suffit pas.
 
 <<AnswerStatus
   "fr_style_chicago_plagiarism_02"
@@ -92,11 +95,11 @@ doesn't cut it.
 ::fr_style_chicago_plagiarism_02_include_answer_no
 !! Correct
 
-You're right! This is not plagiarism. It's paraphrasing.
+Vous avez raison! Ce n’est pas du plagiat. C’est de la paraphrase.
 
-Paraphrasing is fine as long as you credit the source and the paraphrase is \
-entirely in your words&mdash;just changing a couple words here and there \
-doesn't cut it.
+Il est tout à fait acceptable de paraphraser, pourvu que vous indiquiez la \
+source et que la paraphrase soit entièrement dans vos mots – changer quelques \
+mots ici et là ne suffit pas.
 
 <<AnswerStatus
   "fr_style_chicago_plagiarism_02"
@@ -330,8 +333,8 @@ Is this plagiarism?
 
 <<AnswerChoices
   "fr_style_chicago_quotvpara_04" $next_common_passage "hide"
-  "fr_style_chicago_quotvpara_04_include_answer_yes" "Yes, this is plagiarism"
-  "fr_style_chicago_quotvpara_04_include_answer_no" "No, this is not plagiarism"
+  "fr_style_chicago_quotvpara_04_include_answer_yes" "Oui, c’est du plagiat"
+  "fr_style_chicago_quotvpara_04_include_answer_no" "Non, ce n’est pas du plagiat"
   >>
 
 
@@ -417,8 +420,8 @@ Is this plagiarism?
 
 <<AnswerChoices
   "fr_style_chicago_quotvpara_06" $next_common_passage "hide"
-  "fr_style_chicago_quotvpara_06_include_answer_yes" "Yes, this is plagiarism"
-  "fr_style_chicago_quotvpara_06_include_answer_no" "No, this is not plagiarism"
+  "fr_style_chicago_quotvpara_06_include_answer_yes" "Oui, c’est du plagiat"
+  "fr_style_chicago_quotvpara_06_include_answer_no" "Non, ce n’est pas du plagiat"
   >>
 
 
