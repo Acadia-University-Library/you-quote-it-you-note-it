@@ -103,16 +103,17 @@ mots ici et là ne suffit pas.
 
 
 ::fr_style_mla_knowledge_01
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> Bram Stoker is the author of //Dracula//.
+''Phrase A''
+> Bram Stoker est l’auteur de //Dracula//.
 
-''Sentence B''
-> Bram Stoker's death certificate suggests that he died of tertiary syphilis.
+''Phrase B''
+> Le certificat de décès de Bram Stoker indique qu’il est mort de la syphilis \
+tertiaire.
 
 <<AnswerChoices
   "fr_style_mla_knowledge_01" $next_common_passage "hide"
@@ -125,8 +126,8 @@ to be cited.
 ::fr_style_mla_knowledge_01_include_answer_a
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_mla_knowledge_01"
@@ -138,10 +139,10 @@ doubt, it's better to cite than not.)
 ::fr_style_mla_knowledge_01_include_answer_b
 !! Correct
 
-You're right! This needs to be cited. It's from this journal article:
+Vous avez raison! Il faut le citer. C’est tiré de cet article de revue :
 
-> Fry, Carol L., and John Robert Craig. "'Unfit for Earth, Undoomed for Heaven': \
-The Genesis of Coppola's Byronic Dracula." //Literature and Film Quarterly//, \
+> Fry, Carol L., and John Robert Craig. « 'Unfit for Earth, Undoomed for Heaven' : \
+The Genesis of Coppola's Byronic Dracula ». //Literature and Film Quarterly//, \
 vol. 30, no. 4, 1994, pp. 271-78.
 
 <<AnswerStatus
@@ -152,17 +153,17 @@ vol. 30, no. 4, 1994, pp. 271-78.
 
 
 ::fr_style_mla_knowledge_02
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> Shakespeare probably earned about 200 pounds a year from his work in the \
-theatre.
+''Phrase A''
+> Shakespeare gagnait probablement environ 200 livres par an grâce à son \
+travail dans le théâtre.
 
-''Sentence B''
-> William Shakespeare was born in England in the 16th century.
+''Phrase B''
+> William Shakespeare est né en Angleterre au 16e siècle.
 
 <<AnswerChoices
   "fr_style_mla_knowledge_02" $next_common_passage "hide"
@@ -175,7 +176,7 @@ theatre.
 ::fr_style_mla_knowledge_02_include_answer_a
 !! Correct
 
-You're right! This needs to be cited. It's from this book:
+Vous avez raison! Il faut le citer. C’est tiré de ce livre :
 
 > Hyland, Peter. //An Introduction to Shakespeare: The Dramatist in His \
 Context//. St. Martin's Press, 1996.
@@ -190,8 +191,8 @@ Context//. St. Martin's Press, 1996.
 ::fr_style_mla_knowledge_02_include_answer_b
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_mla_knowledge_02"
@@ -201,17 +202,17 @@ doubt, it's better to cite than not.)
 
 
 ::fr_style_mla_knowledge_03
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> Tolkien's //The Hobbit//, published in 1937, was originally written for \
-Tolkien's own children.
+''Phrase A''
+> //Le Hobbit// de Tolkien, publié en 1937, a été écrit à l’origine pour les \
+enfants de Tolkien. 
 
-''Sentence B''
-> J.R.R. Tolkien is the author of //The Lord Of The Rings//.
+''Phrase B''
+> J.R.R. Tolkien est l’auteur de //Le Seigneur des anneaux//.
 
 <<AnswerChoices
   "fr_style_mla_knowledge_03" $next_common_passage "hide"
@@ -224,7 +225,7 @@ Tolkien's own children.
 ::fr_style_mla_knowledge_03_include_answer_a
 !! Correct
 
-You're right! This needs to be cited. It's from this website:
+Vous avez raison! Il faut le citer. C’est tiré de ce site Web :
 
 > Wood, Ralph C. "Biography of J.R.R. Tolkein." //LeadershipU//, \
 """http://www.learderu.com/humanities/wood-biography.html""".
@@ -239,8 +240,8 @@ You're right! This needs to be cited. It's from this website:
 ::fr_style_mla_knowledge_03_include_answer_b
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_mla_knowledge_03"

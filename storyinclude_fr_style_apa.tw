@@ -102,16 +102,16 @@ mots ici et là ne suffit pas.
 
 
 ::fr_style_apa_knowledge_01 
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> The Molsons are one of Canada's most influential business families.
+''Phrase A''
+> Les Molsons sont l’une des familles d’affaires les plus influentes du Canada.
 
-''Sentence B''
-> The first modern Molson brand, Export Ale, appeared in 1903.
+''Phrase B''
+> La première marque moderne de Molson, Export Ale, a vu le jour en 1903.
 
 <<AnswerChoices
   "fr_style_apa_knowledge_01" $next_common_passage "hide"
@@ -124,8 +124,8 @@ to be cited.
 ::fr_style_apa_knowledge_01_include_answer_a
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_apa_knowledge_01"
@@ -137,7 +137,7 @@ doubt, it's better to cite than not.)
 ::fr_style_apa_knowledge_01_include_answer_b
 !! Correct
 
-You're right! This needs to be cited. It's from this book:
+Vous avez raison! Il faut le citer. C’est tiré de ce livre :
 
 > Hunter, D. (2001). //Molson: The birth of a business empire.// Viking.
 
@@ -149,17 +149,17 @@ You're right! This needs to be cited. It's from this book:
 
 
 ::fr_style_apa_knowledge_02 
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> The Mexican peso devaluation in 1994 seriously affected the country's \
-financial markets.
+''Phrase A''
+> La dévaluation du peso mexicain en 1994 a sérieusement nui aux marchés \
+financiers du pays.
 
-''Sentence B''
-> The peso is the currency used in the country of Mexico.
+''Phrase B''
+> Le peso est la monnaie utilisée au Mexique.
 
 <<AnswerChoices
   "fr_style_apa_knowledge_02" $next_common_passage "hide"
@@ -172,11 +172,11 @@ financial markets.
 ::fr_style_apa_knowledge_02_include_answer_a
 !! Correct
 
-You're right! This needs to be cited. It's from this journal article:
+Vous avez raison! Il faut le citer. C’est tiré de cet article de revue :
 
-> Goldberg, C.S. & Veitch, J.M. (2003). Exchange rate crisis and firm values: A \
-case study of Mexico's tequila crisis. \
-//Journal of American Academy of Business//, 2(2), 545-549.
+> Goldberg, C.S. & Veitch, J.M. (2003). Exchange rate crisis and firm values: \
+A case study of Mexico's tequila crisis. //Journal of American Academy of \
+Business//, 2(2), 545-549.
 
 <<AnswerStatus
   "fr_style_apa_knowledge_02"
@@ -188,8 +188,8 @@ case study of Mexico's tequila crisis. \
 ::fr_style_apa_knowledge_02_include_answer_b
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_apa_knowledge_02"
@@ -199,17 +199,17 @@ doubt, it's better to cite than not.)
 
 
 ::fr_style_apa_knowledge_03 
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> The Canadian government's tax cut in 2001 prompted the Bank of Canada to \
-reduce interest rates.
+''Phrase A''
+> La baisse d’impôts du gouvernement du Canada en 2001 a incité la Banque du \
+Canada à réduire les taux d’intérêt.
 
-''Sentence B''
-> The Bank of Canada regulates interest rates.
+''Phrase B''
+> La Banque du Canada règlemente les taux d’intérêt.
 
 <<AnswerChoices
   "fr_style_apa_knowledge_03" $next_common_passage "hide"
@@ -222,9 +222,9 @@ reduce interest rates.
 ::fr_style_apa_knowledge_03_include_answer_a
 !! Correct
 
-You're right! This needs to be cited. It's from this article:
+Vous avez raison! Il faut le citer. C’est tiré de cet article :
 
-> Manley, J. (2003, April 12). Statement prepared for the International Monetary \
+> Manley, J. (2003, avril 12). Statement prepared for the International Monetary \
 Fund. """http://www.fin.gc.ca/news03/03-024e.html""".
 
 <<AnswerStatus
@@ -237,8 +237,8 @@ Fund. """http://www.fin.gc.ca/news03/03-024e.html""".
 ::fr_style_apa_knowledge_03_include_answer_b
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_apa_knowledge_03"

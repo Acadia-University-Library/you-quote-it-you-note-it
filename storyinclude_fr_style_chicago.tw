@@ -109,17 +109,18 @@ mots ici et là ne suffit pas.
 
 
 ::fr_style_chicago_knowledge_01
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> Canada became a Confederation in 1867.
+''Phrase A''
+> Le Canada est devenu une confédération en 1867.
 
-''Sentence B''
-> Scholars and politicians are divided on whether Confederation constitutes an \
-Act imposed by Britain or an agreement between sovereign colonies.
+''Phrase B''
+> Les universitaires et les politiciens ne s’entendent pas sur la question à \
+savoir si la Confédération constitue une loi imposée par la Grande-Bretagne ou \
+un accord entre des colonies souveraines.
 
 <<AnswerChoices
   "fr_style_chicago_knowledge_01" $next_common_passage "hide"
@@ -132,8 +133,8 @@ Act imposed by Britain or an agreement between sovereign colonies.
 ::fr_style_chicago_knowledge_01_include_answer_a
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_chicago_knowledge_01"
@@ -145,10 +146,11 @@ doubt, it's better to cite than not.)
 ::fr_style_chicago_knowledge_01_include_answer_b
 !! Correct
 
-You're right! This needs to be cited. It's from this book:
+Vous avez raison! Il faut le citer. C’est tiré de ce livre :
 
-> Belshaw, J. //Canadian History: Post-Confederation.// British Columbia: \
-BCcampus, 2016. """https://open.umn.edu/opentextbooks/textbooks/671""".
+> BELSHAW, John Douglas. //Canadian History: Post-Confederation.// British \
+Columbia, BCcampus, 2016, 800 p. \["""https://open.umn.edu/opentextbooks/textbooks/671"""\] \
+(Consulté le 10 décembre 2020).
 
 <<AnswerStatus
   "fr_style_chicago_knowledge_01"
@@ -158,17 +160,17 @@ BCcampus, 2016. """https://open.umn.edu/opentextbooks/textbooks/671""".
 
 
 ::fr_style_chicago_knowledge_02
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> The Mexican peso devaluation in 1994 seriously affected the country's \
-financial markets.
+''Phrase A''
+> La dévaluation du peso mexicain en 1994 a sérieusement nui aux marchés \
+financiers du pays.
 
-''Sentence B''
-> The peso is the currency used in the country of Mexico.
+''Phrase B''
+> Le peso est la monnaie utilisée au Mexique.
 
 <<AnswerChoices
   "fr_style_chicago_knowledge_02" $next_common_passage "hide"
@@ -181,11 +183,11 @@ financial markets.
 ::fr_style_chicago_knowledge_02_include_answer_a
 !! Correct
 
-You're right! This needs to be cited. It's from this journal article:
+Vous avez raison! Il faut le citer. C’est tiré de cet article de revue :
 
-> Goldberg, C.S. and J.M. Veitch "Exchange rate crisis and firm values: A case \
-study of Mexico's tequila crisis." //Journal of American Academy of Business// \
-2, no. 2 (2003): 545-549.
+> GOLDBERG, Cathy S. et John M. VEITCH. « Exchange rate crisis and firm values: \
+A case study of Mexico's tequila crisis. » //Journal of American Academy of \
+Business// 2, no 2, 2003, p. 545-549.
 
 <<AnswerStatus
   "fr_style_chicago_knowledge_02"
@@ -197,8 +199,8 @@ study of Mexico's tequila crisis." //Journal of American Academy of Business// \
 ::fr_style_chicago_knowledge_02_include_answer_b
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_chicago_knowledge_02"
@@ -208,16 +210,16 @@ doubt, it's better to cite than not.)
 
 
 ::fr_style_chicago_knowledge_03
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> France is the third largest country in Europe.
+''Phrase A''
+> La France est le troisième plus grand pays d’Europe.
 
-''Sentence B''
-> Paris is the Capitol of France.
+''Phrase B''
+> Paris est la capitale de la France.
 
 <<AnswerChoices
   "fr_style_chicago_knowledge_03" $next_common_passage "hide"
@@ -230,10 +232,11 @@ to be cited.
 ::fr_style_chicago_knowledge_03_include_answer_a
 !! Correct
 
-You're right! This needs to be cited. It's from this website:
+Vous avez raison! Il faut le citer. C’est tiré de ce site Web :
 
-> Chepkemoi, Joyce. "The Largest Countries in Europe." WorldAtlas. Accessed \ 
-May 31, 2018. """http://worldatlas.com/articles/the-largest-countries-in-europe.html""". 
+> CHEPKEMOI, Joyce. « The Largest Countries in Europe », //WorldAtlas//, \[en \
+ligne\], le 31 mai 2018. \["""http://worldatlas.com/articles/the-largest-countries-in-europe.html"""\] \
+(Consulté le 10 décembre 2020).
 
 <<AnswerStatus
   "fr_style_chicago_knowledge_03"
@@ -245,8 +248,8 @@ May 31, 2018. """http://worldatlas.com/articles/the-largest-countries-in-europe.
 ::fr_style_chicago_knowledge_03_include_answer_b
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_chicago_knowledge_03"

@@ -106,17 +106,17 @@ mots ici et là ne suffit pas.
 
 
 ::fr_style_asa_knowledge_01
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> There are children living in poverty in Canada.
+''Phrase A''
+> Il y a des enfants qui vivent dans la pauvreté au Canada.
 
-''Sentence B''
-> Nova Scotia is the only province that experienced an increase in child poverty \
-between 2015 and 2017.
+''Phrase B''
+> La Nouvelle-Écosse est la seule province qui a connu une augmentation de la \
+pauvreté des enfants entre 2015 et 2017. 
 
 <<AnswerChoices
   "fr_style_asa_knowledge_01" $next_common_passage "hide"
@@ -129,8 +129,8 @@ between 2015 and 2017.
 ::fr_style_asa_knowledge_01_include_answer_a
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_asa_knowledge_01"
@@ -142,12 +142,12 @@ doubt, it's better to cite than not.)
 ::fr_style_asa_knowledge_01_include_answer_b
 !! Correct
 
-You're right! This needs to be cited. It's from this report:
+Vous avez raison! Il faut le citer. C’est tiré de ce rapport :
 
-> Frank, Lesley and Laura Fisher. 2020. "2019 Report Card on Child and Family \
-Poverty in Nova Scotia: Three Decades Lost." Halifax, NS: Canadian Association \
-of Policy Alternatives. \
-"""https://www.policyalternatives.ca/publications/reports/2019-report-card-child-and-family-poverty-nova-scotia""".
+> FRANK, Lesley et Laura FISHER (janvier 2020). //2019 Report Card on Child and \
+Family Poverty in Nova Scotia: Three Decades Lost.//, 49 p. \[Rapport du Centre \
+canadien de politiques alternatives\]. \["""https://www.policyalternatives.ca/publications/reports/2019-report-card-child-and-family-poverty-nova-scotia"""\] \
+(Consulté le 10 décembre 2020).
 
 <<AnswerStatus
   "fr_style_asa_knowledge_01"
@@ -157,18 +157,19 @@ of Policy Alternatives. \
 
 
 ::fr_style_asa_knowledge_02
-! Common knowledge or not?
+! Connaissance commune ou non?
 
-One sentence is common knowledge and the other is not. Pick the one that needs \
-to be cited.
+Une phrase est une connaissance commune et l’autre ne l’est pas. Choisissez \
+celle qui doit être citée.
 
-''Sentence A''
-> Unlike the Civil Rights Movement, whose female leadership took a backseat to \
-men, Black Lives Matter was founded by three female community organizers: \
-Alicia Garza, Patrisse Cullors, and Opal Tometi.
+''Phrase A''
+> Contrairement au mouvement des droits civiques, dont le leadership féminin est \
+passé au second plan au profit des hommes, le mouvement Les vies noires comptent \
+(Black Lives Matter) a été fondé par trois organisatrices communautaires : \
+Alicia Garza, Patrisse Cullors et Opal Tometi. 
 
-''Sentence B''
-> Black Lives Matter is an anti-racist social movement.
+''Phrase B''
+> Les vies noires comptent (Black Lives Matter) est un mouvement antiraciste.
 
 <<AnswerChoices
   "fr_style_asa_knowledge_02" $next_common_passage "hide"
@@ -181,12 +182,12 @@ Alicia Garza, Patrisse Cullors, and Opal Tometi.
 ::fr_style_asa_knowledge_02_include_answer_a
 !! Correct
 
-You're right! This needs to be cited. It's from this journal article:
+Vous avez raison! Il faut le citer. C’est tiré de cet article de revue :
 
-> Jones-Eversley, Sharon, A. Christson Adedoyin, Michael A. Robinson, and Sharon \
-E. Moore. 2017. "Protesting Black Inequality: A Commentary on the Civil Rights \
-Movement and Black Lives Matter." //Journal of Community Practice// \
-25(3-4):309-24. doi: 10.1080/10705422.2017.1367343.
+> JONES-EVERSLEY, Sharon, et collab. (2017). « Protesting Black Inequality: A \
+Commentary on the Civil Rights Movement and Black Lives Matter », //Journal of \
+Community Practice//, vol. 25, nos 3-4, p. 309-324. doi : \
+10.1080/10705422.2017.1367343.
 
 <<AnswerStatus
   "fr_style_asa_knowledge_02"
@@ -198,8 +199,8 @@ Movement and Black Lives Matter." //Journal of Community Practice// \
 ::fr_style_asa_knowledge_02_include_answer_b
 !! Incorrect
 
-Actually, this is common knowledge and doesn't need to be cited. (But when in \
-doubt, it's better to cite than not.)
+En fait, cela est une connaissance commune et n’a pas besoin d’être cité. (Mais \
+en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 <<AnswerStatus
   "fr_style_asa_knowledge_02"
