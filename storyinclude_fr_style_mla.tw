@@ -117,8 +117,8 @@ tertiaire.
 
 <<AnswerChoices
   "fr_style_mla_knowledge_01" $next_common_passage "hide"
-  "fr_style_mla_knowledge_01_include_answer_a" "Sentence A"
-  "fr_style_mla_knowledge_01_include_answer_b" "Sentence B"
+  "fr_style_mla_knowledge_01_include_answer_a" "Phrase A"
+  "fr_style_mla_knowledge_01_include_answer_b" "Phrase B"
   >>
 
 
@@ -167,8 +167,8 @@ travail dans le théâtre.
 
 <<AnswerChoices
   "fr_style_mla_knowledge_02" $next_common_passage "hide"
-  "fr_style_mla_knowledge_02_include_answer_a" "Sentence A"
-  "fr_style_mla_knowledge_02_include_answer_b" "Sentence B"
+  "fr_style_mla_knowledge_02_include_answer_a" "Phrase A"
+  "fr_style_mla_knowledge_02_include_answer_b" "Phrase B"
   >>
 
 
@@ -216,8 +216,8 @@ enfants de Tolkien.
 
 <<AnswerChoices
   "fr_style_mla_knowledge_03" $next_common_passage "hide"
-  "fr_style_mla_knowledge_03_include_answer_a" "Sentence A"
-  "fr_style_mla_knowledge_03_include_answer_b" "Sentence B"
+  "fr_style_mla_knowledge_03_include_answer_a" "Phrase A"
+  "fr_style_mla_knowledge_03_include_answer_b" "Phrase B"
   >>
 
 

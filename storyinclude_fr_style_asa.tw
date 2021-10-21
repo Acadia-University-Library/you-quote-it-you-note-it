@@ -120,8 +120,8 @@ pauvreté des enfants entre 2015 et 2017.
 
 <<AnswerChoices
   "fr_style_asa_knowledge_01" $next_common_passage "hide"
-  "fr_style_asa_knowledge_01_include_answer_a" "Sentence A"
-  "fr_style_asa_knowledge_01_include_answer_b" "Sentence B"
+  "fr_style_asa_knowledge_01_include_answer_a" "Phrase A"
+  "fr_style_asa_knowledge_01_include_answer_b" "Phrase B"
   >>
 
 
@@ -173,8 +173,8 @@ Alicia Garza, Patrisse Cullors et Opal Tometi.
 
 <<AnswerChoices
   "fr_style_asa_knowledge_02" $next_common_passage "hide"
-  "fr_style_asa_knowledge_02_include_answer_a" "Sentence A"
-  "fr_style_asa_knowledge_02_include_answer_b" "Sentence B"
+  "fr_style_asa_knowledge_02_include_answer_a" "Phrase A"
+  "fr_style_asa_knowledge_02_include_answer_b" "Phrase B"
   >>
 
 

@@ -124,8 +124,8 @@ un accord entre des colonies souveraines.
 
 <<AnswerChoices
   "fr_style_chicago_knowledge_01" $next_common_passage "hide"
-  "fr_style_chicago_knowledge_01_include_answer_a" "Sentence A"
-  "fr_style_chicago_knowledge_01_include_answer_b" "Sentence B"
+  "fr_style_chicago_knowledge_01_include_answer_a" "Phrase A"
+  "fr_style_chicago_knowledge_01_include_answer_b" "Phrase B"
   >>
 
 
@@ -174,8 +174,8 @@ financiers du pays.
 
 <<AnswerChoices
   "fr_style_chicago_knowledge_02" $next_common_passage "hide"
-  "fr_style_chicago_knowledge_02_include_answer_a" "Sentence A"
-  "fr_style_chicago_knowledge_02_include_answer_b" "Sentence B"
+  "fr_style_chicago_knowledge_02_include_answer_a" "Phrase A"
+  "fr_style_chicago_knowledge_02_include_answer_b" "Phrase B"
   >>
 
 
@@ -223,8 +223,8 @@ celle qui doit être citée.
 
 <<AnswerChoices
   "fr_style_chicago_knowledge_03" $next_common_passage "hide"
-  "fr_style_chicago_knowledge_03_include_answer_a" "Sentence A"
-  "fr_style_chicago_knowledge_03_include_answer_b" "Sentence B"
+  "fr_style_chicago_knowledge_03_include_answer_a" "Phrase A"
+  "fr_style_chicago_knowledge_03_include_answer_b" "Phrase B"
   >>
 
 

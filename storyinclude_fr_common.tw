@@ -303,7 +303,7 @@ l'autoplagiat vous devez demander et recevoir leur autorisation.
 ! Plagiat
 
 Si vous faites du plagiat, vous pourriez faire face à diverses sanctions, y \
-compris:
+compris :
 
 * Échouer votre devoir
 * Échouer votre cours
@@ -351,7 +351,7 @@ Maintenant, allons voir si vous pouvez identifier des cas de plagiat.
 ! Conseil no. 1
 
 Paraphraser incorrectement, c’est encore du plagiat. Pour paraphraser \
-correctement, vous devez:
+correctement, vous devez :
 <<nobr>>
 <<switch $style.toLowerCase()>>
 <<case "apa">>
