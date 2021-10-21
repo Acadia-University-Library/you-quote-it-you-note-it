@@ -251,64 +251,66 @@ en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 
 ::fr_style_mla_quotvpara_01_include
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-Maybe it would help to show the difference between quoting and paraphrasing, and \
-how to do each correctly using MLA style.
+Il serait peut-être utile de montrer la différence entre la citation et la paraphrase, et comment \
+faire les deux correctement au moyen du style MLA.
 
-> In //The Pastures of Heaven//, readers first see the natural and poetic use \
-of language familiar in Steinbeck's greatest works.
+> Le narrateur peut prendre à témoin le lecteur, faire des commentaires sur l’action, les faits et \
+gestes des personnages, leurs pensées et intentions. 
 
 
 
 ::fr_style_mla_quotvpara_02_include
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Quoting
+!! La citation
 
-A quotation uses exactly the same words as those found in the source material \
-and puts them in quotation marks. Here's what a quotation looks like with a \
-proper in-text reference in MLA style:
+Une citation utilise exactement les mêmes mots que ceux trouvés dans le matériel \
+source et les met entre guillemets. Voici à quoi ressemble une citation avec une \
+référence textuelle correcte dans le style MLA :
 
-> "In //The Pastures of Heaven//, readers first see the natural and poetic use \
-of language familiar in Steinbeck's greatest works" (Burkhead 17).
+> « Le narrateur peut prendre à témoin le lecteur, faire des commentaires sur \
+l’action, les faits et gestes des personnages, leurs pensées et intentions » \
+(Gengembre 97).
 > ...
-> Works Cited:
-> <span class="hanging_indent">Burkhead, Cynthia. \
-//Student Companion to John Steinbeck.// Greenwood, 2002.</span>
+> Bibliographie :
+> <span class="hanging_indent">Gengembre, Gérard. //Le roman historique.// \
+Klincksieck, 2006.</span>
 
 
 
 ::fr_style_mla_quotvpara_03_include
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Paraphrasing
+!! La paraphrase
 
-A paraphrase is another author’s ideas expressed //in your own words//&mdash;\
-without quotation marks, since it's no longer a word-for-word quotation. And \
-just changing a few words from the original doesn't count!
+Une paraphrase, c’est une idée d’un autre auteur exprimée //dans vos propres \
+mots//. Une paraphrase n’est pas entre guillemets, parce qu’il ne s’agit pas \
+d’une citation mot pour mot. Et le simple fait de changer quelques mots par \
+rapport à l’original ne suffit pas!
 
-> The first use of Steinbeck's works to use language in the poetic way for which \
-he became famous is //The Pastures of Heaven// (Burkhead 17).
+> Le narrateur peut, s’il le souhaite, faire des commentaires sur les gestes, \
+les pensées et les intentions des personnages (Gengembre 97).
 > ...
-> Works Cited:
-> <span class="hanging_indent">Burkhead, Cynthia. \
-//Student Companion to John Steinbeck.// Greenwood, 2002.</span>
+> Bibliographie :
+> <span class="hanging_indent">Gengembre, Gérard. Le roman historique. \
+Klincksieck, 2006.</span>
 
 
 
 ::fr_style_mla_quotvpara_04
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Quoting
+!! La citation
 
-Let's look at an example in context:
+Examinons un exemple dans son contexte :
 
-> Steinbeck's early works betray an undeveloped style. ''In //The Pastures of \
-Heaven//, readers first see the natural and poetic use of language familiar in \
-Steinbeck's greatest works.''
+> Le narrateur du roman historique peut jouer divers rôles. ''Le narrateur peut \
+prendre à témoin le lecteur, faire des commentaires sur l’action, les faits et \
+gestes des personnages, leurs pensées et intentions.''
 
-Is this plagiarism?
+Est-ce du plagiat?
 
 <<AnswerChoices
   "fr_style_mla_quotvpara_04" $next_common_passage "hide"
@@ -321,8 +323,8 @@ Is this plagiarism?
 ::fr_style_mla_quotvpara_04_include_answer_yes
 !! Correct
 
-Good catch! This is plagiarism because the quotation is not in quotation marks \
-and the source is not cited!
+Bien joué! C’est du plagiat parce que la citation n’est pas entre guillemets et \
+la source n’est pas citée!
 
 <<AnswerStatus
   "fr_style_mla_quotvpara_04"
@@ -334,8 +336,8 @@ and the source is not cited!
 ::fr_style_mla_quotvpara_04_include_answer_no
 !! Incorrect
 
-Oh yes, it is! This is plagiarism because the quotation is not in quotation \
-marks and the source is not cited.
+Oh oui, ça l’est! C’est du plagiat parce que la citation n’est pas entre \
+guillemets et la source n’est pas citée.
 
 <<AnswerStatus
   "fr_style_mla_quotvpara_04"
@@ -345,33 +347,33 @@ marks and the source is not cited.
 
 
 ::fr_style_mla_quotvpara_05
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Quoting Revisions
+!! La citation Revisions
 
-Click "Fix it" to see how to quote without plagiarising.
+Cliquez sur « Corriger » pour voir comment citer sans plagier.
 
-> Steinbeck's early works betray an undeveloped style. ''In //The Pastures of \
-Heaven//, readers first see the natural and poetic use of language familiar in \
-Steinbeck's greatest works.''
+> Le narrateur du roman historique peut jouer divers rôles. ''Le narrateur peut \
+prendre à témoin le lecteur, faire des commentaires sur l’action, les faits et \
+gestes des personnages, leurs pensées et intentions.''
 
 <<AnswerChoices
   "fr_style_mla_quotvpara_05" $next_common_passage "hide"
-  "fr_style_mla_quotvpara_05_include_answer_fix" "Fix it"
+  "fr_style_mla_quotvpara_05_include_answer_fix" "Corriger"
   >>
 
 
 
 ::fr_style_mla_quotvpara_05_include_answer_fix
-!! Fixed
+!! Corrigé
 
-> Steinbeck's early works betray an undeveloped style. ''In //The Pastures of \
-Heaven//, readers first see the natural and poetic use of language familiar in \
-Steinbeck's greatest works'' (Burkhead 17).
+> Le narrateur du roman historique peut jouer divers rôles. ''« Le narrateur peut \
+prendre à témoin le lecteur, faire des commentaires sur l’action, les faits et \
+gestes des personnages, leurs pensées et intentions »''' (Gengembre 97).
 > ...
-> Works Cited:
-> <span class="hanging_indent">Burkhead, Cynthia. \
-//Student Companion to John Steinbeck.// Greenwood, 2002.</span>
+> Bibliographie :
+> <span class="hanging_indent">Gengembre, Gérard. //Le roman historique//. \
+Klincksieck, 2006.</span>
 
 <<AnswerStatus
   "fr_style_mla_quotvpara_05"
@@ -381,15 +383,15 @@ Steinbeck's greatest works'' (Burkhead 17).
 
 
 ::fr_style_mla_quotvpara_06
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Paraphrasing
+!! La paraphrase
 
-> Steinbeck's early works betray an undeveloped style. ''The first of \
-Steinbeck's works to use language in the poetic way for which he became famous \
-is //The Pastures of Heaven//.''
+> Le narrateur du roman historique peut jouer divers rôles. ''Le narrateur peut, \
+s’il le souhaite, faire des commentaires sur les gestes, les pensées et les \
+intentions des personnages.''
 
-Is this plagiarism?
+Est-ce du plagiat?
 
 <<AnswerChoices
   "fr_style_mla_quotvpara_06" $next_common_passage "hide"
@@ -402,8 +404,8 @@ Is this plagiarism?
 ::fr_style_mla_quotvpara_06_include_answer_yes
 !! Correct
 
-Definitely. The author has used their own words and sentence structure but \
-forgotten to cite the source!
+Sans aucun doute. L’auteur a employé ses propres mots et structure de phrase, \
+mais a oublié de citer la source!
 
 <<AnswerStatus
   "fr_style_mla_quotvpara_06"
@@ -415,8 +417,8 @@ forgotten to cite the source!
 ::fr_style_mla_quotvpara_06_include_answer_no
 !! Incorrect
 
-Actually, it IS plagiarism. Although they used their own words and sentence \
-structure, they have forgotten to cite the source!
+En fait, c’est du plagiat. Même s’ils ont utilisé leurs propres mots et \
+structure de phrase, ils ont oublié de citer la source!
 
 <<AnswerStatus
   "fr_style_mla_quotvpara_06"
@@ -426,33 +428,33 @@ structure, they have forgotten to cite the source!
 
 
 ::fr_style_mla_quotvpara_07
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Paraphrasing Revisions
+!! Révision &ndash; paraphrase
 
-Click "Fix it" to see how to paraphrase without plagiarising.
+Cliquez sur « Corriger » pour voir comment paraphraser sans plagier.
 
-> Steinbeck's early works betray an undeveloped style. ''The first of \
-Steinbeck's works to use language in the poetic way for which he became famous \
-is //The Pastures of Heaven//.''
+> Le narrateur du roman historique peut jouer divers rôles. ''Le narrateur peut, \
+s’il le souhaite, faire des commentaires sur les gestes, les pensées et les \
+intentions des personnages.''
 
 <<AnswerChoices
   "fr_style_mla_quotvpara_07" $next_common_passage "hide"
-  "fr_style_mla_quotvpara_07_include_answer_fix" "Fix it"
+  "fr_style_mla_quotvpara_07_include_answer_fix" "Corriger"
   >>
 
 
 
 ::fr_style_mla_quotvpara_07_include_answer_fix
-!! Fixed
+!! Corrigé
 
-> Steinbeck's early works betray an undeveloped style. ''The first of \
-Steinbeck's works to use language in the poetic way for which he became famous \
-is //The Pastures of Heaven//'' (Burkhead 17).
+> Le narrateur du roman historique peut jouer divers rôles. ''Le narrateur peut, \
+s’il le souhaite, faire des commentaires sur les gestes, les pensées et les \
+intentions des personnages'' (Gengembre 97).
 > ...
-> Works Cited:
-> <span class="hanging_indent">Burkhead, Cynthia. \
-//Student Companion to John Steinbeck.// Greenwood, 2002.</span>
+> Bibliographie :
+> <span class="hanging_indent">Gengembre, Gérard. //Le roman historique//. \
+Klincksieck, 2006.</span>
 
 <<AnswerStatus
   "fr_style_mla_quotvpara_07"

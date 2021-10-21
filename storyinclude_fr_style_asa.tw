@@ -228,74 +228,74 @@ See storyinclude_common.tw::fr_common_knowledge_06 for next-passage exception. *
 
 
 ::fr_style_asa_quotvpara_01_include
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-Maybe it would help to show the difference between quoting and paraphrasing, and \
-how to do each correctly using ASA style.
+Il serait peut-être utile de montrer la différence entre la citation et la \
+paraphrase, et comment faire les deux correctement au moyen de la méthode \
+auteur-date.
 
-Here is a passage from a journal article that you could use in your paper:
+Voici un passage d’un livre que vous pourriez utiliser dans votre travail :
 
-> Since YouTube creators enjoy the reputation as reliable endorsers, companies \
-search for appropriate influencers in the social media sphere in hope of finding \
-credible people disseminating their brand's message.
+> Il faut garder à l’esprit que l’enfant aux prises avec un déficit d’attention \
+ne fait jamais exprès de perdre ses affaires, d’oublier de vérifier, de se \
+perdre dans son imagination débordante. 
 
 
 
 ::fr_style_asa_quotvpara_02_include
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Quoting
+!! La citation
 
-A quotation uses exactly the same words as those found in the source material \
-and puts them in quotation marks. Here's what a quotation looks like with a \
-proper in-text reference in ASA style:
+Une citation utilise exactement les mêmes mots que ceux trouvés dans le matériel \
+source et les met entre guillemets. Voici à quoi ressemble une citation avec une \
+référence textuelle correcte dans la méthode auteur-date :
 
-> "Since YouTube creators enjoy the reputation as reliable endorsers, companies \
-search for appropriate influencers in the social media sphere in hope of finding \
-credible people disseminating their brand's message" (Schwemmer and Ziewiecki \
-2018:4).
+> « Il faut garder à l’esprit que l’enfant aux prises avec un déficit \
+d’attention ne fait jamais exprès de perdre ses affaires, d’oublier de vérifier, \
+de se perdre dans son imagination débordante » (Lussier, 2011, p. 81).
 > ...
-> References:
-> <span class="hanging_indent">Schwemmer, Carsten and Sandra Ziewiecki. 2018. \
-"Social Media Sellout: The Increasing Role of Product Promotion on YouTube." \
-//Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
+> Bibliographie :
+> <span class="hanging_indent">LUSSIER, Francine (2011). //100 idées pour mieux \
+gérer les troubles de l’attention//, Paris : Éditions Tom Pousse, 169 p.</span>
 
 
 
 ::fr_style_asa_quotvpara_03_include
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Paraphrasing
+!! La paraphrase
 
-A paraphrase is another author’s ideas expressed //in your own words//&mdash;\
-without quotation marks, since it's no longer a word-for-word quotation. And \
-just changing a few words from the original doesn't count!
+Une paraphrase, c’est une idée d’un autre auteur exprimée //dans vos propres \
+mots//. Une paraphrase n’est pas entre guillemets, parce qu’il ne s’agit pas \
+d’une citation mot pour mot. Et le simple fait de changer quelques mots par \
+rapport à l’original ne suffit pas!
 
-> Many companies seek out YouTubers with good reputations to promote their \
-brand and their products (Schwemmer and Ziewiecki 2018:4).
+> Il ne faut pas oublier que lorsqu’un enfant avec un déficit d’attention perd \
+ses affaires ou se perd dans son imagination, il ne le fait pas par exprès \
+(Lussier, 2011).
 > ...
-> References:
-> <span class="hanging_indent">Schwemmer, Carsten and Sandra Ziewiecki. 2018. \
-"Social Media Sellout: The Increasing Role of Product Promotion on YouTube." \
-//Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
+> Bibliographie :
+> <span class="hanging_indent">LUSSIER, Francine (2011). //100 idées pour mieux \
+gérer les troubles de l’attention//, Paris : Éditions Tom Pousse, 169 p.</span>
 
 
 
 ::fr_style_asa_quotvpara_04
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Quoting
+!! La citation
 
-Now that you know the difference between quoting and paraphrasing, let's make \
-sure you can do it properly in an actual assignment. Imagine that this is your \
-essay so far:
+Maintenant que vous connaissez la différence entre citer et paraphraser, \
+assurons-nous que vous pouvez le faire correctement dans un travail réel. \
+Imaginez que ceci est votre texte :
 
-> Product endorsement is increasingly common on YouTube. ''Since YouTube creators \
-enjoy the reputation as reliable endorsers, companies search for appropriate \
-influencers in the social media sphere in hope of finding credible people \
-disseminating their brand's message.''
+> Réprimander l’enfant qui a un déficit d’attention n’améliorera pas à la \
+situation. ''Il faut garder à l’esprit que l’enfant aux prises avec un déficit \
+d’attention ne fait jamais exprès de perdre ses affaires, d’oublier de vérifier, \
+de se perdre dans son imagination débordante.''
 
-Is this plagiarism?
+Est-ce du plagiat?
 
 <<AnswerChoices
   "fr_style_asa_quotvpara_04" $next_common_passage "hide"
@@ -308,8 +308,8 @@ Is this plagiarism?
 ::fr_style_asa_quotvpara_04_include_answer_yes
 !! Correct
 
-Good catch! This is plagiarism because the quotation is not in quotation marks \
-and the source is not cited!
+Bien joué! C’est du plagiat parce que la citation n’est pas entre guillemets et \
+la source n’est pas citée!
 
 <<AnswerStatus
   "fr_style_asa_quotvpara_04"
@@ -321,8 +321,8 @@ and the source is not cited!
 ::fr_style_asa_quotvpara_04_include_answer_no
 !! Incorrect
 
-Oh yes, it is! This is plagiarism because the quotation is not in quotation \
-marks and the source is not cited.
+Oh oui, ça l’est! C’est du plagiat parce que la citation n’est pas entre \
+guillemets et la source n’est pas citée.
 
 <<AnswerStatus
   "fr_style_asa_quotvpara_04"
@@ -332,36 +332,35 @@ marks and the source is not cited.
 
 
 ::fr_style_asa_quotvpara_05
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Quoting Revisions
+!! La citation Revisions
 
-Click "Fix it" to see how to quote without plagiarising.
+Cliquez sur « Corriger » pour voir comment citer sans plagier.
 
-> Product endorsement is increasingly common on YouTube. ''Since YouTube creators \
-enjoy the reputation as reliable endorsers, companies search for appropriate \
-influencers in the social media sphere in hope of finding credible people \
-disseminating their brand's message.''
+> Réprimander l’enfant qui a un déficit d’attention n’améliorera pas à la \
+situation. ''Il faut garder à l’esprit que l’enfant aux prises avec un déficit \
+d’attention ne fait jamais exprès de perdre ses affaires, d’oublier de vérifier, \
+de se perdre dans son imagination débordante.''
 
 <<AnswerChoices
   "fr_style_asa_quotvpara_05" $next_common_passage "hide"
-  "fr_style_asa_quotvpara_05_include_answer_fix" "Fix it"
+  "fr_style_asa_quotvpara_05_include_answer_fix" "Corriger"
   >>
 
 
 
 ::fr_style_asa_quotvpara_05_include_answer_fix
-!! Fixed
+!! Corrigé
 
-> Product endorsement is increasingly common on YouTube. ''"Since YouTube creators \
-enjoy the reputation as reliable endorsers, companies search for appropriate \
-influencers in the social media sphere in hope of finding credible people \
-disseminating their brand's message" (Schwemmer and Ziewiecki 2018:4).''
+> Réprimander l’enfant qui a un déficit d’attention n’améliorera pas à la \
+situation. ''« Il faut garder à l’esprit que l’enfant aux prises avec un déficit \
+d’attention ne fait jamais exprès de perdre ses affaires, d’oublier de vérifier, \
+de se perdre dans son imagination débordante » (Lussier, 2011, p. 81).''
 > ...
-> References:
-> <span class="hanging_indent">Schwemmer, Carsten and Sandra Ziewiecki. 2018. \
-"Social Media Sellout: The Increasing Role of Product Promotion on YouTube." \
-//Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
+> Bibliographie :
+> <span class="hanging_indent">LUSSIER, Francine (2011). //100 idées pour mieux \
+gérer les troubles de l’attention//, Paris : Éditions Tom Pousse, 169 p.</span>
 
 <<AnswerStatus
   "fr_style_asa_quotvpara_05"
@@ -371,14 +370,16 @@ disseminating their brand's message" (Schwemmer and Ziewiecki 2018:4).''
 
 
 ::fr_style_asa_quotvpara_06
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Paraphrasing
+!! La paraphrase
 
-> Product endorsement is increasingly common on YouTube. ''Many companies seek \
-out YouTubers with good reputations to promote their brand and their products.''
+> Réprimander l’enfant qui a un déficit d’attention n’améliorera pas à la \
+situation. Il ne faut pas oublier que lorsqu’un enfant avec un déficit \
+d’attention perd ses affaires ou se perd dans son imagination, il ne le fait pas \
+par exprès.
 
-Is this plagiarism?
+Est-ce du plagiat?
 
 <<AnswerChoices
   "fr_style_asa_quotvpara_06" $next_common_passage "hide"
@@ -391,8 +392,8 @@ Is this plagiarism?
 ::fr_style_asa_quotvpara_06_include_answer_yes
 !! Correct
 
-Definitely. The author has used their own words and sentence structure but \
-forgotten to cite the source!
+Sans aucun doute. L’auteur a employé ses propres mots et structure de phrase, \
+mais a oublié de citer la source!
 
 <<AnswerStatus
   "fr_style_asa_quotvpara_06"
@@ -404,8 +405,8 @@ forgotten to cite the source!
 ::fr_style_asa_quotvpara_06_include_answer_no
 !! Incorrect
 
-Actually, it IS plagiarism. Although they used their own words and sentence \
-structure, they have forgotten to cite the source!
+En fait, c’est du plagiat. Même s’ils ont utilisé leurs propres mots et \
+structure de phrase, ils ont oublié de citer la source!
 
 <<AnswerStatus
   "fr_style_asa_quotvpara_06"
@@ -415,33 +416,35 @@ structure, they have forgotten to cite the source!
 
 
 ::fr_style_asa_quotvpara_07
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Paraphrasing Revisions
+!! Révision &ndash; paraphrase
 
-Click "Fix it" to see how to paraphrase without plagiarising.
+Cliquez sur « Corriger » pour voir comment paraphraser sans plagier.
 
-> Product endorsement is increasingly common on YouTube. ''Many companies seek \
-out YouTubers with good reputations to promote their brand and their products.''
+> Réprimander l’enfant qui a un déficit d’attention n’améliorera pas à la \
+situation. Il ne faut pas oublier que lorsqu’un enfant avec un déficit \
+d’attention perd ses affaires ou se perd dans son imagination, il ne le fait pas \
+par exprès.
 
 <<AnswerChoices
   "fr_style_asa_quotvpara_07" $next_common_passage "hide"
-  "fr_style_asa_quotvpara_07_include_answer_fix" "Fix it"
+  "fr_style_asa_quotvpara_07_include_answer_fix" "Corriger"
   >>
 
 
 
 ::fr_style_asa_quotvpara_07_include_answer_fix
-!! Fixed
+!! Corrigé
 
-> Product endorsement is increasingly common on YouTube. ''Many companies seek \
-out YouTubers with good reputations to promote their brand and their products \
-(Schwemmer and Ziewiecki 2018:4).''
+> Réprimander l’enfant qui a un déficit d’attention n’améliorera pas à la \
+situation. Il ne faut pas oublier que lorsqu’un enfant avec un déficit \
+d’attention perd ses affaires ou se perd dans son imagination, il ne le fait pas \
+par exprès (Lussier, 2011).
 > ...
-> References:
-> <span class="hanging_indent">Schwemmer, Carsten and Sandra Ziewiecki. 2018. \
-"Social Media Sellout: The Increasing Role of Product Promotion on YouTube." \
-//Social Media + Society// 4(3):1-20. doi: 10.1177/2056305118786720.</span>
+> Bibliographie :
+> <span class="hanging_indent">LUSSIER, Francine (2011). //100 idées pour mieux \
+gérer les troubles de l’attention//, Paris : Éditions Tom Pousse, 169 p.</span>
 
 <<AnswerStatus
   "fr_style_asa_quotvpara_07"

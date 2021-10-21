@@ -248,76 +248,76 @@ en cas de doute, c’est mieux de citer que de ne pas le faire.)
 
 
 ::fr_style_apa_quotvpara_01_include
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-Maybe it would help to show the difference between quoting and paraphrasing, and \
-how to do each correctly using APA style.
+Il serait peut-être utile de montrer la différence entre la citation et la \
+paraphrase, et comment faire les deux correctement au moyen du style APA.
 
-Imagine that this passage from a book about genetically modified foods is one \
-that you would like to use in your essay.
+Imaginez que vous aimeriez utiliser dans votre essai ce passage provenant d’un \
+livre sur les hirondelles.
 
-> In Canada and the US, the russet Burbank is the favorite processing potato. It \
-is therefore not surprising that the russet Burbank appeared on the market as the \
-first trans-genic potato, engineered to contain //Bacillus thuringiensis// \
-toxins...
+> Les nids sont rapprochés les uns des autres et fixés aux parois à pic des \
+falaises et des canons; dans l’Est cependant, cette Hirondelle a pris l’habitude \
+de fixer son nid aux édifices, particulièrement sous les avant-toit, sur les \
+ponts de béton et sous les ponceaux.
 
 
 
 ::fr_style_apa_quotvpara_02_include
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Quoting
+!! La citation
 
-A quotation uses exactly the same words as those found in the source material \
-and puts them in quotation marks. Here's what a quotation looks like with a \
-proper in-text reference in APA style:
+Une citation utilise exactement les mêmes mots que ceux trouvés dans le matériel \
+source et les met entre guillemets. Voici à quoi ressemble une citation avec une \
+référence textuelle correcte dans le style APA : 
 
-> "It is therefore not surprising that the russet Burbank appeared on the market \
-as the first trans-genic potato, engineered to contain Bacillus thuringiensis \
-(Bt) toxins derived from a common soil bacterium" (Kneen, 1999, p. 105-106).
+> « Les nids sont rapprochés les uns des autres et fixés aux parois à pic des \
+falaises et des canons; dans l’Est cependant, cette Hirondelle a pris l’habitude \
+de fixer son nid aux édifices, particulièrement sous les avant-toit, sur les \
+ponts de béton et sous les ponceaux » (Godfrey, 1979, p. 308).
 > ...
 > Bibliographie :
-> <span class="hanging_indent">Kneen, B. (1999). \
-//Farmageddon: Food and the culture of biotechnology.// New Society \
-Publishing.</span>
+> <span class="hanging_indent">Godfrey, W. E. (1979). //Les oiseaux du Canada.// \
+Musées nationaux du Canada.</span>
 
 
 
 ::fr_style_apa_quotvpara_03_include
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Paraphrasing
+!! La paraphrase
 
-A paraphrase is another author’s ideas expressed //in your own words//&mdash;\
-without quotation marks, since it's no longer a word-for-word quotation. And \
-just changing a few words from the original doesn't count!
+Une paraphrase, c’est une idée d’un autre auteur exprimée //dans vos propres \
+mots//. Une paraphrase n’est pas entre guillemets, parce qu’il ne s’agit pas \
+d’une citation mot pour mot. Et le simple fait de changer quelques mots par \
+rapport à l’original ne suffit pas!
 
-> The popular North American russet Burbank potato is said to have been the \
-first genetically modified spud to contain Bt toxins (Kneen, 1999).
+> On peut retrouver des nids d’hirondelles à divers endroits, comme sur des pics \
+de falaise et même des édifices (Godfrey, 1979).
 > ...
 > Bibliographie :
-> <span class="hanging_indent">Kneen, B. (1999). \
-//Farmageddon: Food and the culture of biotechnology.// New Society \
-Publishing.</span>
+> <span class="hanging_indent">Godfrey, W. E. (1979). //Les oiseaux du Canada//. \
+Musées nationaux du Canada.</span>
 
 
 
 ::fr_style_apa_quotvpara_04 
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Quoting
+!! La citation
 
-Now that you know the difference between quoting and paraphrasing, let's make \
-sure you can do it properly in an actual assignment. Imagine that this is your \
-essay so far:
+Maintenant que vous connaissez la différence entre citer et paraphraser, \
+assurons-nous que vous pouvez le faire correctement dans un travail réel. \
+Imaginez que ceci est votre texte :
 
-> The biotechnology industry continues to affect many of the staple foods of \
-our Western diet. ''In Canada and the US, the russet Burbank is the favorite \
-processing potato. It is therefore not surprising that the russet Burbank \
-appeared on the market as the first trans-genetic potato, engineered to contain \
-//Bacillus thuringiensis// (Bt) toxins.''
+> Les nids des hirondelles ont habituellement un toit et un couloir circulaire. \
+''Les nids sont rapprochés les uns des autres et fixés aux parois à pic des \
+falaises et des canons; dans l’Est cependant, cette Hirondelle a pris l’habitude \
+de fixer son nid aux édifices, particulièrement sous les avant-toit, sur les \
+ponts de béton et sous les ponceaux.''
 
-Is this plagiarism?
+Est-ce du plagiat?
 
 <<AnswerChoices
   "fr_style_apa_quotvpara_04" $next_common_passage "hide"
@@ -330,8 +330,8 @@ Is this plagiarism?
 ::fr_style_apa_quotvpara_04_include_answer_yes
 !! Correct
 
-Good catch! This is plagiarism because the quotation is not in quotation marks \
-and the source is not cited!
+Bien joué! C’est du plagiat parce que la citation n’est pas entre guillemets et \
+la source n’est pas citée!
 
 <<AnswerStatus
   "fr_style_apa_quotvpara_04"
@@ -343,8 +343,8 @@ and the source is not cited!
 ::fr_style_apa_quotvpara_04_include_answer_no
 !! Incorrect
 
-Oh yes, it is! This is plagiarism because the quotation is not in quotation \
-marks and the source is not cited.
+Oh oui, ça l’est! C’est du plagiat parce que la citation n’est pas entre \
+guillemets et la source n’est pas citée.
 
 <<AnswerStatus
   "fr_style_apa_quotvpara_04"
@@ -354,38 +354,37 @@ marks and the source is not cited.
 
 
 ::fr_style_apa_quotvpara_05 
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Quoting Revisions
+!! La citation Revisions
 
-Click "Fix it" to see how to quote without plagiarising.
+Cliquez sur « Corriger » pour voir comment citer sans plagier.
 
-> The biotechnology industry continues to affect many of the staple foods of \
-our Western diet. ''In Canada and the US, the russet Burbank is the favorite \
-processing potato. It is therefore not surprising that the russet Burbank \
-appeared on the market as the first trans-genetic potato, engineered to contain \
-//Bacillus thuringiensis// (Bt) toxins.''
+> Les nids des hirondelles ont habituellement un toit et un couloir circulaire. \
+''Les nids sont rapprochés les uns des autres et fixés aux parois à pic des \
+falaises et des canons; dans l’Est cependant, cette Hirondelle a pris l’habitude \
+de fixer son nid aux édifices, particulièrement sous les avant-toit, sur les \
+ponts de béton et sous les ponceaux.''
 
 <<AnswerChoices
   "fr_style_apa_quotvpara_05" $next_common_passage "hide"
-  "fr_style_apa_quotvpara_05_include_answer_fix" "Fix it"
+  "fr_style_apa_quotvpara_05_include_answer_fix" "Corriger"
   >>
 
 
 
 ::fr_style_apa_quotvpara_05_include_answer_fix 
-!! Fixed
+!! Corrigé
 
-> The biotechnology industry continues to affect many of the staple foods of \
-our Western diet. ''"In Canada and the US, the russet Burbank is the favorite \
-processing potato. It is therefore not surprising that the russet Burbank \
-appeared on the market as the first trans-genetic potato, engineered to contain \
-//Bacillus thuringiensis// (Bt) toxins." (Kneen, 1999, p. 105).''
+> Les nids des hirondelles ont habituellement un toit et un couloir circulaire. \
+''« Les nids sont rapprochés les uns des autres et fixés aux parois à pic des \
+falaises et des canons; dans l’Est cependant, cette Hirondelle a pris l’habitude \
+de fixer son nid aux édifices, particulièrement sous les avant-toit, sur les \
+ponts de béton et sous les ponceaux » (Godfrey, 1979, p. 308).''
 > ...
 > Bibliographie :
-> <span class="hanging_indent">Kneen, B. (1999). \
-//Farmageddon: Food and the culture of biotechnology.// New Society \
-Publishing.</span>
+> <span class="hanging_indent">Godfrey, W. E. (1979). //Les oiseaux du Canada//. \
+Musées nationaux du Canada.</span>
 
 <<AnswerStatus
   "fr_style_apa_quotvpara_05"
@@ -395,15 +394,15 @@ Publishing.</span>
 
 
 ::fr_style_apa_quotvpara_06 
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Paraphrasing
+!! La paraphrase
 
-> The biotechnology industry continues to affect many of the staple foods of \
-our Western diet. ''The popular North American russet Burbank potato is said to \
-have been the first genetically modified spud to contain Bt toxins.''
+> Les nids des hirondelles ont habituellement un toit et un couloir circulaire. \
+''Ils sont rapprochés les uns des autres et fixés à divers endroits, comme aux \
+falaises et même aux édifices.''
 
-Is this plagiarism?
+Est-ce du plagiat?
 
 <<AnswerChoices
   "fr_style_apa_quotvpara_06" $next_common_passage "hide"
@@ -416,8 +415,8 @@ Is this plagiarism?
 ::fr_style_apa_quotvpara_06_include_answer_yes
 !! Correct
 
-Definitely. The author has used their own words and sentence structure but \
-forgotten to cite the source!
+Sans aucun doute. L’auteur a employé ses propres mots et structure de phrase, \
+mais a oublié de citer la source!
 
 <<AnswerStatus
   "fr_style_apa_quotvpara_06"
@@ -429,8 +428,8 @@ forgotten to cite the source!
 ::fr_style_apa_quotvpara_06_include_answer_no
 !! Incorrect
 
-Actually, it IS plagiarism. Although they used their own words and sentence \
-structure, they have forgotten to cite the source!
+En fait, c’est du plagiat. Même s’ils ont utilisé leurs propres mots et \
+structure de phrase, ils ont oublié de citer la source!
 
 <<AnswerStatus
   "fr_style_apa_quotvpara_06"
@@ -440,35 +439,33 @@ structure, they have forgotten to cite the source!
 
 
 ::fr_style_apa_quotvpara_07 
-! Quoting and Paraphrasing: Differences
+! La citation et la paraphrase : différences
 
-!! Paraphrasing Revisions
+!! Révision &ndash; paraphrase
 
-Click "Fix it" to see how to paraphrase without plagiarising.
+Cliquez sur « Corriger » pour voir comment paraphraser sans plagier.
 
-> The biotechnology industry continues to affect many of the staple foods of \
-our Western diet. ''The popular North American russet Burbank potato is said to \
-have been the first genetically modified spud to contain Bt toxins.''
+> Les nids des hirondelles ont habituellement un toit et un couloir circulaire. \
+''Ils sont rapprochés les uns des autres et fixés à divers endroits, comme aux \
+falaises et même aux édifices.''
 
 <<AnswerChoices
   "fr_style_apa_quotvpara_07" $next_common_passage "hide"
-  "fr_style_apa_quotvpara_07_include_answer_fix" "Fix it"
+  "fr_style_apa_quotvpara_07_include_answer_fix" "Corriger"
   >>
 
 
 
 ::fr_style_apa_quotvpara_07_include_answer_fix 
-!! Fixed
+!! Corrigé
 
-> The biotechnology industry continues to affect many of the staple foods of \
-our Western diet. ''The popular North American russet Burbank potato is said to \
-have been the first genetically modified spud to contain Bt toxins'' (Kneen, \
-1999).
+> Les nids des hirondelles ont habituellement un toit et un couloir circulaire. \
+''Ils sont rapprochés les uns des autres et fixés à divers endroits, comme aux \
+falaises et même aux édifices'' (Godfrey, 1979).
 > ...
 > Bibliographie :
-> <span class="hanging_indent">Kneen, B. (1999). \
-//Farmageddon: Food and the culture of biotechnology.// New Society \
-Publishing.</span>
+> <span class="hanging_indent">Godfrey, W. E. (1979). //Les oiseaux du Canada.// \
+Musées nationaux du Canada.</span>
 
 <<AnswerStatus
   "fr_style_apa_quotvpara_07"
