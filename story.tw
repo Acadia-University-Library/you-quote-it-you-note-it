@@ -41,15 +41,15 @@ storyinclude_debug.tw
 
 
 ::StoryInit
-<<set $version = "2.21.10a-dev">>
+<<set $version = "2.21.10a-alpha">>
 <<set $debug = 0>>
 
+<<set $lang = "en">>
 <<set $font_family = recall("font_family", "font_family_mixed")>>
 <<set $font_size = recall("font_size", "font_size_regular")>>
 <<set $student = recall("student", "")>>
 <<set $style = recall("style", "APA")>>
 
-<<set $parts = ["Introduction", "Citation", "Plagiarism", "Common Knowledge", "Quoting vs Paraphrasing", "Zotero", "Wrapping Up"] >>
 <<set $cnt_answer_correct = 0>>
 <<set $cnt_answer_incorrect = 0>>
 <<set $cnt_answer_fixed = 0>>

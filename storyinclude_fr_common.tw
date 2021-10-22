@@ -1,7 +1,23 @@
+::fr_common_phrases [lang nobr]
+<<set $common_phrases = {
+  title: "Vous le citez, vous le notez!",
+  label_APA: "APA",
+  label_ASA: "Méthode auteur-date",
+  label_Chicago: "Méthode traditionnelle",
+  label_MLA: "MLA",
+  linktext_previous: "< Précédent",
+  linktext_next: "Suivant >",
+  linktext_restart: "Recommencez le tutoriel",
+  linktext_license: "Licence et utilisation",
+  linktext_feedback: "Donnez vos commentaires"
+} >>
+
+
+
 ::fr_common_intro_01 [part_0 avatar_introduction]
 ! Introduction
 
-Bienvenue au tutoriel <em>Vous le citez, vous le notez!</em> Ce tutoriel \
+Bienvenue au tutoriel <em>You Quote It, You Note It!</em> Ce tutoriel \
 explique ce qu’est la citation, ainsi que quand et comment citer correctement \
 vos sources. Il explique aussi le concept de plagiat, afin que vous compreniez \
 comment éviter de plagier le travail des autres. Il vous faudra environ 10 \
@@ -335,14 +351,14 @@ Maintenant, allons voir si vous pouvez identifier des cas de plagiat.
 
 ::fr_common_plagiarism_07 [part_2 avatar_question]
 <<set $next_common_passage = "fr_common_plagiarism_08">>
-<<set $include_passage = "en_style_" + $style.toLowerCase() + "_plagiarism_01">>
+<<set $include_passage = "fr_style_" + $style.toLowerCase() + "_plagiarism_01">>
 <<include $include_passage>>
 
 
 
 ::fr_common_plagiarism_08 [part_2 avatar_question]
 <<set $next_common_passage = "fr_common_tip_01">>
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_plagiarism_02">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_plagiarism_02">>
 <<include $include_passage>>
 
 
@@ -459,7 +475,7 @@ cité!
 
 ::fr_common_knowledge_05 [part_3 avatar_question]
 <<set $next_common_passage = "fr_common_knowledge_06">>
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_knowledge_01">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_knowledge_01">>
 <<include $include_passage>>
 
 
@@ -471,14 +487,14 @@ common knowledge element, thus "fr_common_knowledge_07" must be skipped. */
 <<if $style.toLowerCase() == "asa">>
   <<set $next_common_passage = "fr_common_quotvpara_00">>
 <</if>>
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_knowledge_02">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_knowledge_02">>
 <<include $include_passage>>
 
 
 
 ::fr_common_knowledge_07 [part_3 avatar_question]
 <<set $next_common_passage = "fr_common_tip_03">>
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_knowledge_03">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_knowledge_03">>
 <<include $include_passage>>
 
 
@@ -571,21 +587,21 @@ Paraphrasez si ce n’est que l’idée exprimée par la source qui importe.
 
 
 ::fr_common_quotvpara_04 [part_4]
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_01_include">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_quotvpara_01_include">>
 <<include $include_passage>>
 <<PassagePrevNext "fr_common_quotvpara_05">>
 
 
 
 ::fr_common_quotvpara_05 [part_4]
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_02_include">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_quotvpara_02_include">>
 <<include $include_passage>>
 <<PassagePrevNext "fr_common_quotvpara_06">>
 
 
 
 ::fr_common_quotvpara_06 [part_4]
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_03_include">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_quotvpara_03_include">>
 <<include $include_passage>>
 <<PassagePrevNext "fr_common_quotvpara_07">>
 
@@ -593,28 +609,28 @@ Paraphrasez si ce n’est que l’idée exprimée par la source qui importe.
 
 ::fr_common_quotvpara_07 [part_4 avatar_question]
 <<set $next_common_passage = "fr_common_quotvpara_08">>
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_04">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_quotvpara_04">>
 <<include $include_passage>>
 
 
 
 ::fr_common_quotvpara_08 [part_4 avatar_fixit]
 <<set $next_common_passage = "fr_common_quotvpara_09">>
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_05">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_quotvpara_05">>
 <<include $include_passage>>
 
 
 
 ::fr_common_quotvpara_09 [part_4 avatar_question]
 <<set $next_common_passage = "fr_common_quotvpara_10">>
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_06">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_quotvpara_06">>
 <<include $include_passage>>
 
 
 
 ::fr_common_quotvpara_10 [part_4 avatar_fixit]
 <<set $next_common_passage = "fr_common_tip_05">>
-<<set $include_passage = "en_style_"+ $style.toLowerCase() + "_quotvpara_07">>
+<<set $include_passage = "fr_style_"+ $style.toLowerCase() + "_quotvpara_07">>
 <<include $include_passage>>
 
 
@@ -706,30 +722,9 @@ ou de la bibliothèque si vous avez des questions.
 * La plagiat [[https://libguides.acadiau.ca/plagiarism]]
 * You Quote It, You Note It Quiz [[https://acorn.acadiau.ca/course/view.php?id=21289]]
 
-<<PassagePrevNext "End">>
+<<PassagePrevNext "fr_End">>
 
-<!--
 
-::fr_common_outro_03 [part_6 avatar_moreinfo]
-! Other Resources
-
-<ul>
-<li>Purdue Online Writing Lab (OWL)​
-  <ul>
-  <li>[[APA Guide|https://owl.purdue.edu/owl/research_and_citation/apa_style/index.html​]]</li>
-  <li>[[Chicago Guide|https://owl.purdue.edu/owl/research_and_citation/chicago_manual_17th_edition/cmos_formatting_and_style_guide/chicago_manual_of_style_17th_edition.html]]​</li>
-  <li>[[MLA Guide|https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_style_introduction.html​]]</li>
-  </ul>
-</li>
-<li>Plagiarism: A Faculty Member's Guide​</li>
-<li>Plagiarism: A Student's Guide​</li>
-<li>Acadia University's statement on Academic Integrity and procedures concerning \
-infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.html]]</li>
-</ul>
-
-<<PassagePrevNext "End">>
-
--->
 
 ::fr_End [part_99 avatar_placard avatar_end]
 ! La fin

@@ -32,9 +32,11 @@ Macro.add('AnswerChoices', {
         }
         markup = markup + '</div>';
         markup = markup + '<div id="' + base_passage + '_answer" class="answer"></div>';
+        var linktext_previous = State.getVar("$common_phrases['linktext_previous']");
+        var linktext_next = State.getVar("$common_phrases['linktext_next']");
         markup = markup + '<div id="' + base_passage + '_next" class="answer_next hide passage_link">' +
-          '<<back "< Back">>' + '&nbsp;' + 
-          '<<link "Next >" ' + next_passage + '>><</link>>' + 
+          '<<back "' + linktext_previous + '">>' + '&nbsp;' + 
+          '<<link "' + linktext_next + '" ' + next_passage + '>><</link>>' + 
           '</div>';
         jQuery(this.output).wiki(markup);
       }
@@ -161,7 +163,9 @@ Macro.add('PassagePrevNext', {
       else {
         var next_passage = this.args[0];
         var markup = '<div class="passage_link">';
-        markup = markup + '<<back "< Back">> <<link "Next >" ' + next_passage + '>><</link>>';
+        var linktext_previous = State.getVar("$common_phrases['linktext_previous']");
+        var linktext_next = State.getVar("$common_phrases['linktext_next']");
+        markup = markup + '<<back "' + linktext_previous + '">> <<link "' + linktext_next + '" ' + next_passage + '>><</link>>';
         markup = markup + '</div>';
         jQuery(this.output).wiki(markup);
       }

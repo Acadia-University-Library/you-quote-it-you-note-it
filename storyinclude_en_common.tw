@@ -1,3 +1,19 @@
+::en_common_phrases [lang nobr]
+<<set $common_phrases = {
+  title: "You Quote It, You Note It!",
+  label_APA: "APA",
+  label_ASA: "ASA",
+  label_Chicago: "Chicago",
+  label_MLA: "MLA",
+  linktext_previous: "< Back",
+  linktext_next: "Next >",
+  linktext_restart: "Restart tutorial",
+  linktext_license: "License and usage",
+  linktext_feedback: "Give your feedback"
+} >>
+
+
+
 ::en_common_intro_01 [part_0 avatar_introduction]
 ! Introduction
 
@@ -717,7 +733,7 @@ Librarian is at [[https://library.acadiau.ca/about/people.html]].
 infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.html]]</li>
 </ul>
 
-<<PassagePrevNext "End">>
+<<PassagePrevNext "en_End">>
 
 
 
