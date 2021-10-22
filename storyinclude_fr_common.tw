@@ -102,7 +102,7 @@ La citation c’est le processus de documentation des sources que vous utilisez 
 dans vos écrits. Une source est tout matériel (un livre, un article, une vidéo, \
 etc.) auquel vous empruntez des idées lorsque vous rédigez un texte. Les détails \
 précis de la manière dont vous citez vos sources dépendent du style de citation \
-que vous utilisez, mais généralement, toute citation comprend deux parties : \
+que vous utilisez, mais généralement, toute citation comprend deux parties&nbsp;: \
 une citation dans le texte (une note dans le corps de votre texte) et une entrée \
 bibliographique (une note plus longue à la fin de votre texte).
 
@@ -114,7 +114,7 @@ bibliographique (une note plus longue à la fin de votre texte).
 ! Citation
 
 Il existe de nombreux styles de citation différents, mais en voici quelques-uns \
-des plus communs :
+des plus communs&nbsp;:
 
 !! APA
 Ce style émane de la psychologie, mais est largement utilisé dans les sciences \
@@ -122,7 +122,7 @@ sociales et les sciences. Si vous ne savez pas quel style choisir, essayez celui
 
 !! MLA
 Ce style est géré par la Modern Language Association et est utilisé \
-principalement dans les langues et la littérature. Étudiants en anglais : celui-ci \
+principalement dans les langues et la littérature. Étudiants en anglais&nbsp;: celui-ci \
 est pour vous.
 
 !! Méthode traditionnelle
@@ -263,7 +263,7 @@ autres.
 
 Si toutes ces merveilleuses raisons de citer correctement vos sources ne \
 suffisent pas à vous convaincre de le faire, il y a autre chose que vous devez \
-savoir. Il y a un nom pour l’acte de ne pas citer correctement vos sources : le \
+savoir. Il y a un nom pour l’acte de ne pas citer correctement vos sources&nbsp;: le \
 plagiat. Et le plagiat, c’est un délit académique punissable!
 
 <<PassagePrevNext "fr_common_plagiarism_02">>
@@ -273,10 +273,10 @@ plagiat. Et le plagiat, c’est un délit académique punissable!
 ::fr_common_plagiarism_02 [part_2 avatar_unsure]
 ! Plagiat
 
-Qu’est-ce que le plagiat ? Dans l’annuaire de \
+Qu’est-ce que le plagiat? Dans l’annuaire de \
 [[l’Université Acadia|https://registrar.acadiau.ca/AcademicCalendars.html]], on \
-indique que le plagiat consiste à : « the act of presenting the ideas or words \
-of another as one's own » (p. 37).
+indique que le plagiat consiste à&nbsp;: «&nbsp;the act of presenting the ideas or words \
+of another as one's own&nbsp;» (p. 37).
 
 Il est tout à fait normal d’utiliser des idées ou des mots d’un autre écrivain \
 dans un travail universitaire, mais vous devez l’indiquer clairement lorsque \
@@ -303,7 +303,7 @@ l'autoplagiat vous devez demander et recevoir leur autorisation.
 ! Plagiat
 
 Si vous faites du plagiat, vous pourriez faire face à diverses sanctions, y \
-compris :
+compris&nbsp;:
 
 * Échouer votre devoir
 * Échouer votre cours
@@ -351,7 +351,7 @@ Maintenant, allons voir si vous pouvez identifier des cas de plagiat.
 ! Conseil no. 1
 
 Paraphraser incorrectement, c’est encore du plagiat. Pour paraphraser \
-correctement, vous devez :
+correctement, vous devez&nbsp;:
 <<nobr>>
 <<switch $style.toLowerCase()>>
 <<case "apa">>
@@ -489,7 +489,7 @@ common knowledge element, thus "fr_common_knowledge_07" must be skipped. */
 Même si vous trouvez quelque chose en ligne, vous devez le citer!
 
 En ce qui concerne le plagiat, l’utilisation de choses provenant du Web n’est \
-pas différente de l’utilisation de sources : vous devez toujours citer la \
+pas différente de l’utilisation de sources&nbsp;: vous devez toujours citer la \
 source. Ce n’est pas parce que quelque chose est publiquement disponible sur le \
 Web qu’il est dans le domaine public. Et même s’il l’est, vous devez quand même \
 le citer.
@@ -548,8 +548,8 @@ lectorat de citer directement ces mots et ces phrases.
 
 Les autres situations dans lesquelles il est préférable de citer plutôt que de \
 paraphraser, quelle que soit la discipline, sont celles où la langue de la \
-source originale est très bien connue ou historiquement significative (p. ex. : \
-« être ou ne pas être ») ou si l’extrait est si bien rédigé que toute tentative \
+source originale est très bien connue ou historiquement significative (p. ex.&nbsp;: \
+«&nbsp;être ou ne pas être&nbsp;») ou si l’extrait est si bien rédigé que toute tentative \
 de le paraphraser diminuerait ou changerait son sens.
 
 Ces situations sont rares, donc en dehors de l’essai littéraire, vous devez \
@@ -740,7 +740,7 @@ infractions of academic integrity: [[https://registrar.acadiau.ca/Registration.h
     <<if $student>><<print "<p>" + $student + ":</p>">><</if>>
     <p>Vous avez répondu correctement à <<print $cnt_answer_correct>> de 
     <<print $cnt_answer_correct + $cnt_answer_incorrect>> questions et complété 
-    <<print $cnt_answer_fixed>> X segments « Corriger » dans le tutoriel sur le 
+    <<print $cnt_answer_fixed>> X segments «&nbsp;Corriger&nbsp;» dans le tutoriel sur le 
     style de citation <<print $style>>.</p>
   </div>
 </div><</nobr>>
