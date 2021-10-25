@@ -65,15 +65,15 @@ Changes can be made to the project's Twee and SCSS files using your favorite tex
 - ``include_google_analytics.html``: Google Site Tag snippet for optional Google Analytics addition post-build. Don't forget to replace the ``UA-...`` ID value with that from your own Analytics account.
 - ``sugarcube2/SugarCube2.33.2/``: SugarCube2 story format version 2.33.2 provided for convenience.
 
-### Language Settings
+## Language Translations
 
 Tutorial content is provided in English and French with ``storyinclude_...`` files denoted by "en" and "fr" abbreviations, respectively.
 
-To translate _You Quote It, You Note It!_ into another language, copy each of the English storyinclude files (``storyinclude_en_<X>.tw``) to new files named with your preferred language abbreviation and replace the contents therein. For example, German and Spanish translations should be named ``storyinclude_de_<X>.tw`` and ``storyinclude_es_<X>.tw``, respectively. Passage identifiers within the Twee source code must also use these same language abbreviations. 
+To translate _You Quote It, You Note It!_ into another language, copy each of the English storyinclude files (``storyinclude_en_<X>.tw``) to new files named with your preferred language abbreviation and replace the contents therein. For example, German and Spanish translations should be named ``storyinclude_de_<X>.tw`` and ``storyinclude_es_<X>.tw``, respectively. Passage identifiers within the Twee source code must also use these same language abbreviations.
 
-Open ``story.tw`` for editing and append the names of your newly translated storyinclude files to the list identified by ``::StoryIncludes``. Next, open ``storyinclude_start.tw`` for editing and add a new ``link`` element to the ``::Start`` passage for the new translation. The "Start" passage acts as the tutorial's title page and these ``link`` elements provide the way for one to choose their preferred language.
+Edit ``story.tw`` by appending the names of your newly translated storyinclude files to the list identified by ``::StoryIncludes``. Next, open ``storyinclude_start.tw`` for editing and add a new ``link`` element to the ``::Start`` passage for the new translation. To remove a language choice, delete or comment-out (HTML style comment tags) its corresponding ``link`` element. The "Start" passage acts as the tutorial's title page and these ``link`` elements provide the way for one to choose their preferred language.
 
-To add or remove support for a language, open ``storyinclude_start.tw`` for editing. Each translation that is to be available in the tutorial must have a corresponding ``link`` element. Copy an existing ``link`` to add language support. Delete or comment-out (HTML style comment tags) a ``link`` element to remove that language. You can also change the order of the ``link`` elements if English should not be the first language.
+If English should not be the default language, open ``story.tw`` again, locate the ``$lang`` variable in ``::StoryInit`` and change its value to the desired language abbreviation.
 
 Finally, don't forget to rebuild the project after you've made changes to the language settings.
 
