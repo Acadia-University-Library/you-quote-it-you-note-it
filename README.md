@@ -53,7 +53,7 @@ Changes can be made to the project's Twee and SCSS files using your favorite tex
 - ``storyinclude_<LANG>_<X>.tw``: Included story passages broken up into logical components.
   - ``storyinclude_<LANG>_common.tw``: Content passages that are common to the entire tutorial, regardless of citation style.
   - ``storyinclude_<LANG>_style_<apa|asa|chicago|mla>.tw``: Content passages specific to an individual citation style—APA, ASA, Chicago and MLA.
-  - ``storyinclude_license.tw``: License information passage.
+  - ``storyinclude_<LANG>_license.tw``: License information passage.
   - ``storyinclude_start.tw``: Title ("Start") passage.
   - ``storyinclude_headerfooter.tw``: Global header and footer portions of the user interface.
   - ``storyinclude_macros.tw``: Assorted macro functions used throughout the application.
