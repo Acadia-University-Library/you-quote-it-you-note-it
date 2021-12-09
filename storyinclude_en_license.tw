@@ -1,4 +1,4 @@
-::License [avatar_license hide_progress]
+::en_license [avatar_license hide_progress]
 ! Tutorial Usage and Licensing
 
 Thank you for your interest in Acadia's Information Literacy Online \
@@ -21,6 +21,6 @@ Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 Comments or questions regarding //You Quote It, You Note It!// should be emailed to: \
 [[information.literacy.online@acadiau.ca|mailto:information.literacy.online@acadiau.ca]].
 
-<div class="passage_link"><<back "< Back">></div>
+<div class="passage_link"><<back $common_phrases["linktext_previous"]>></div>
 
 

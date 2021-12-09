@@ -48,7 +48,7 @@
   <div class="fineprint">
     <span class="nowrap"><<print $common_phrases["label_" + $style]>> / </span>
     <span class="nowrap"><<link $common_phrases["linktext_restart"]>><<script>>Engine.restart();<</script>><</link>> / </span>
-    <span class="nowrap">[[$common_phrases["linktext_license"]|License]] / </span>
+    <span class="nowrap">[[$common_phrases["linktext_license"]|$lang + "_license"]] / </span>
     <span class="nowrap">[[$common_phrases["linktext_feedback"]|https://library.acadiau.ca/research/tutorials/feedback.html]]</span>
   </div>
   <<if $debug>>

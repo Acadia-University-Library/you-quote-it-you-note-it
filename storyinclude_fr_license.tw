@@ -1,0 +1,26 @@
+::fr_license [avatar_license hide_progress]
+! Tutorial Usage and Licensing
+
+Thank you for your interest in Acadia's Information Literacy Online \
+modules&mdash;a series of tutorials developed by librarians in the \
+[[Vaughan Memorial Library|https://library.acadiau.ca]] at Acadia University. \
+Acadia's librarians use these modules to teach basic research skills to students \
+and to supplement one-on-one and in-class information literacy instruction.
+
+Anyone is permitted to access, display, print, or embed these tutorials for \
+non-commercial research and educational purposes. Commercial use, however, is \
+not permitted.
+
+With the exception of audio, image, stylesheet and story format files found in \
+the {{{/assets}}} and {{{/sugarcube}}} directories, //You Quote It, You Note It!// \
+is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 \
+International License (CC BY-NC-SA 4.0). To view a copy of this license, visit \
+[[https://creativecommons.org/licenses/by-nc-sa/4.0/]] or send a letter to \
+Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+Comments or questions regarding //You Quote It, You Note It!// should be emailed to: \
+[[information.literacy.online@acadiau.ca|mailto:information.literacy.online@acadiau.ca]].
+
+<div class="passage_link"><<back $common_phrases["linktext_previous"]>></div>
+
+
