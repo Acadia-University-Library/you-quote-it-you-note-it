@@ -42,7 +42,7 @@ storyinclude_debug.tw
 
 
 ::StoryInit
-<<set $version = "2.21.10b-alpha">>
+<<set $version = "2.21.10c">>
 <<set $debug = 0>>
 
 <<set $lang = "en">>
